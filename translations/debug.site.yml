@@ -1,14 +1,14 @@
-description: 'List all known local and remote sites.'
-help: 'The <info>site:debug</info> list all known local and remote sites.'
+description: 'सर्व ज्ञात स्थानिक आणि दूरस्थ साइटची सूची करा.'
+help: '<Info> साइट: डीबग </ info> सर्व ज्ञात स्थानिक आणि दूरस्थ साइटची सूची.'
 messages:
-    site: Site
-    host: Host
-    root: Root
-    not-sites: 'No sites defined'
-    invalid-site: 'Invalid site name'
-    private-key: 'Error with private key'
-    connect-error: 'Error connecting to remote machine'
-    directory-not-found: 'Sites local directory not found'
+    site: साइट
+    host: यजमान
+    root: मूळ
+    not-sites: 'कोणत्याही साइट परिभाषित नाहीत.'
+    invalid-site: 'अवैध साइट नाव.'
+    private-key: 'खाजगी की सह त्रुटी.'
+    connect-error: 'दूरस्थ मशीनशी कनेक्ट करताना त्रुटी.'
+    directory-not-found: 'साइट स्थानिक निर्देशिका आढळली नाही.'
 options:
-    target: Target
-    property: Property
+    target: लक्ष्य
+    property: मालमत्ता

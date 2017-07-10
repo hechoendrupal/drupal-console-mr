@@ -1,8 +1,8 @@
-description: 'Display current views plugins for the application'
+description: 'अनुप्रयोगासाठी वर्तमान दृश्ये प्लगइन प्रदर्शित करा.'
 arguments:
-    type: 'Filter views plugins by type'
+    type: 'दृश्ये प्लगइन प्रकारानुसार फिल्टर करा.'
 messages:
-    type: Type
-    name: Name
-    provider: Provider
-    views: Views
+    type: प्रकार
+    name: नाव
+    provider: प्रदाता
+    views: दृश्ये

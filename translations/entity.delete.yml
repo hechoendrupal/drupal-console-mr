@@ -1,11 +1,11 @@
-description: 'Delete an specific entity'
-help: 'The <info>entity:delete</info> command helps you delete entities.'
+description: 'एखादी विशिष्ट संस्था हटवा.'
+help: '<Info> entity: delete </ info> कमांड आपल्याला घटक हटवण्यास मदत करते.'
 arguments:
-  entity-definition-id: 'Entity definition id'
-  entity-id: 'Entity ID to be deleted'
+  entity-definition-id: 'अस्तित्व परिभाषा आयडी.'
+  entity-id: 'अस्तित्व आयडी हटविली जाईल.'
 questions:
-  entity-type: 'Enter the Entity type'
-  entity-definition-id: 'Enter the  Entity definitin id'
-  entity-id: 'Enter the  Entity ID to be deleted'
+  entity-type: 'घटक प्रकार प्रविष्ट करा.'
+  entity-definition-id: 'अस्तित्व निरुपयोगी आयडी प्रविष्ट करा.'
+  entity-id: 'हटविण्यासाठी अस्तित्व आयडी प्रविष्ट करा.'
 messages:
-  deleted: 'Entity %s with id %s was deleted successfully'
+  deleted: 'आयडी "% s" सह अस्तित्व "% s" यशस्वीरित्या हटविला गेला.'

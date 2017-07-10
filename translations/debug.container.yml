@@ -1,19 +1,19 @@
 description: 'अनुप्रयोग चालू सेवा दाखवा.'
 arguments:
-    service: 'Service name.'
-    method: 'Method name.'
-    arguments: 'Array of Arguments in CSV or JSON format.'
+    service: 'सेवेचे नाव.'
+    method: 'पद्धत नाव'
+    arguments: 'CSV किंवा JSON स्वरूपातील वितर्कांचा अॅरे.'
 messages:
     service_id: 'सर्विस क्रमांक'
     class_name: 'क्लासचे नाव'
-    service: Service
-    class: Class
-    interface: Interface(s)
-    parent: 'Parent class'
-    variables: Variables
-    methods: Methods
-    arguments: Arguments
-    method: Method
-    return: Return
+    service: सेवा
+    class: वर्ग
+    interface: इंटरफेस
+    parent: 'पालक वर्ग'
+    variables: व्हेरिएबल्स
+    methods: पद्धती
+    arguments: वितर्क
+    method: पद्धत
+    return: परत
 errors:
-    method_not_exists: 'This method doesn''t exists in this service.'
+    method_not_exists: 'ही सेवा या सेवेमध्ये अस्तित्वात नाही.'

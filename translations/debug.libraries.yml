@@ -1,6 +1,6 @@
-description: 'Displays libraries available in application'
+description: 'अनुप्रयोगात उपलब्ध असलेले लायब्ररी प्रदर्शित करते.'
 options:
-    name: 'Enter Libraries Name'
+    name: 'लायब्ररीचे नाव प्रविष्ट करा.'
 messages:
-    name: 'Extension with Libraries'
-    info: 'Libraries Information'
+    name: 'लायब्ररीसह विस्तार'
+    info: 'पुस्तकालय माहिती'

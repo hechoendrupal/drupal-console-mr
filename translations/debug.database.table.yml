@@ -1,12 +1,12 @@
-description: 'Show all tables in a given database.'
-help: 'The <info>database:table:debug</info> command helps you debug database tables.'
+description: 'दिलेल्या डेटाबेसमध्ये सर्व सारण्या दर्शवा.'
+help: '<Info> डेटाबेस: सारणी: डीबग </ info> कमांड आपल्याला डेटाबेस सारण्या डिबग करण्यास मदत करते.'
 arguments:
-    table: 'Table to debug'
-    database: 'Database key from settings.php'
+    table: 'टेबल डीबग करण्यासाठी.'
+    database: 'Settings.php पासून डेटाबेस की.'
 options:
-    database: 'Database key from settings.php'
+    database: 'Settings.php पासून डेटाबेस की.'
 messages:
-    table-show: 'Showing tables for "%s" database'
-    table: Table
-    column: Column
-    type: Type
+    table-show: '"% S" डेटाबेससाठी सारण्या दर्शवित आहे.'
+    table: सारणी
+    column: स्तंभ
+    type: प्रकार

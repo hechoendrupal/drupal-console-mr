@@ -1,7 +1,7 @@
-description: 'List all multisites available in system'
-help: 'The <info>multisite:debug</info> list all known multi sites.'
+description: 'सिस्टीममध्ये उपलब्ध सर्व मल्टीसाइट्सची यादी करा.'
+help: '<Info> मल्टिसाईटी: डीबग </ info> सर्व ज्ञात मल्टि साइट्सची यादी करा.'
 messages:
-    no-multisites: 'There aren''t multisites configured'
-    site: Site
-    directory: Directory
-    site-format: 'Sites are written using the format: <port>.<domain>.<path>'
+    no-multisites: 'मल्टिसाईट कॉन्फिगर केलेले नाहीत'
+    site: साइट
+    directory: निर्देशिका
+    site-format: 'साइट्स हे स्वरूप वापरुन लिहील्या जातात: <port>. <Domain>. <Path>'

@@ -5,11 +5,11 @@ errors:
     not-exists: 'संरचना "%s" अस्तित्वात नाही.'
 examples:
     -
-        description: 'List all configuration object names.'
+        description: 'सर्व कॉन्फिगरेशन ऑब्जेक्ट नावांची यादी करा.'
         execution: 'drupal config:debug'
     -
-        description: 'Display system site configurations values.'
+        description: 'सिस्टम साइट कॉन्फिगरेशन मूल्य प्रदर्शित करा.'
         execution: 'drupal config:debug system.site'
     -
-        description: 'List all system configuration names.'
+        description: 'सर्व सिस्टम कॉन्फिगरेशन नावांची यादी करा.'
         execution: 'drupal config:debug | grep system'

@@ -1,18 +1,18 @@
-description: 'Display current views resources for the application'
+description: 'अनुप्रयोगासाठी वर्तमान दृश्ये प्रदर्शित करा.'
 arguments:
-    view-id: 'View ID'
-    view-tag: 'View tag'
-    view-status: 'View status (Enabled|Disabled)'
+    view-id: 'दृश्य आयडी'
+    view-tag: 'दृश्य टॅग'
+    view-status: 'स्थिती पहा (सक्षम | अक्षम'
 messages:
-    view-id: 'View ID'
-    view-name: 'View name'
-    description: Description
-    tag: Tag
-    status: Status
-    path: Path
-    not-found: 'View "%s" wasn''t found.'
-    display-list: 'Display list'
-    display-id: ID
-    display-name: Name
-    display-description: Description
-    display-paths: Paths
+    view-id: 'दृश्य आयडी'
+    view-name: 'नाव पहा'
+    description: वर्णन
+    tag: टॅग करा
+    status: स्थिती
+    path: मार्ग
+    not-found: '"%S" पहा आढळले नाही.'
+    display-list: 'प्रदर्शन सूची'
+    display-id: आयडी
+    display-name: नाव
+    display-description: वर्णन
+    display-paths: पथ

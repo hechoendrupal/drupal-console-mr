@@ -1,20 +1,20 @@
-description: 'Display current log events for the application'
+description: 'अनुप्रयोगासाठी वर्तमान लॉग इव्हेंट प्रदर्शित करा.'
 arguments:
-    event-id: 'DBLog event ID'
+    event-id: 'DBLog इव्हेंट आयडी'
 options:
-    asc: 'List events in ascending order'
-    limit: 'Limit results to a specific number'
-    offset: 'Starting point of a limit'
-    yml: 'Print in a yml style'
-    type: 'Filter events by a specific type'
-    severity: 'Filter events by a specific level of severity'
-    user-id: 'Filter events by a specific user id'
+    asc: 'चढत्या क्रमाने कार्यक्रमांची सूची करा.'
+    limit: 'एका विशिष्ट क्रमांकासाठी परिणाम मर्यादित करा.'
+    offset: 'मर्यादा प्रारंभ करत आहे.'
+    yml: 'एक YML शैली मुद्रण'
+    type: 'विशिष्ट प्रकाराद्वारे इव्हेंट फिल्टर करा.'
+    severity: 'एका विशिष्ट स्तर तीव्रतेने इव्हेंट फिल्टर करा.'
+    user-id: 'विशिष्ट वापरकर्ता आयडी द्वारे इव्हेंट फिल्टर करा.'
 messages:
-    not-found: 'DBLog event "%s" wasn''t found'
-    event-id: 'Event ID'
-    type: Type
-    date: Date
-    message: Message
-    user: User
-    severity: Severity
-    invalid-severity: 'Severity type is invalid, filter was ignored'
+    not-found: 'DBLog इव्हेंट "% s" सापडला नाही.'
+    event-id: 'इव्हेंट आयडी'
+    type: प्रकार
+    date: तारीख
+    message: संदेश
+    user: वापरकर्ता
+    severity: तीव्रता
+    invalid-severity: 'तीव्रता प्रकार अवैध आहे, फिल्टर दुर्लक्षित केले होते.'

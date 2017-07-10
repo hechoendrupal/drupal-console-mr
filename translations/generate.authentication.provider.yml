@@ -1,6 +1,6 @@
-description: 'Generate an Authentication Provider'
-help: 'The <info>generate:authentication:provider</info> command helps you generate a new Authentication Provider.'
+description: 'एक प्रमाणीकरण प्रदाता व्युत्पन्न करा.'
+help: '<Info> व्युत्पन्न करा: प्रमाणीकरण: प्रदाता </ info> कमांड आपल्याला एक नवीन प्रमाणीकरण प्रदाता निर्माण करण्यास मदत करते.'
 options:
-    class: 'Authentication Provider class'
-    provider-id: 'Provider ID'
+    class: 'प्रमाणीकरण प्रदाता वर्ग.'
+    provider-id: 'प्रदाता आयडी.'
 module: common.options.module

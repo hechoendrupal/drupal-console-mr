@@ -1,15 +1,15 @@
-description: 'Import module config.'
+description: 'मॉड्यूल कॉन्फिगरेशन आयात करा.'
 help: ''
 options:
-  bundle: 'Bundle name'
+  bundle: 'बंडल नाव'
 arguments:
-  packages: 'Package name'
+  packages: 'बंडल नाव'
 questions:
-  packages: 'Enter package name to import'
+  packages: 'आयात करण्यासाठी पॅकेज नाव प्रविष्ट करा.'
 messages:
-  no-packages: 'No packages available.'
-  not-available: 'Package %s, not available.'
-  importing: 'Importing package %s.'
-  uninstall: 'Package %s already installed.'
-  reverting: 'Reverting package %s.'
-  nothing: 'Nothing to import.'
+  no-packages: 'कोणतेही पॅकेज उपलब्ध नाही.'
+  not-available: 'पॅकेज "% s", उपलब्ध नाही.'
+  importing: 'पॅकेज "% s" आयात करीत आहे.'
+  uninstall: 'पॅकेज "% s" आधीपासून स्थापित आहे.'
+  reverting: 'पॅकेज "% s" परत करत आहे.'
+  nothing: 'आयात करण्यासाठी काहीही नाही.'

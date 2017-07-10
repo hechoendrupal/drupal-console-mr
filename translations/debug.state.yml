@@ -1,6 +1,6 @@
-description: 'Show the current State keys.'
-help: 'Show the current State keys.'
+description: 'वर्तमान अवस्था की दाखवा.'
+help: 'वर्तमान अवस्था की दाखवा.'
 arguments:
-    key: 'The State key to debug.'
+    key: 'डीबग करण्यासाठी अवस्था की.'
 messages:
-    key: 'The State key'
+    key: 'अवस्था की'
