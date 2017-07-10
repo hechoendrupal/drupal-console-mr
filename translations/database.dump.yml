@@ -1,15 +1,15 @@
-description: 'Dump structure and contents of a database'
+description: 'डंप संरचना आणि डेटाबेसची सामग्री.'
 arguments:
-    database: 'Database key from settings.php'
+    database: 'Settings.php पासून डेटाबेस की.'
 options:
-    file: 'The filename for your database backup'
-    gz: 'Pass this option if you want the sql result file gzipped'
+    file: 'आपल्या डेटाबेस बॅकअपसाठी फाइलनाव.'
+    gz: 'जर तुम्हाला हवे असेल तर एससीएल रिझल्ट फाइल gzipped'
 messages:
-    success: 'Database exported to:'
+    success: 'डेटाबेस निर्यात केला:'
 examples:
     -
-        description: 'Dump default database or the one specified on the argument'
+        description: 'डिफॉल्ट डेटाबेस किंवा वितर्क वर निर्दिष्ट केलेले डेटा डंप करा.'
         execution: "drupal database:dump \\\n  <database>"
     -
-        description: 'Dump in gz compressed format'
+        description: 'Gz संकुचित स्वरूपात डंप करा.'
         execution: "drupal database:dump \\\n  --gz"

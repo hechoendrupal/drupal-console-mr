@@ -1,20 +1,20 @@
-description: 'Override config value in active configuration.'
+description: 'सक्रिय कॉन्फिगरेशनमध्ये कॉन्फिगर मूल्य अधिशून्य करा.'
 questions:
-    name: 'Enter configuration name'
-    key: 'Enter the configuration key'
-    value: 'Enter the configuration value'
+    name: 'कॉन्फिगरेशन नाव प्रविष्ट करा.'
+    key: 'कॉन्फिगरेशन की प्रविष्ट करा.'
+    value: 'कॉन्फिगरेशन मूल्य प्रविष्ट करा.'
 arguments:
-    name: 'Configuration name'
-    key: Key
-    value: Value
-    config-name: 'Configuration name.'
+    name: 'कॉन्फिगरेशन नाव.'
+    key: की
+    value: मूल्य
+    config-name: 'कॉन्फिगरेशन नाव.'
 messages:
-    configuration: 'Configuration name'
-    configuration-key: 'Configuration key'
-    original: 'Original Value'
-    updated: 'Override Value'
-    invalid-name: 'Config object "%s", does not exists'
+    configuration: 'कॉन्फिगरेशन नाव.'
+    configuration-key: 'कॉन्फिगरेशन की.'
+    original: 'मूळ मूल्य.'
+    updated: 'मूल्य अधिलिखित करा.'
+    invalid-name: 'कॉन्फिग ऑब्जेक्ट "%s",अस्तित्वात नाही'
 examples:
     -
-        description: 'Set the Contact module flood limit to 10.'
+        description: 'संपर्क मंडळाची पूर मर्यादा 10 वर सेट करा.'
         execution: 'drupal config:override contact.settings flood.limit 10'

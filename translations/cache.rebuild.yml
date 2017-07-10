@@ -2,16 +2,16 @@ description: 'सर्व साईट caches स्वच्छ तसेच �
 options:
     cache: 'फक्त  ठराविक cache साफ.'
 messages:
-    welcome: 'cache:rebuild command मध्ये आपला स्वागत'
+    welcome: 'cache:rebuild आदेशमध्ये आपला स्वागत.'
     rebuild: 'Rebuilding cache(s), एक क्षण कृपया प्रतीक्षा करा.'
-    completed: 'cache(s) साफ करण्यात आले आहे .'
+    completed: 'cache(s) साफ करण्यात आले आहे.'
     invalid_cache: 'Cache "%s" अवैध आहे.'
 questions:
     cache: 'cache निवडा.'
 examples:
     -
-        description: 'सर्व caches पुन्हानिर्मिती करा'
+        description: 'सर्व caches पुन्हानिर्मिती करा.'
         execution: 'drupal cr all'
     -
-        description: 'discovery cache पुन्हा निर्मिती कर'
+        description: 'discovery cache पुन्हा निर्मिती करा.'
         execution: 'drupal cr discovery'

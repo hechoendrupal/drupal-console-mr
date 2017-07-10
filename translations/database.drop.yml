@@ -1,13 +1,13 @@
-description: 'Drop all tables in a given database.'
-help: 'The <info>database:drop</info> command helps you drop database tables.'
+description: 'दिलेल्या डेटाबेसमध्ये सर्व सारण्या ड्रॉप करा.'
+help: '<Info> डेटाबेस: ड्रॉप </ info> कमांड आपण डेटाबेस सारणी ड्रॉप करण्यास मदत करतो.'
 arguments:
-    database: 'Database key from settings.php'
+    database: 'Settings.php पासून डेटाबेस की.'
 question:
-    drop-tables: 'Confirm you really want to drop all tables in the database "%s"?'
+    drop-tables: 'आपण "% s" डेटाबेसमधील सर्व सारण्या खरोखर काढून टाकायचे याची पुष्टी करा?'
 messages:
-    table: Table
-    table-drop: 'Drop "%s" tables successfully'
+    table: सारणी
+    table-drop: '"% S" सारणी यशस्वीपणे ड्रॉप करा.'
 examples:
     -
-        description: 'Drop the tables on the database specified on the argument'
+        description: 'वितर्क वर निर्दिष्ट डेटाबेसवर सारण्या ड्रॉप करा.'
         execution: "drupal database:drop \\\n  <database>\n"

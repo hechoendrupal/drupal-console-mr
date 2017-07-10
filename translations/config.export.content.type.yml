@@ -1,17 +1,17 @@
-description: 'विशिष्ट कॉन्तेंत ट्यीप आणि त्यांची फ़िएल्द्स निर्यात करा.'
+description: 'विशिष्ट सामग्री प्रकार आणि त्यांचे फील्ड निर्यात करा.'
 arguments:
-    content-type: 'सामुग्री प्रकार निर्यात करणे'
+    content-type: 'सामुग्री प्रकार निर्यात करणे.'
 questions:
-    content-type: 'सामुग्री प्रकार निर्यात करणे'
-    optional-config: 'एक पर्यायी संरचना म्हणून मॉड्यूल मध्ये कॉन्तेंत ट्यीप  निर्यात करा'
+    content-type: 'सामुग्री प्रकार निर्यात करणे.'
+    optional-config: 'एक पर्यायी संरचना म्हणून मॉड्यूल मध्ये कॉन्तेंत ट्यीप निर्यात करा.'
 messages:
-    content_type_exported: 'सामुग्री प्रकार निर्यात होत आहे'
+    content_type_exported: 'सामुग्री प्रकार निर्यात होत आहे.'
 options:
-    optional-config: 'एक पर्यायी YAML संरचना म्हणून मॉड्यूल मध्ये कॉन्तेंत ट्यीप  निर्यात करा'
+    optional-config: 'एक पर्यायी YAML संरचना म्हणून मॉड्यूल मध्ये कॉन्तेंत ट्यीप  निर्यात करा.'
 examples:
     -
-        description: 'Provide a content type  and module name'
+        description: 'एक सामग्री प्रकार आणि मॉड्यूल नाव प्रदान करा.'
         execution: "drupal config:export:content:type page \\\n  --module=\"demo\""
     -
-        description: 'If you want export content type provide the optional config'
+        description: 'आपण इच्छित असल्यास निर्यात सामग्री प्रकार पर्यायी कॉन्फिग प्रदान करा.'
         execution: "drupal config:export:content:type page \\\n  --module=\"demo\" \\\n  --optional-config \n"

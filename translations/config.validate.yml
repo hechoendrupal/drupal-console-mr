@@ -1,10 +1,10 @@
-description: 'Validate a drupal config against its schema'
+description: 'त्याच्या स्कीमा विरूद्ध drupal कॉन्फिगरेशन प्रमाणित करा.'
 options: {}
 arguments: {}
 messages:
-    success: 'Config was successfully validated'
-    no-conf: 'Config with this name does not exist'
+    success: 'कॉन्फिग यशस्वीरित्या प्रमाणित झाले आहे.'
+    no-conf: 'या नावासह कॉन्फिगरेशन अस्तित्वात नाही.'
 examples:
-    - description: 'Provide the configuration name.'
+    - description: 'संरचना नाव द्या.'
       execution: 'drupal config:validate configuration.name'
 

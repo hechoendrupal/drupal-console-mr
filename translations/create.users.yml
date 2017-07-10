@@ -1,34 +1,34 @@
-description: 'Create dummy users for your Drupal 8 application.'
-help: 'The <info>create:users</info> command helps you create dummy users.'
-welcome: 'Welcome to the Drupal users generator'
+description: 'आपल्या Drupal 8 अनुप्रयोगासाठी डमी वापरकर्ते तयार करा.'
+help: '<Info> तयार करा: वापरकर्ते </ info> आज्ञा आपल्याला बनावट वापरकर्त्यांना तयार करण्यात मदत करतात.'
+welcome: 'Drupal वापरकर्ते जनरेटर मध्ये आपले स्वागत आहे.'
 arguments:
-    roles: 'Role(s) to be used in user creation'
+    roles: 'वापरकर्त्याच्या निर्मितीमध्ये वापरल्या जाणार्या भूमिका.'
 options:
-    limit: 'How many users would you like to create'
-    password: 'Password to be set to users created'
-    time-range: 'How far back in time should the users be dated'
+    limit: 'आपण किती वापरकर्ते तयार करु इच्छिता?'
+    password: 'तयार केलेल्या वापरकर्त्यांसाठी संकेतशब्द.'
+    time-range: 'वापरकर्त्यांनी कित्येक वेळापूर्वी वेळेची नोंद केली पाहिजे.'
 questions:
-    roles: 'Select role(s) to be used on user creation'
-    limit: 'Enter how many users would you like to generate'
-    password: 'Enter the password to be set to users created'
-    time-range: 'How far back in time should the users be dated?'
+    roles: 'वापरकर्ता निर्मात्यावर वापरण्यासाठी भूमिका (ती) निवडा.'
+    limit: 'आपण किती व्युत्पन्न व्युत्पन्न करू इच्छिता ते प्रविष्ट करा.'
+    password: 'तयार केलेल्या वापरकर्त्यांसाठी संकेतशब्द प्रविष्ट करा.'
+    time-range: 'वापरकर्त्यांनी कित्येक वेळेस कालबाह्य ठरले पाहिजे?'
     time-ranges:
-        - Now
-        - '1 hour ago'
-        - '1 day ago'
-        - '1 week ago'
-        - '1 month ago'
-        - '1 year ago'
+        - आता
+        - '1 तासापूर्वी'
+        - '1 दिवसापूर्वी'
+        - '1 आठवड्या आधी'
+        - '1 महिन्यापूर्वी'
+        - '1 वर्षापूर्वी'
 messages:
-    user-id: 'User Id'
-    roles: Roles
-    username: Username
-    created: 'Created Time'
-    created-users: 'Created "%s" users successfully'
+    user-id: 'वापरकर्ता आयडी'
+    roles: भूमिका
+    username: वापरकर्तानाव
+    created: 'तयार वेळ'
+    created-users: '"%S" वापरकर्ते यशस्वीरित्या तयार केले'
 examples:
     -
-        description: 'Provide the user role.'
+        description: 'वापरकर्ता भूमिका प्रदान करा.'
         execution: 'drupal create:users role'
     -
-        description: 'Provide the number of users to create, password and time range to create.'
+        description: 'तयार करण्यासाठी वापरकर्त्यांची संख्या, संकेतशब्द आणि वेळ श्रेणी प्रदान करा.'
         execution: "drupal create:users role \\\n  --limit=\"5\" \\\n  --password=\"usersnewpassword\" \\\n  --time-range=\"1\"\n"

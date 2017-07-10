@@ -1,22 +1,22 @@
-description: 'Import configuration to current application.'
+description: 'वर्तमान अनुप्रयोगावरील कॉन्फिगरेशन आयात करा.'
 options:
-    file: 'Path to an archive file of configuration to import.'
-    directory: 'Path to a directory of configuration to import.'
-    remove-files: 'Remove files after synchronization.'
+    file: 'आयात करण्यासाठी कॉन्फिगरेशनच्या संग्रहण फाईलचा मार्ग.'
+    directory: 'आयात करण्यासाठी कॉन्फिगरेशनच्या निर्देशिकेत मार्ग.'
+    remove-files: 'सिंक्रोनाइझेशननंतर फायली काढा.'
 messages:
-    config_files_imported: 'List of config files.'
-    imported: 'Configuration imported successfully.'
-    importing: 'Importing configuration.'
-    already-imported: 'Another request may be synchronizing configuration already.'
-    nothing-to-do: 'There are no changes to import.'
+    config_files_imported: 'कॉन्फिग फाइल्सची यादी.'
+    imported: 'कॉन्फिगरेशन यशस्वीरित्या आयात केले.'
+    importing: 'कॉन्फिगरेशन आयात करीत आहे.'
+    already-imported: 'दुसरी विनंती आधीपासूनच कॉन्फिगर करत आहे.'
+    nothing-to-do: 'आयात करण्यासाठी कोणतेही बदल नाहीत.'
 examples:
     -
-        description: 'Provide a configuration file'
+        description: 'संरचना फाइल पुरवा.'
         execution: "drupal config:import \\\n  --file=/path/to/config/file"
     -
-        description: 'Provide a configuration directory'
+        description: 'संरचना निर्देशिका द्या.'
         execution: "drupal config:import  \\\n  --directory=/path/to/config/dir\n"
 arguments:
-    file: 'Path to an archive file of configuration to import.'
-    directory: 'Path to a directory of configuration to import.'
-    remove-files: 'Remove files after synchronization.'
+    file: 'आयात करण्यासाठी कॉन्फिगरेशनच्या संग्रहण फाईलचा मार्ग.'
+    directory: 'आयात करण्यासाठी कॉन्फिगरेशनच्या निर्देशिकेत मार्ग.'
+    remove-files: 'सिंक्रोनाइझेशननंतर फायली काढा.'

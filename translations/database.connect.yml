@@ -1,12 +1,12 @@
-description: 'Shows DB connection'
+description: 'डीबी कनेक्शन दर्शविते.'
 arguments:
-    database: 'Database key from settings.php'
+    database: 'Settings.php पासून डेटाबेस की.'
 messages:
-    database-not-found: 'Database "%s" connection info wasn''t found'
-    database-not-supported: 'Database type "%s" is not supported yet'
-    database-client-not-found: 'Database client "%s" wasn''t found'
-    connection: 'Connection: "%s"'
+    database-not-found: 'डेटाबेस "% s" कनेक्शन माहिती सापडली नाही.'
+    database-not-supported: 'डेटाबेस प्रकार "% s" अद्याप समर्थित नाही.'
+    database-client-not-found: 'डेटाबेस क्लायंट "% s" आढळला नाही'
+    connection: 'कनेक्शनः "% s"'
 examples:
     -
-        description: 'Connects to an specified database, or the default if not arguments passed'
+        description: 'निर्दिष्ट केलेल्या डेटाबेसशी कनेक्ट होते किंवा डीफॉल्ट नसल्यास वितर्क पास केले जातात.'
         execution: "drupal database:connect \\\n  <database>\n"

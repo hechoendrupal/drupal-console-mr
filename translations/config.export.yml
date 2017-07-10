@@ -1,19 +1,19 @@
-description: 'Export current application configuration.'
+description: 'वर्तमान अनुप्रयोग कॉन्फिगरेशन निर्यात करा.'
 options:
-    directory: 'Define the export directory to save the configuration output.'
-    tar: 'If set, the configuration will be exported to an archive file.'
-    remove-uuid: 'If set, the configuration will be exported without uuid key.'
-    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
+    directory: 'कॉन्फिगरेशन आऊटपुट जतन करण्यासाठी निर्यात डिरेक्ट्रीची व्याख्या करा.'
+    tar: 'सेट केल्यास, कॉन्फिगरेशनला संग्रहण फाईलवर निर्यात केले जाईल.'
+    remove-uuid: 'सेट केल्यास, uuid कीशिवाय कॉन्फिगरेशन निर्यात केले जाईल.'
+    remove-config-hash: 'सेट केल्यास, डीफॉल्ट साइट हॅश कीशिवाय कॉन्फिगरेशन निर्यात केले जाईल.'
 messages:
-    directory: 'The configuration was exported at:'
-    error: 'An error occurred while creating your directory at "%s"'
+    directory: 'येथे कॉन्फिगरेशन निर्यात केले गेले:'
+    error: '"%S" वर आपली निर्देशिका तयार करताना त्रुटी आली'
 examples:
     -
-        description: 'Optional you can add the path to export'
+        description: 'पर्यायी आपण निर्यात करण्यासाठी मार्ग जोडू शकता'
         execution: "drupal config:export  \\\n  --directory=\"path/to/export\""
     -
-        description: 'If export will be in a compressed file and/or if uuid and config hashes will be removed.'
+        description: 'जर निर्यात संकुचित फाइलमध्ये असेल आणि / किंवा जर uuid आणि कॉन्फिग हॅश काढून टाकले जातील.'
         execution: "drupal config:export  \\\n  --directory=\"path/to/export\" \\\n  --tar \\\n  --remove-uuid \\\n  --remove-config-hash\n"
 arguments:
-    directory: 'Define the export directory to save the configuration output.'
-    tar: 'If set, the configuration will be exported to an archive file.'
+    directory: 'कॉन्फिगरेशन आऊटपुट जतन करण्यासाठी निर्यात डिरेक्ट्रीची व्याख्या करा.'
+    tar: 'सेट केल्यास, कॉन्फिगरेशनला संग्रहण फाईलवर निर्यात केले जाईल.'
