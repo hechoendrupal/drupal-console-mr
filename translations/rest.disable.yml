@@ -7,3 +7,4 @@ questions:
 messages:
     invalid-rest-id: 'रेस्ट आयडी "%s" अवैध आहे'
     success: 'Rest ID "%s" disabled'
+    already-disabled: 'Rest ID "%s" was already disabled'

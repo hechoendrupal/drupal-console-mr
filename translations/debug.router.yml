@@ -7,4 +7,12 @@ messages:
     route: मार्ग
     path: मार्ग
     defaults: मुलभूत
+    requirements: Requirements
     options: पर्याय
+examples:
+    -
+        description: 'Displays current routes for the application'
+        execution: 'drupal rod'
+    -
+        description: 'Displays details for the route user.page (/user)'
+        execution: 'drupal rod user.page'

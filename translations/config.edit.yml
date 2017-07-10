@@ -6,3 +6,10 @@ questions:
     config-name: 'संरचना माप निवडा.'
 messages:
     no-directory: 'आपल्या डिरेक्ट्री निर्माण करताना त्रुटी आली.'
+examples:
+    -
+        description: 'Edit system cron configurations with "vim" (default editor).'
+        execution: 'drupal config:edit system.cron'
+    -
+        description: 'Edit system cron configurations with "gedit".'
+        execution: 'drupal config:edit system.cron gedit'

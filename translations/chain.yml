@@ -11,3 +11,7 @@ messages:
     set-environment-placeholders: 'पर्यावरणाचे प्लेसहोल्डर असे सेट करा:'
     missing-inline-placeholders: 'इनलाइन प्लेसहोल्डर "%s" गहाळ झाले'
     set-inline-placeholders: 'इनलाइन प्लेसहोल्डर असे पास करा:'
+examples:
+    -
+        description: 'Providing a file option using full path.'
+        execution: "drupal chain \\\n  --file=\"/path/to/file/chain-file.yml\"\n"

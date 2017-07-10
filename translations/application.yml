@@ -33,17 +33,34 @@ messages:
         route: "पृष्ठे तयार करण्यासाठी त्यांना मार्ग व्याख्यीत करणे आवश्यक आहे.\nA URL पथला एक कंट्रोलर नकाशे मार्ग करण्यासाठी. कोणते कार्य अथवा पद्धत बोलावली जावी जेव्हा URL द्वारे प्रवेश प्राप्त होते हे व्याख्यीत केले आहे.\nउपयोक्ता जर हे http://drupal8.dev/{{ route.path }}  प्रवेश केला तर,\nराउटिंग प्रणाली त्या पाथसाठी एक मार्ग दाखवेल.\nअसे असल्यास तो सामना सापडेल, आणि _controller कॉलबॅक कार्यान्वित करेल. या प्रकरणात कॉलबॅक मध्ये\nएका क्लास्स्नामे चा रुपात परिभाषित आहे\n(\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\nआणि एक पद्धत (\"{{ route.method }}\")."
     autocomplete: "Bash or Zsh: ही ओळ आपल्या shell configuration फाईल मध्ये जोडावी:\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: एक सिंबॉलिक लिंक बनवा\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
     version: '<info>"%s"</info> version <comment>"%s"</comment>'
+    disable:
+        command:
+            error: 'Command: "%s" is deprecated.'
+            extra: 'You must execute: "%s" instead'
 errors:
     invalid-command: 'आदेश "%s" परिभाषित केलेले नाही.'
 site:
     messages:
         path: 'साईट पाथ'
     errors:
-        directory: 'सर्व उपलब्ध कमाण्ड ची सूची करण्यासाठी, आपल्याला त्यासाठी एका drupal रूट डिरेक्टरी मध्ये चालवा.'
         settings: 'सर्व उपलब्धीत कमाण्ड ची यादी बनवण्यासाठी आपल्याला सर्वप्रथम drupal स्थापित करावे लागेल.'
+        directory: 'सर्व उपलब्ध कमाण्ड ची सूची करण्यासाठी, आपल्याला त्यासाठी एका drupal रूट डिरेक्टरी मध्ये चालवा.'
+        not-installed: 'Drupal Console is not installed at: %s'
+        execute-composer: 'You must execute the following composer commands:'
+        missing-config-file: 'Missing configuration file, possible paths:'
+        missing-config-file-command: 'Execute "drupal init" command to generate one'
 user:
     messages:
         path: 'वापरकर्ता गृह पाथ'
+remote:
+    errors:
+        passphrase-missing: 'Passphrase file is missing'
+        passphrase-empty: 'Passphrase file is empty'
+        private-missing: 'Private file is missing'
+        private-empty: 'Private file is empty'
+        private-invalid: 'Private file is invalid'
+        invalid-root: 'Invalid root directory'
+        console-not-found: 'Drupal Console not found on this site'
 console:
     arguments:
         env: 'पर्यावरणांचे नाव'

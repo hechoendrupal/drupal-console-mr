@@ -3,3 +3,7 @@ arguments:
     database: 'settings.php मधून डेटाबेसची चावी'
 messages:
     connection: 'संधान: "%s"'
+examples:
+    -
+        description: 'Launch the default client or could launch another regarding the specification on the argument'
+        execution: "drupal database:client <database>\n"
