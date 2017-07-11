@@ -1,14 +1,14 @@
-description: 'Update core, module or modules in the application'
+description: 'अनुप्रयोग मध्ये अद्यतन कोर, मॉड्यूल किंवा मॉड्यूल्स.'
 arguments:
-    module: 'Module or modules to be updated should be separated by a space. Leave empty for updating the core and all your modules managed by Composer.'
+    module: 'अद्ययावत करण्यासाठी मॉड्यूल किंवा मॉड्यूल्सना स्पेसद्वारे विभक्त व्हायला हवे. कोर अद्यतनित करण्यासाठी रिक्त सोडा आणि रचनाकारद्वारे व्यवस्थापित केलेले आपले सर्व मॉड्यूल.'
 options:
-    composer: 'Update the module using Composer'
-    simulate: 'Simulate the update process with Composer'
+    composer: 'रचनाकार वापरून मॉड्यूल अद्यतनित करा.'
+    simulate: 'रचनाकारसह अद्ययावत प्रक्रियेचे अनुकरण करा.'
 questions:
-    module: 'Module name (press <return> to stop adding modules)'
-    invalid-module: 'Invalid module "%s"'
+    module: 'मॉड्यूल नाव (मॉड्यूल जोडणे थांबविण्यासाठी <return> दाबा)'
+    invalid-module: 'अवैध मॉड्यूल "%s"'
 messages:
-    success: 'The following module(s) were installed successfully: "%s"'
-    composer: 'The module "%s" was installed successfully with Composer'
-    only-composer: 'This command only updates modules via Composer. Use --composer option.'
-    missing-module: 'Enter a module(s) name(s) to update.'
+    success: 'खालील मॉड्यूल यशस्वीरित्या स्थापित झाले: "%s"'
+    composer: '"%s" मॉड्युल रचनाकाराने यशस्वीपणे स्थापित केले'
+    only-composer: 'हा आदेश फक्त निर्मात्याद्वारे अद्यतने अद्यतनित करतो. --composer पर्याय वापरा.'
+    missing-module: 'अद्ययावत करण्यासाठी मॉड्यूल नाव (नावे) प्रविष्ट करा.'

@@ -1,4 +1,4 @@
-description: 'Delete a language to be supported by your site'
+description: 'आपल्या साइटद्वारे समर्थित केलेली भाषा हटवा.'
 messages:
-    invalid-language: 'Language "%s" it''s an invalid language'
-    language-deleted-successfully: 'Language "%s" was deleted successfully.'
+    invalid-language: 'भाषा "%s" ही एक अवैध भाषा आहे.'
+    language-deleted-successfully: 'भाषा "%s" यशस्वीरित्या हटविली गेली.'
