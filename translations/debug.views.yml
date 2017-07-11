@@ -10,7 +10,7 @@ messages:
     tag: टॅग करा
     status: स्थिती
     path: मार्ग
-    not-found: '"%S" पहा आढळले नाही.'
+    not-found: '"%s" पहा आढळले नाही.'
     display-list: 'प्रदर्शन सूची'
     display-id: आयडी
     display-name: नाव

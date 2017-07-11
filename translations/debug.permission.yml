@@ -12,7 +12,7 @@ help: |
 arguments:
     role: 'वापरकर्ता भूमिका'
 messages:
-    role-error: 'भूमिका "% s" अस्तित्वात नाही कृपया विद्यमान वापरकर्ता भूमिका वापरा.'
+    role-error: 'भूमिका "%s" अस्तित्वात नाही कृपया विद्यमान वापरकर्ता भूमिका वापरा.'
 table-headers:
     permission-name: 'परवानगी नाव'
     permission-label: 'परवानगी लेबल'

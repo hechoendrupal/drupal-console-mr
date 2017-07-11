@@ -45,7 +45,7 @@ site:
     errors:
         settings: 'सर्व उपलब्धीत कमाण्ड ची यादी बनवण्यासाठी आपल्याला सर्वप्रथम drupal स्थापित करावे लागेल.'
         directory: 'सर्व उपलब्ध कमाण्ड ची सूची करण्यासाठी, आपल्याला त्यासाठी एका drupal रूट डिरेक्टरी मध्ये चालवा.'
-        not-installed: 'Drupal Console येथे स्थापित केलेले नाही: %s'
+        not-installed: 'Drupal Console येथे स्थापित केलेले नाही: "%s"'
         execute-composer: 'आपण खालील संगीतकार आज्ञा कार्यान्वित करणे आवश्यक आहे:'
         missing-config-file: 'संरचना फाइल गहाळ, संभाव्य मार्ग:'
         missing-config-file-command: 'आदेश निर्माण करण्यासाठी "drupal init" कार्यान्वित करा.'
