@@ -1,6 +1,6 @@
-description: 'Generate an implementation of hook_help()'
-help: 'The <info>"%s"</info> command helps you generate a hook help "%s"'
+description: 'hook_help() चे लागूकरण उत्पन्न करा.'
+help: '<info> "%s" </info> कमांड हुक मदत "%s" निर्माण करण्यास मदत करते.'
 options: null
 questions: null
 messages:
-    help-already-implemented: 'The hook help was already implemented in module "%s"'
+    help-already-implemented: 'मॉड्यूल "%s" मध्ये हुक मदत आधीच लागू केली गेली आहे.'

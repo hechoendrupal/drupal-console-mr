@@ -1,8 +1,8 @@
-description: 'Generate an implementation of hook_update_N()'
-help: 'The <info>"%s"</info> command helps you generate a hook update N "%s"'
+description: 'hook_update_N() चा अंमलबजावणी उत्पन्न करा.'
+help: '<info> "%s" </info> आज्ञा आपल्याला हुक सुधारणा N "%s" उत्पन्न करण्यास मदत करते'
 options:
-    update-n: 'Update Number'
+    update-n: 'नंबर अद्यतनित करा.'
 questions:
-    update-n: 'Please provide the Update N to be implemeted'
+    update-n: 'कार्यान्वित करण्यासाठी कृपया अद्यतन N प्रदान करा.'
 messages:
-    wrong-update-n: 'The update number "%s" is invalid'
+    wrong-update-n: 'अद्यतन क्रमांक "% s" अवैध आहे.'

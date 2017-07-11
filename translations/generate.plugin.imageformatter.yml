@@ -1,12 +1,12 @@
-description: 'Generate image formatter plugin.'
-help: 'The <info>generate:plugin:imageformatter</info> command helps you generate a new image formatter plugin.'
+description: 'प्रतिमा फॉर्मेटर प्लगइन उत्पन्न करा.'
+help: '<info> उत्पन्न करा: प्लगइन: प्रतिमा फॉरमॅट </info> कमांड आपल्याला एक नवीन प्रतिमा फॉर्मेटर प्लगइन उत्पन्न करण्यास मदत करते.'
 options:
     module: common.options.module
-    class: 'Plugin class name'
-    label: 'Plugin label'
-    plugin-id: 'Plugin id'
+    class: 'प्लगइन वर्ग नाव.'
+    label: 'प्लगइन लेबल.'
+    plugin-id: 'प्लगिन आयडी.'
 questions:
     module: common.questions.module
-    class: 'Enter the plugin class name'
-    label: 'Enter the plugin label'
-    plugin-id: 'Enter the plugin id'
+    class: 'प्लगइन वर्ग नाव प्रविष्ट करा.'
+    label: 'प्लगइन लेबल प्रविष्ट करा.'
+    plugin-id: 'प्लगइन आयडी प्रविष्ट करा.'

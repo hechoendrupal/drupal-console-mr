@@ -1,6 +1,6 @@
-description: 'Returns the relative path to the module (or absolute path)'
+description: 'मॉड्यूलला सापेक्ष पथ परत मिळवते (किंवा निरपेक्ष पथ).'
 arguments:
-    module: 'The Module name (machine name)'
+    module: 'मॉड्यूल नाव (मशीनचे नाव)'
 options:
-    absolute: 'Return module absolute path'
+    absolute: 'रिटर्न मॉड्यूल परिपूर्ण पथ'
 messages: null

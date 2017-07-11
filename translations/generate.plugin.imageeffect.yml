@@ -1,15 +1,15 @@
-description: 'Generate image effect plugin.'
-help: 'The <info>generate:plugin:imageeffect</info> command helps you generate a new image effect plugin.'
-welcome: 'Welcome to the Drupal Image Effect Plugin generator'
+description: 'प्रतिमा प्रभाव प्लगइन उत्पन्न करा.'
+help: '<info> उत्पन्न करा: प्लगइन: प्रतिमाप्रभाव </info> कमांड आपल्याला एक नवीन प्रतिमा प्रभाव प्लगइन तयार करण्यास मदत करते.'
+welcome: 'Drupal प्रतिमा प्रभाव प्लगइन जनरेटर आपले स्वागत आहे.'
 options:
     module: common.options.module
-    class: 'Plugin class name'
-    label: 'Plugin label'
-    plugin-id: 'Plugin id'
-    description: 'Plugin Description'
+    class: 'प्लगइन वर्ग नाव.'
+    label: 'प्लगइन लेबल.'
+    plugin-id: 'प्लगिन आयडी.'
+    description: 'प्लगइन वर्णन.'
 questions:
     module: common.questions.module
-    class: 'Enter the plugin class name'
-    label: 'Enter the plugin label'
-    plugin-id: 'Enter the plugin id'
-    description: 'Enter the plugin Description'
+    class: 'प्लगइन वर्ग नाव प्रविष्ट करा.'
+    label: 'प्लगइन लेबल प्रविष्ट करा.'
+    plugin-id: 'प्लगइन आयडी प्रविष्ट करा.'
+    description: 'प्लगइन वर्णन प्रविष्ट करा.'
