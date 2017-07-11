@@ -1,22 +1,22 @@
 description: 'संरचना हटवा'
 arguments:
-    type: 'Configuration type.'
+    type: 'कॉन्फिगरेशन प्रकार.'
     name: 'संरचने नाव.'
 messages:
-    all: 'All configuration sucessfully deleted.'
+    all: 'सर्व कॉन्फिगरेशन यशस्वीरित्या हटविले.'
     deleted: 'संरचना "%s" यशस्वीपणे हटविले.'
     name: 'संरचनेच्या नावाचे मूल्य असणे आवश्यक आहे.'
     not-exists: 'संरचना "%s" अस्तित्वात नाही.'
 errors:
-    config-storage: 'Configuration type would not be loaded.'
-    name: 'Configuration name must contain a value.'
-    type: 'Configuration type is missing.'
-    not-exists: 'The configuration "%s" does not exists.'
+    config-storage: 'कॉन्फिगरेशन प्रकार लोड केला जाणार नाही.'
+    name: 'कॉन्फिगरेशन नावामध्ये एक मूल्य असणे आवश्यक आहे.'
+    type: 'कॉन्फिगरेशन प्रकार गहाळ आहे.'
+    not-exists: 'संरचना "%s" अस्तित्वात नाही.'
 warnings:
-    undo: 'This action will delete all configuration permanentaly.'
+    undo: 'ही क्रिया सर्व कॉन्फिगरेशन कायमची हटवेल.'
 questions:
-    sure: 'Are you sure to delete all configuration'
+    sure: 'आपण सर्व कॉन्फिगरेशन हटविण्याची खात्री आहे.'
 examples:
     -
-        description: 'Provide a config type and a config name'
-        execution: 'drupal config:delete active all'
+        description: 'एक कॉन्फिगेशन प्रकार आणि कॉन्फिगरेशन नाव प्रदान करा.'
+        execution: 'Drupal config: सर्व सक्रिय हटवा.'

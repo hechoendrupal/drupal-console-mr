@@ -1,25 +1,25 @@
-description: 'Create dummy terms for your Drupal 8 application.'
-help: 'The <info>create:terms</info> command helps you create dummy terms.'
-welcome: 'Welcome to the Drupal terms creator'
+description: 'आपल्या Drupal 8 अनुप्रयोगासाठी डमी अटी तयार करा.'
+help: '<Info> तयार करा: अटी </info> आज्ञा आपल्याला डमी अटी तयार करण्यास मदत करते.'
+welcome: 'Drupal अटी निर्माता मध्ये आपले स्वागत आहे.'
 arguments:
-    vocabularies: 'Vocabulary(s) to be used in terms creation'
+    vocabularies: 'शब्दसंग्रह तयार करण्यासाठी शब्दसंग्रह(णे).'
 options:
-    limit: 'How many terms would you like to create'
-    name-words: 'Maximum number of words in term names'
+    limit: 'आपण किती संज्ञा तयार करू इच्छिता?'
+    name-words: 'शब्द नावांमध्ये कमाल संख्या शब्द.'
 questions:
-    vocabularies: 'Select vocabulary(s) to be used on terms creation'
-    limit: 'Enter how many terms would you like to create'
-    name-words: 'Enter the maximum number of words in term names'
+    vocabularies: 'शब्द निर्मितीवर वापरण्यासाठी शब्दसंग्रह (नां) निवडा.'
+    limit: 'आपण किती संज्ञा तयार करू इच्छिता ते प्रविष्ट करा.'
+    name-words: 'शब्दांची नावे कमाल संख्या प्रविष्ट करा.'
 messages:
-    term-id: 'Term Id'
-    vocabulary: Vocabulary
-    name: Name
-    invalid-vocabularies: 'Vocabulary(s) "%s" are invalid'
-    created-terms: 'Created "%s" terms successfully'
+    term-id: 'टर्म आयडी'
+    vocabulary: शब्दसंग्रह
+    name: नाव
+    invalid-vocabularies: 'शब्दसंग्रह (यजमान) "%s" अवैध आहेत.'
+    created-terms: '"%s" अटी यशस्वीरित्या तयार केल्या.'
 examples:
     -
-        description: 'Provide the vocabulary term name.'
+        description: 'शब्दसंग्रह संज्ञा नाव प्रदान करा.'
         execution: 'drupal create:terms vocabulary'
     -
-        description: 'Provide the limit of terms to add and limit of title words.'
+        description: 'शीर्षक शब्द जोडण्याची आणि मर्यादा करण्यासाठी अटींची मर्यादा प्रदान करा.'
         execution: "drupal create:terms tags \\\n  --limit=\"10\" \\\n  --name-words=\"5\"\n"

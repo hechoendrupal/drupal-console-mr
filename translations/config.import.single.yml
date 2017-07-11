@@ -1,23 +1,23 @@
-description: 'Import the selected configuration.'
+description: 'निवडलेले कॉन्फिगरेशन आयात करा.'
 options:
-    file: 'The file(s) name or file(s) absolute path to import'
-    directory: 'The path from where to import file(s).'
+    file: 'आयात करण्यासाठी फाईल (ली) नावाची किंवा फाईल (फां) पूर्ण पथ.'
+    directory: 'फाईल (फाइल) कुठे आयात करायची ते मार्ग.'
 questions:
-    file: 'Enter path to the import file'
-    directory: 'Enter path from where to import files.'
-    name: 'Enter configuration name'
+    file: 'आयात फाइलसाठी पथ प्रविष्ट करा.'
+    directory: 'फाइल्स कुठे आयात करायचे ते मार्ग प्रविष्ट करा.'
+    name: 'कॉन्फिगरेशन नाव प्रविष्ट करा.'
 messages:
-    missing-file: 'File option is missing.'
-    empty-value: 'Value can not be empty'
-    success: 'The configuration "%s", had been imported.'
+    missing-file: 'फाइल पर्याय गहाळ आहे.'
+    empty-value: 'मूल्य रिक्त असू शकत नाही.'
+    success: 'कॉन्फिगरेशन "%s" आयात केले गेले आहे.'
 examples:
     -
-        description: 'Providing a file option using full path.'
+        description: 'पूर्ण मार्ग वापरून फाइल पर्याय प्रदान करणे.'
         execution: "drupal config:import:single \\\n  --file=\"/path/to/file/block.block.default_block.yml\""
     -
-        description: 'Providing file and directory options'
+        description: 'फाइल आणि निर्देशिका पर्याय प्रदान.'
         execution: "drupal config:import:single  \\\n  --file=\"block.block.default_block.yml\" \\\n  --directory=\"/path/to/directory\"\n"
 arguments:
-    name: 'Configuration name.'
-    file: 'Path to the import file'
-    input-file: 'Path to the import files.'
+    name: 'कॉन्फिगरेशन नाव.'
+    file: 'आयात फायलीवरील मार्ग.'
+    input-file: 'आयात फायलींसाठी मार्ग.'

@@ -1,18 +1,18 @@
-description: 'Create dummy vocabularies for your Drupal 8 application.'
-help: 'The <info>create:vocabularies</info> command helps you create dummy vocabularies.'
-welcome: 'Welcome to the Drupal vocabularies creator'
+description: 'आपल्या Drupal 8 अनुप्रयोगासाठी डमी शब्दसंग्रह तयार करा.'
+help: '<Info> तयार करा: शब्दसंग्रह </info> कमांड आपल्याला डमी शब्दसंग्रह तयार करण्यास मदत करते.'
+welcome: 'Drupal शब्दसंग्रह निर्माता मध्ये आपले स्वागत आहे.'
 options:
-    limit: 'How many vocabularies would you like to create'
-    name-words: 'Maximum number of words in vocabulary names'
+    limit: 'आपण किती शब्दसंग्रह तयार करु इच्छिता?'
+    name-words: 'शब्दावलीतील शब्दांची कमाल संख्या.'
 questions:
-    limit: 'Enter how many vocabularies would you like to create'
-    name-words: 'Enter the maximum number of words in vocabulary names'
+    limit: 'आपण किती शब्दसंग्रह तयार करु इच्छिता ते प्रविष्ट करा.'
+    name-words: 'शब्दसंग्रह नावांमध्ये कमाल संख्या प्रविष्ट करा.'
 messages:
-    vocabulary-id: 'Vocabulary Id'
-    name: Name
-    created-terms: 'Created "%s" vocabularies successfully'
-    error: 'Error creating vocabularies: "%s"'
+    vocabulary-id: 'शब्दसंग्रह आयडी'
+    name: नाव
+    created-terms: '"%s" शब्दसंग्रह यशस्वीपणे तयार केले'
+    error: 'शब्दसंग्रह तयार करण्यात त्रुटी: "%s"'
 examples:
     -
-        description: 'Provide the number of vocabularies to create and maximum number of words in vocabulary names'
+        description: 'शब्दसंग्रह नावांमध्ये शब्दांची संख्या तयार करण्यासाठी आणि शब्दांची कमाल संख्या प्रदान करण्यासाठी शब्दसंग्रहांची संख्या द्या.'
         execution: "drupal create:vocabularies \\\n  --limit=\"5\" \\\n  --name-words=\"5\"\n"

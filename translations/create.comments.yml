@@ -1,37 +1,37 @@
-description: 'Create dummy comments for your Drupal 8 application.'
-help: 'The <info>create:comments</info> command helps you create dummy comments.'
-welcome: 'Welcome to the Drupal comments generator'
+description: 'आपल्या Drupal 8 अनुप्रयोगासाठी डमी टिप तयार करा.'
+help: '<Info> तयार करा: टिप्पण्या </info> कमांड आपल्याला डमी टिपण्या तयार करण्यास मदत करते.'
+welcome: 'Drupal टिप्पण्या जनरेटर स्वागत आहे.'
 arguments:
-    node-id: 'Node ID where the comments will be created'
+    node-id: 'नोड आयडी जेथे टिप्पण्या तयार केल्या जातील.'
 options:
-    limit: 'How many comments would you like to create'
-    title-words: 'Maximum number of words in comment titles'
-    time-range: 'How far back in time should the comments be dated'
+    limit: 'आपण किती टिप्पण्या तयार करू इच्छिता?'
+    title-words: 'टिप्पणी शीर्षके मध्ये शब्दांची कमाल संख्या.'
+    time-range: 'टिप्पण्या किती काळापर्यंत पोचल्या पाहिजेत.'
 questions:
-    node-id: 'Node ID where the comments will be created'
-    content-type: 'Select content type(s) to be used on comment creation'
-    limit: 'Enter how many comments would you like to generate'
-    title-words: 'Enter the maximum number of words in titles'
-    time-range: 'How far back in time should the comments be dated?'
+    node-id: 'नोड आयडी जेथे टिप्पण्या तयार केल्या जातील.'
+    content-type: 'टिप्पणी निर्मितीवर वापरण्यासाठी सामग्री प्रकार निवडा.'
+    limit: 'आपण किती व्युत्पन्न तयार करू इच्छिता ते प्रविष्ट करा.'
+    title-words: 'शीर्षकेतील कमाल संख्या प्रविष्ट करा.'
+    time-range: 'टिप्पण्या किती काळापर्यंत पोहचल्या पाहिजेत?'
     time-ranges:
-        - Now
-        - '1 hour ago'
-        - '1 day ago'
-        - '1 week ago'
-        - '1 month ago'
-        - '1 year ago'
+        - आता
+        - '1 तासापूर्वी'
+        - '1 दिवसापूर्वी'
+        - '1 आठवड्या आधी'
+        - '1 महिन्यापूर्वी'
+        - '1 वर्षापूर्वी'
 messages:
-    node-id: 'Node Id'
-    comment-id: 'Comment Id'
-    content-type: 'Content type'
-    title: Title
-    created: 'Created Time'
-    invalid-content-types: 'Content types "%s" are invalid'
-    created-comments: 'Created "%s" comments successfully'
+    node-id: 'नोड आयडी.'
+    comment-id: 'टिप्पणी आयडी.'
+    content-type: 'सामग्री प्रकार.'
+    title: शीर्षक
+    created: 'तयार वेळ.'
+    invalid-content-types: 'सामग्री प्रकार "%s" अवैध आहेत.'
+    created-comments: '"%s" टिप्पण्या यशस्वीरित्या तयार केल्या.'
 examples:
     -
-        description: 'Provide the node id where the comments will be generated.'
+        description: 'नोड आयडी द्या जेथे टिप्पण्या निर्माण होतील.'
         execution: 'drupal create:comments  node-id'
     -
-        description: 'Provide number of comments to generate, max title words and time range.'
+        description: 'कमाल शीर्षक शब्द आणि वेळ श्रेणी निर्माण करण्यासाठी टिप्पण्यांची संख्या प्रदान करा.'
         execution: "drupal create:comments  node-id \\\n  --limit=\"2\" \\\n  --title-words=\"5\" \\\n  --time-range=\"1\"\n"

@@ -3,5 +3,5 @@ messages:
     released: 'क्रॉन लॉक यशस्वीरित्या मुक्त झाले.'
 examples:
     -
-        description: 'Execute the cron globally'
+        description: 'जागतिक पातळीवर क्रोन चालवा.'
         execution: "drupal cron:execute\n"

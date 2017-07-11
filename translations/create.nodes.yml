@@ -1,35 +1,35 @@
-description: 'Create dummy nodes for your Drupal 8 application.'
-help: 'The <info>create:nodes</info> command helps you create dummy nodes.'
-welcome: 'Welcome to the Drupal nodes generator'
+description: 'आपल्या Drupal 8 अनुप्रयोगासाठी डमी नोड्स तयार करा.'
+help: '<Info> तयार करा: नोड्स </info> आज्ञा आपल्याला डमी नोड तयार करण्यास मदत करते.'
+welcome: 'Drupal नोड जनरेटर मध्ये आपले स्वागत आहे.'
 arguments:
-    content-types: 'Content type(s) to be used in node creation'
+    content-types: 'नोड निर्मितीत वापरण्यासाठी सामग्री प्रकार.'
 options:
-    limit: 'How many nodes would you like to create'
-    title-words: 'Maximum number of words in node titles'
-    time-range: 'How far back in time should the nodes be dated'
+    limit: 'नोडमध्ये वापरण्याजोगी सामग्री प्रकार(य्स) आपण तयार केलेल्या किती नोडस् तयार करणे.'
+    title-words: 'नोड शीर्षकेतील शब्दांची कमाल संख्या.'
+    time-range: 'नोडचे किती काळचे काळ असावे?'
 questions:
-    content-type: 'Select content type(s) to be used on node creation'
-    limit: 'Enter how many nodes would you like to generate'
-    title-words: 'Enter the maximum number of words in titles'
-    time-range: 'How far back in time should the nodes be dated?'
+    content-type: 'नोड निर्मितीवर वापरण्यासाठी सामग्री प्रकार निवडा.'
+    limit: 'आपण किती नोडस् निर्माण करू इच्छिता ते प्रविष्ट करा.'
+    title-words: 'शीर्षकेतील कमाल संख्या प्रविष्ट करा.'
+    time-range: 'नोड्सची तारीख किती वेळेत परत करावी?'
     time-ranges:
-        - Now
-        - '1 hour ago'
-        - '1 day ago'
-        - '1 week ago'
-        - '1 month ago'
-        - '1 year ago'
+        - आता
+        - '1 तासापूर्वी'
+        - '1 दिवसापूर्वी'
+        - '1 आठवड्या आधी'
+        - '1 महिन्यापूर्वी'
+        - '1 वर्षापूर्वी'
 messages:
-    node-id: 'Node Id'
-    content-type: 'Content type'
-    title: Title
-    created: 'Created Time'
-    invalid-content-types: 'Content types "%s" are invalid'
-    created-nodes: 'Created "%s" nodes successfully'
+    node-id: 'नोड आयडी.'
+    content-type: 'सामग्री प्रकार.'
+    title: शीर्षक
+    created: 'तयार वेळ.'
+    invalid-content-types: 'सामग्री प्रकार "%s" अवैध आहेत.'
+    created-nodes: '"%s" नोड यशस्वीरित्या तयार केले.'
 examples:
     -
-        description: 'Provide the content type name.'
+        description: 'सामग्री प्रकार नाव प्रदान करा.'
         execution: 'drupal create:nodes content-name'
     -
-        description: 'Provide the limit of publications, limit of title words, time range and language.'
+        description: 'प्रकाशनांची मर्यादा, शीर्षक शब्दांची मर्यादा, वेळ श्रेणी आणि भाषा प्रदान करा.'
         execution: "drupal create:nodes content-name \\\n  --limit=\"5\" \\\n  --title-words=\"5\" \\\n  --time-range=\"1\" \\\n  --language=\"und\"\n"

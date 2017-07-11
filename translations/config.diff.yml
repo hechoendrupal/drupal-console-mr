@@ -14,5 +14,5 @@ messages:
     no-changes: 'कोणतेही बदल नाहीत.'
 examples:
     -
-        description: 'Provide a config directory'
+        description: 'एक संरचना निर्देशिका द्या.'
         execution: 'drupal config:diff ../config/path'

@@ -1,14 +1,14 @@
-description: 'Generate breakpoint'
-help: 'The <info>generate:theme</info> command helps you generates a new breakpoint'
-welcome: 'Welcome to the Drupal breakpoint generator'
+description: 'ब्रेकपॉईंट व्युत्पन्न करा.'
+help: '<Info> व्युत्पन्न करा: थीम </info> कमांड आपल्याला नवीन ब्रेकपॉईंट बनविण्यास मदत करते.'
+welcome: 'Drupal breakpoint जनरेटर मध्ये आपले स्वागत आहे.'
 options:
-    theme: 'Theme name'
-    breakpoints: Breakpoints
+    theme: 'थीम नाव'
+    breakpoints: ब्रेकपॉइंट
 questions:
-    theme: 'Enter the theme name (i.e. classy, stable)'
-    breakpoint-name: 'Enter breakpoint name'
-    breakpoint-label: 'Enter breakpoint label'
-    breakpoint-media-query: 'Enter breakpoint media query'
-    breakpoint-weight: 'Enter breakpoint weight'
-    breakpoint-multipliers: 'Enter breakpoint multipliers'
-    breakpoint-add: 'Do you want to add another breakpoint'
+    theme: 'थीम नाव प्रविष्ट करा (उदा. सुंदर, स्थिर)'
+    breakpoint-name: 'ब्रेकपॉईंट नाव प्रविष्ट करा.'
+    breakpoint-label: 'ब्रेकपॉईप लेबल प्रविष्ट करा.'
+    breakpoint-media-query: 'ब्रेकपॉइंट मीडिया क्वेरी प्रविष्ट करा.'
+    breakpoint-weight: 'ब्रेकपॉईंट वजन प्रविष्ट करा.'
+    breakpoint-multipliers: 'ब्रेकपॉइंट गुणक प्रविष्ट करा.'
+    breakpoint-add: 'आपण आणखी ब्रेकपॉईंट जोडू इच्छिता.'

@@ -1,28 +1,28 @@
-description: 'Display current modules available for application'
-module: 'Module name'
+description: 'अनुप्रयोगासाठी उपलब्ध असलेले वर्तमान मॉड्यूल प्रदर्शित करा.'
+module: 'मॉड्यूल नाव'
 options:
-    status: 'Module status [enabled|disabled]'
-    type: 'Module type [core|no-core]'
+    status: 'मॉड्यूल स्थिती [सक्षम | अक्षम]'
+    type: 'मॉड्यूल प्रकार [कोर | नो-कोर]'
 messages:
-    id: ID
-    name: Name
-    status: Status
-    origin: Origin
-    package: Package
-    installed: Installed
-    uninstalled: Uninstalled
-    version: Version
-    schema-version: 'Schema version'
-    total-downloads: 'Total installs'
-    total-monthly: 'Monthly installs'
-    total-daily: 'Daily installs'
-    no-results: 'Module "%s" was not found in the repository'
-    enabled: Enabled
-    disabled: Disabled
+    id: आयडी
+    name: नाव
+    status: स्थिती
+    origin: मूळ
+    package: पॅकेज
+    installed: स्थापित केले
+    uninstalled: विस्थापित
+    version: आवृत्ती
+    schema-version: 'स्कीमा आवृत्ती'
+    total-downloads: 'एकूण स्थापना'
+    total-monthly: 'मासिक स्थापना'
+    total-daily: 'दैनिक स्थापना'
+    no-results: 'विभाग "%s" रेपॉजिटरीमध्ये आढळला नाही'
+    enabled: सक्षम केले
+    disabled: अक्षम
 examples:
     -
-        description: 'Display all installed modules'
+        description: 'सर्व स्थापित मॉड्यूल प्रदर्शित करा'
         execution: 'drupal mod --status=installed'
     -
-        description: 'Display all installed and no core modules'
+        description: 'सर्व स्थापित आणि कोणतेही कोर मॉड्यूल प्रदर्शित करा'
         execution: 'drupal mod --status=installed --type=no-core'

@@ -5,5 +5,5 @@ messages:
     connection: 'संधान: "%s"'
 examples:
     -
-        description: 'Launch the default client or could launch another regarding the specification on the argument'
+        description: 'डीफॉल्ट क्लायंट लाँच करा किंवा वितर्क वरील विशिष्टतेविषयी दुसरे लाँच करू शकता.'
         execution: "drupal database:client <database>\n"

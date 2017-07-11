@@ -1,9 +1,9 @@
-description: 'Display current events '
-help: 'The <info>event:debug</info> command helps you debug events.'
+description: 'वर्तमान इव्हेंट प्रदर्शित करा.'
+help: '<Info> इव्हेंट: डीबग </info> कमांड आपल्याला डीबग इव्हेंट्समध्ये मदत करतो.'
 arguments:
-    event: 'Event to debug'
+    event: 'डीबग करण्यासाठी इव्हेंट.'
 messages:
-    event: 'Event Name'
-    class: Class
-    method: Method
-    no-events: 'This event does not exist, try to execute command: event:debug'
+    event: 'कार्यक्रमाचे नाव.'
+    class: वर्ग
+    method: पद्धत
+    no-events: 'हा इव्हेंट अस्तित्वात नाही, कमांड कार्यान्वित करण्याचा प्रयत्न करा: event: debug'

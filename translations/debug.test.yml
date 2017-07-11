@@ -1,17 +1,17 @@
-description: 'List Test Units available for the application.'
-help: 'Update the console command to the latest version.'
+description: 'अनुप्रयोगासाठी उपलब्ध चाचणी आयटम्स.'
+help: 'कन्सोल आदेश अद्ययावत करा.'
 arguments:
-    test-class: 'Test Class'
+    test-class: 'चाचणी वर्ग.'
 options:
-    group: Group
+    group: गट
 messages:
-    class: 'Test Class'
-    description: Description
-    group: Group
-    type: 'Test Type'
-    success: 'The console has been updated to the latest version.'
-    missing-dependency: 'Missing dependency'
-    methods: 'Test methods'
-    not-found: 'Debug wasn''t found, try enclosure test id between double quotes.'
-    success-groups: 'All testing groups were listed sucessfully, use the group argument to filter Test unit by group i.e $ drupal test:debug Url'
-    success-group: 'All test units for group "%s" were listed sucessfully'
+    class: 'चाचणी वर्ग'
+    description: वर्णन
+    group: गट
+    type: 'चाचणी प्रकार'
+    success: 'कन्सोलला नविनतम आवृत्तीमध्ये अद्ययावतीत केले गेले आहे.'
+    missing-dependency: 'गहाळ अवलंबन.'
+    methods: 'चाचणी पद्धती'
+    not-found: 'डीबग आढळली नाही, दुहेरी अवतरणांमधील कक्षातील चाचणीचा प्रयत्न करा.'
+    success-groups: 'सर्व चाचणी गट यशस्वीरित्या सूचीबद्ध केले गेले होते, समूह i.e $ drupal test: डीबग यूआरएल द्वारे चाचणी एकक फिल्टर करण्यासाठी गट वितरणाचा वापर करा.'
+    success-group: 'गट "%s" साठी सर्व चाचणी युनिट यशस्वीपणे सूचीबद्ध केले गेले.'

@@ -1,8 +1,8 @@
-description: 'Debug entities available in the system'
-help: 'The <info>entity:debug</info> command helps get a list of entities.'
+description: 'सिस्टममध्ये उपलब्ध असलेल्या डीबग घटक.'
+help: '<Info> अस्तित्व: डीबग </info> कमांड एन्टिटीजची यादी मिळविण्यात मदत करते.'
 arguments:
 questions:
 messages:
 table-headers:
-  entity-name: 'Entity name'
-  entity-type: 'Entity type'
+  entity-name: 'अस्तित्व नाव'
+  entity-type: 'अस्तित्व प्रकार'

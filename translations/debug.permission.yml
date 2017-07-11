@@ -1,18 +1,19 @@
-description: 'Displays all user permissions.'
+description: 'सर्व वापरकर्ता परवानग्या प्रदर्शित करते.'
 help: |
-  Display all user permissions and also list all user permissions from a specific user role.
+  सर्व वापरकर्ता परवानग्या प्रदर्शित करा आणि विशिष्ट वापरकर्ता भूमिकापासून सर्व वापरकर्ता परवानग्या देखील सूचीबद्ध करा.
 
-  List all user permissions:
+  सर्व वापरकर्ता परवानग्या सूचीबद्ध करा:
   <info>drupal permission:debug</info>
 
-  List all user permissions from a user role
+
+  वापरकर्ता भूमिका पासून सर्व वापरकर्ता परवानग्या सूचीबद्ध करा
   <info>drupal permission:debug authenticated</info>
 
 arguments:
-    role: 'User role'
+    role: 'वापरकर्ता भूमिका'
 messages:
-    role-error: 'Role "%s" does not exist. Please use an existing user role.'
+    role-error: 'भूमिका "%s" अस्तित्वात नाही कृपया विद्यमान वापरकर्ता भूमिका वापरा.'
 table-headers:
-    permission-name: 'Permission name'
-    permission-label: 'Permission Label'
-    permission-role: 'Role'
+    permission-name: 'परवानगी नाव'
+    permission-label: 'परवानगी लेबल'
+    permission-role: 'भूमिका'

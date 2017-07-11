@@ -1,14 +1,14 @@
-description: 'Poll the watchdog and print new log entries every x seconds'
+description: 'वॉचडॉगला मत द्या आणि नवीन लॉग नोंदी प्रत्येक x सेकंद प्रिंट करा'
 arguments:
-    duration: 'Duration in seconds which to sleep between database reads'
+    duration: 'सेकंदात जेथून डेटाबेस वाचणे दरम्यान झोपण्याची कालावधी.'
 messages:
     warning: | 
-                Do not use in production environments
-                As this script blocks you are advised to only run it on vm's with multiple cores for performance reasons
-                Stop this polling mechanism before you clean/truncate the watchdog table!
-                Quit with ^C
+                उत्पादन वातावरणात वापरु नका
+                हे स्क्रिप्ट अवरोध म्हणून आपल्याला फक्त कारणास्तव कारणास्तव बहुकोषीय सह vm च्या वर चालविण्याची सल्ला देण्यात आली आहे
+                वॉचडॉग टेबल साफ / कापून काढण्याआधी या मतदान यंत्रणा थांबवा!
+                ^ सी सह बाहेर पडा
 examples:
-    - description: 'Print the log entries on screen every x seconds'
+    - description: 'प्रत्येक x सेकंद स्क्रीनवर लॉग प्रविष्टी मुद्रित करा'
       execution: |
         drupal database:log:poll \
           100
