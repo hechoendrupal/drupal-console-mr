@@ -1,5 +1,5 @@
-description: 'Hook_post_update_NAME चा अंमलबजावणी उत्पन्न करा()'
-help: '<info> "%s" </info> आज्ञा आपल्याला हुक पोस्ट अद्यतन NAME "%s" निर्माण करण्यास मदत करते.'
+description: 'Hook_post_update_NAME() चा अंमलबजावणी उत्पन्न करा.'
+help: '<info>"%s"</info> आज्ञा आपल्याला हुक पोस्ट अद्यतन NAME "%s" निर्माण करण्यास मदत करते.'
 options:
     post-update-name: 'पोस्ट अद्यतन नाव.'
 questions:

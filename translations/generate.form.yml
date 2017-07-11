@@ -1,5 +1,5 @@
 description: 'नवीन "%s" उत्पन्न करा.'
-help: '<info> "%s" </info> आज्ञा आपल्याला नवीन "%s" उत्पन्न करण्यास मदत करते.'
+help: '<info>"%s"</info> आज्ञा आपल्याला नवीन "%s" उत्पन्न करण्यास मदत करते.'
 welcome: 'Drupal फॉर्म जनरेटर आपले स्वागत आहे.'
 options:
     module: common.options.module

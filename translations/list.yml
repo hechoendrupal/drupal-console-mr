@@ -1,5 +1,5 @@
 description: 'सर्व उपलब्ध आदेशांची यादी करा.'
-help: "<info>% कमांड.नाव% </info> आदेश सर्व कमांड्सची सूची देते: \n <info> php% आदेश.पूर्णता @ </info> \n आपण विशिष्ट नेमस्पेश साठी आदेश देखील दर्शवू शकता: \n <info> Php% आदेश.पूर्णता_नाम% test </info> \n आपण <comment> - format </comment> पर्यायाचा वापर करून इतर स्वरुपात माहिती काढू शकता: \n <info> php% आदेश.पूर्णता_नाम% - रूपमा = Xml </info> \n आदेशांची कच्ची यादी मिळविणेही शक्य आहे (आदेश रननर एम्बेड करण्यासाठी उपयोगी): \n <info> php% आदेश.पूर्णता_नाम% --raw</info> \n"
+help: "<info>%command.name%</info> आदेश सर्व कमांड्सची सूची देते: \n <info>php %command.full_name%</info> \n आपण विशिष्ट नेमस्पेश साठी आदेश देखील दर्शवू शकता: \n <info>php %command.full_name% test</info> \n आपण  <comment>--format</comment> पर्यायाचा वापर करून इतर स्वरुपात माहिती काढू शकता: \n <info>php %command.full_name% --format=xml</info> \n आदेशांची कच्ची यादी मिळविणेही शक्य आहे (आदेश रननर एम्बेड करण्यासाठी उपयोगी): \n <info>php %command.full_name% --raw</info> \n"
 arguments:
     namespace: 'नेमस्पेस नाव.'
 options:

@@ -1,5 +1,5 @@
 description: 'एक RouteSubscriber उत्पन्न करा.'
-help: '<info> उत्पन्न करा: सेवा </info> आज्ञा आपल्याला नवीन RouteSubscriber जनरेट करण्यास मदत करते.'
+help: '<info>generate:service</info> आज्ञा आपल्याला नवीन RouteSubscriber जनरेट करण्यास मदत करते.'
 welcome: 'Drupal RouteSubscriber Generator वर आपले स्वागत आहे.'
 options:
     module: common.options.module

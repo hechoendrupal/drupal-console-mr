@@ -1,5 +1,5 @@
 description: 'Yaml शोधसह एक प्लगिन प्रकार उत्पन्न करा.'
-help: '<info> उत्पन्न करा: प्लगइनः टाइप करा: yaml </info> आज्ञा आपल्याला नवीन प्लगइन प्रकार जे Yaml शोध वापरते.'
+help: '<info>generate:plugin:type:yaml</info> आज्ञा आपल्याला नवीन प्लगइन प्रकार जे Yaml शोध वापरते.'
 welcome: 'Drupal प्लगइन प्रकार जनरेटर आपले स्वागत आहे.'
 options:
     module: common.options.module

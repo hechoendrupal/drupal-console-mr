@@ -1,5 +1,5 @@
 description: 'आदेशासाठी मदत दर्शवितो.'
-help: "<info>% कमांड.नाव% </info> कमांड दिलेल्या कमांडसाठी मदत दर्शविते: \n \n <info> php% कमांड.पूर्णता @ सूची </info> \n \n आपण अन्य <comments> - स्वरूप </comments> पर्याय वापरून: \n \n <info> php% कमांड.संपूर्ण_नाव% --format = xml सूची </info> \n \n उपलब्ध आदेशांची सूची प्रदर्शित करण्यासाठी, कृपया <info> list </info> आदेश वापरा. ​​\n"
+help: "<info>%command.name%</info> कमांड दिलेल्या कमांडसाठी मदत दर्शविते: \n \n info>php %command.full_name% list</info> \n \n आपण अन्य <comment>--format</comment> पर्याय वापरून: \n \n <info>php %command.full_name% --format=xml list</info> \n \n उपलब्ध आदेशांची सूची प्रदर्शित करण्यासाठी, कृपया <info>list</info> आदेश वापरा. ​​\n"
 arguments:
     command_name: 'आदेशाचे नाव'
 options:
@@ -7,4 +7,4 @@ options:
     raw: 'कच्च्या आदेश सूचीचे आउटपुट करण्यासाठी.'
     format: 'आउटपुट स्वरूप (txt, xml, json, किंवा md)'
 messages:
-    deprecated: '<comment> - xml </comment> पर्याय आवृत्ती 2.7 मध्ये नापसंत करण्यात आला आणि आवृत्ती 3.0 मधून काढले जाईल. त्याच्याऐवजी <comment> - स्वरूप </comment> पर्याय वापरा'
+    deprecated: '<comment>--xml</comment> पर्याय आवृत्ती 2.7 मध्ये नापसंत करण्यात आला आणि आवृत्ती 3.0 मधून काढले जाईल. त्याच्याऐवजी <comment>--format</comment> पर्याय वापरा'

@@ -1,5 +1,5 @@
 description: 'प्लगइन ब्लॉक उत्पन्न करा.'
-help: '<info> उत्पन्न करा: प्लगइन: ब्लॉक </info> आज्ञा आपल्याला नवीन प्लगइन ब्लॉक उत्पन्न करण्यास मदत करते.'
+help: '<info>generate:plugin:block</info> आज्ञा आपल्याला नवीन प्लगइन ब्लॉक उत्पन्न करण्यास मदत करते.'
 welcome: 'Drupal प्लगइन ब्लॉक जनरेटर मध्ये आपले स्वागत आहे.'
 options:
     module: common.options.module
@@ -18,5 +18,5 @@ questions:
     services: common.questions.services
     theme-region: 'प्लगइन ब्लॉक रेंडर करण्यासाठी थीम प्रदेश प्रविष्ट करा.'
 messages:
-    inputs: "\n आपण ब्लॉकमध्ये विशेष कॉन्फिगरेशन तयार करण्यासाठी इनपुट फील्ड जोडू शकता. \n हे वैकल्पिक आहे, <info> प्रविष्ट करा </info> ला <info> चालू ठेवा </info>"
+    inputs: "\n आपण ब्लॉकमध्ये विशेष कॉन्फिगरेशन तयार करण्यासाठी इनपुट फील्ड जोडू शकता. \n हे वैकल्पिक आहे, <info>enter</info> ला <info>continue</info>"
     invalid-theme-region: 'प्रदेश "%s" अवैध आहे'

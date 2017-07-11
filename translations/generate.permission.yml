@@ -1,5 +1,5 @@
 description: 'मॉड्यूल परवानग्या उत्पन्न करा.'
-help: '<info> उत्पन्न करा: परवानग्या </info> कमांड आपल्याला नवीन परवानग्या निर्माण करण्यास मदत करते.'
+help: '<info>generate:permissions</info> कमांड आपल्याला नवीन परवानग्या निर्माण करण्यास मदत करते.'
 options:
     module: common.options.module
 questions:
