@@ -1,22 +1,22 @@
-description: 'Generate & Register a controller'
-help: 'The <info>generate:controller</info> command helps you generate a new controller.'
-welcome: 'Welcome to the Drupal Controller generator'
+description: 'व्युत्पन्न करा आणि कंट्रोलर नोंदवा'
+help: '<info>generate:controller</info> हा आदेश आपल्याला एक नवीन कंट्रोलर व्युत्पन्न करण्यास मदत करतो.'
+welcome: 'Drupal कंट्रोलर जनरेटर मध्ये आपले स्वागत आहे'
 options:
     module: common.options.module
-    class: 'Controller Class name'
-    routes: 'The routes, must be an array containing [title, method, path]'
+    class: 'कंट्रोलर वर्ग नाव'
+    routes: 'routes, हे [title, method, path] असलेले अॅरे असले पाहिजेत'
     services: common.options.services
-    test: 'Generate a test class'
+    test: 'चाचणी वर्ग व्युत्पन्न करा'
 questions:
     module: common.questions.module
-    class: 'Enter the Controller class name'
-    title: 'Enter the Controller method title (to stop adding more methods, leave this empty)'
-    method: 'Enter the action method name'
-    path: 'Enter the route path'
+    class: 'कंट्रोलर वर्ग नाव प्रविष्ट करा'
+    title: 'कंट्रोलर पद्धत शीर्षक प्रविष्ट करा (अधिक पद्धती जोडणे थांबविण्यासाठी, हे रिक्त सोडा)'
+    method: 'कृती पद्धतीचे नाव प्रविष्ट करा'
+    path: 'मार्गचे पथ प्रविष्ट करा'
     services: common.questions.services
-    test: 'Do you want to generate a unit test class'
+    test: 'आपण एक एकक चाचणी वर्ग व्युत्पन्न करू इच्छिता?'
 messages:
-    title-empty: 'Title must contain a value (you must enter at least one method)'
-    title-already-added: 'Title was already added'
-    method-name-already-added: 'Method name was already added'
-    path-already-added: 'Path was already added'
+    title-empty: 'शीर्षकात एका मूल्य असणे आवश्यक आहे (आपण किमान एक पद्धत प्रविष्ट करणे आवश्यक आहे)'
+    title-already-added: 'शीर्षक आधीपासून जोडले गेले आहे'
+    method-name-already-added: 'पद्धतीचे नाव आधीपासून जोडलेले आहे'
+    path-already-added: 'पथ आधीपासून जोडलेला होता'
