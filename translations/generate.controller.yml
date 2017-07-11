@@ -1,6 +1,6 @@
-description: 'Generate & Register a controller'
-help: 'The <info>generate:controller</info> command helps you generate a new controller.'
-welcome: 'Welcome to the Drupal Controller generator'
+description: 'व्युत्पन्न करा आणि नियंत्रक नोंदवा'
+help: '<info>generate:controller</info> हा आदेश आपल्याला एक नवीन नियंत्रक व्युत्पन्न करण्यास मदत करतो.'
+welcome: 'Drupal नियंत्रक जनरेटर मध्ये आपले स्वागत आहे'
 options:
     module: common.options.module
     class: 'Controller Class name'
