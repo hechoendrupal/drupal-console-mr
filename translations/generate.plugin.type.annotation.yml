@@ -1,6 +1,6 @@
 description: 'भाष्येच्या शोधासह प्लगिन प्रकार उत्पन्न करा.'
 help: '<info>generate:plugin:type:annotation</info> कमांड आपल्याला नवीन प्लगइन प्रकार तयार करण्यास मदत करते जी एनोटेशन डिस्कवरी वापरते.'
-welcome: 'Drupal प्लगइन प्रकार जनरेटर आपले स्वागत आहे.'
+welcome: 'ड्रुपल प्लगइन प्रकार जनरेटर आपले स्वागत आहे.'
 options:
     module: common.options.module
     class: 'प्लगइन प्रकार वर्ग नाव'

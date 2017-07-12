@@ -19,4 +19,4 @@ questions:
 examples:
     -
         description: 'एक कॉन्फिगेशन प्रकार आणि कॉन्फिगरेशन नाव प्रदान करा.'
-        execution: 'Drupal config: सर्व सक्रिय हटवा.'
+        execution: 'ड्रुपल config: सर्व सक्रिय हटवा.'

@@ -1,6 +1,6 @@
 description: 'ब्रेकपॉईंट उत्पन्न करा.'
-help: '<info> उत्पन्न करा: थीम </info> कमांड आपल्याला नवीन ब्रेकपॉईंट बनविण्यास मदत करते.'
-welcome: 'Drupal breakpoint जनरेटर मध्ये आपले स्वागत आहे.'
+help: '<info>generate:theme</info> कमांड आपल्याला नवीन ब्रेकपॉईंट बनविण्यास मदत करते.'
+welcome: 'ड्रुपल breakpoint जनरेटर मध्ये आपले स्वागत आहे.'
 options:
     theme: 'थीम नाव'
     breakpoints: ब्रेकपॉइंट

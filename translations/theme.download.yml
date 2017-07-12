@@ -1,18 +1,18 @@
-description: 'Download theme in application'
+description: 'अनुप्रयोगामध्ये थीम डाउनलोड करा.'
 arguments:
-    version: 'Theme version i.e 1.x-dev'
-    theme: 'the Theme name'
+    version: 'थीम आवृत्ती i.e 1.x-dev'
+    theme: 'थीम नाव.'
 options:
-    composer: 'Use --composer option for manage the theme download with Composer'
-    version: 'Theme version i.e 1.x-dev'
+    composer: 'रचनाकारसह थीम डाउनलोड व्यवस्थापित करण्यासाठी --composer पर्याय वापरा'
+    version: 'थीम आवृत्ती i.e 1.x-dev'
 messages:
-    no-releases: 'There aren''t any releases for theme "%s"'
-    getting-releases: 'Getting releases for theme "%s"'
-    downloading: 'Downloading theme "%s" release "%s"'
-    downloaded: 'Theme "%s" version "%s" was downloaded successfully at "%s"'
-    select-release: 'Please select your favorite release'
-    outside-drupal: 'Drupal root can''t be determined. Use --root to set the destination, current folder will be used instead of.'
-    error-creating-folder: 'Error creating folder "%s", please check your permissions'
+    no-releases: '"%s" थीमसाठी कोणतेही प्रकाशन नाहीत.'
+    getting-releases: '"%s" थीमसाठी रिलीझ प्राप्त करीत आहे.'
+    downloading: '"%s" थीम डाउनलोड करीत आहे "%s"'
+    downloaded: 'थीम "%s" आवृत्ती "%s" यशस्वीपणे "%s" वर डाउनलोड झाली.'
+    select-release: 'कृपया आपले आवडते प्रकाशन निवडा.'
+    outside-drupal: 'ड्रुपल रूट निश्चित केले जाऊ शकत नाही. गंतव्य सेट करण्यासाठी --root चा वापर करा, त्याऐवजी वर्तमान फोल्डरचा वापर केला जाईल.'
+    error-creating-folder: '"%s" फोल्डर तयार करताना त्रुटी, कृपया आपली परवानगी तपासा.'
 tips:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        tip: 'परस्पररित्या रचनाकार चे आउटपुट किंवा «false» ते लपविण्यासाठी आपल्या config.yml फाइल मध्ये «shellexec_output» की एक «true» मूल्य पास करा.'

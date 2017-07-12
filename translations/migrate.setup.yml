@@ -1,6 +1,6 @@
 description: 'दिलेल्या लेगसी डेटाबेससाठी संबंधित स्थानांतरण स्थापन करा आणि तयार करा.'
 options:
-    db-type: 'Drupal डेटाबेस प्रकार.'
+    db-type: 'ड्रुपल डेटाबेस प्रकार.'
     db-host: 'डेटाबेस यजमान.'
     db-name: 'डेटाबेस नाव.'
     db-user: 'डेटाबेस वापरकर्ता.'
@@ -10,7 +10,7 @@ options:
     source-base_path: 'आपल्या स्रोत साइटसह असलेली स्थानिक फाइल निर्देशिका (उदा./var/www/docroot), किंवा आपल्या साइटचा पत्ता (उदाहरणार्थ http://example.com)'
     files-directory: 'फाईल्स निर्देशिका.'
 questions:
-    db-type: 'Drupal डेटाबेस प्रकार.'
+    db-type: 'ड्रुपल डेटाबेस प्रकार.'
     db-host: 'डेटाबेस यजमान.'
     db-name: 'डेटाबेस नाव.'
     db-user: 'डेटाबेस वापरकर्ता.'
@@ -20,7 +20,7 @@ questions:
     source-base_path: 'आपल्या स्रोत साइटसह असलेली स्थानिक फाइल निर्देशिका (उदा./var/www/docroot), किंवा आपल्या साइटचा पत्ता (उदाहरणार्थ http://example.com)'
     files-directory: 'फाईल्स निर्देशिका.'
 messages:
-    not-drupal: 'स्रोत डेटाबेसमध्ये ओळखण्यायोग्य Drupal आवृत्ती नाही.'
+    not-drupal: 'स्रोत डेटाबेसमध्ये ओळखण्यायोग्य ड्रुपल आवृत्ती नाही.'
     migrations-created: '"%s" स्थलांतरण "%s" साठी यशस्वीरित्या तयार केले गेले.'
     migrations-not-found: 'तेथे स्थलांतरण उपलब्ध नाहीत.'
     migrations-already-exist: 'उपलब्ध सर्व migrations आधीपासून तयार केले आहेत.'

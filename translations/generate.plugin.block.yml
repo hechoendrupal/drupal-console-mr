@@ -1,6 +1,6 @@
 description: 'प्लगइन ब्लॉक उत्पन्न करा.'
 help: '<info>generate:plugin:block</info> आज्ञा आपल्याला नवीन प्लगइन ब्लॉक उत्पन्न करण्यास मदत करते.'
-welcome: 'Drupal प्लगइन ब्लॉक जनरेटर मध्ये आपले स्वागत आहे.'
+welcome: 'ड्रुपल प्लगइन ब्लॉक जनरेटर मध्ये आपले स्वागत आहे.'
 options:
     module: common.options.module
     class: 'प्लगइन वर्ग नाव'

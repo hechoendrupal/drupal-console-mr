@@ -1,6 +1,6 @@
 description: 'प्लगिन स्थिती उत्पन्न करा.'
 help: '<info>generate:plugin:conditon</info> कमांड आपल्याला प्लगिन स्थिती उत्पन्न करण्यात मदत करते.'
-welcome: 'Drupal प्लगइन स्थिती जनरेटर मध्ये आपले स्वागत आहे.'
+welcome: 'ड्रुपल प्लगइन स्थिती जनरेटर मध्ये आपले स्वागत आहे.'
 options:
     module: common.options.module
     class: 'प्लगिन स्थिती वर्ग नाव.'

@@ -1,24 +1,24 @@
-description: 'View current Drupal Installation status'
+description: 'वर्तमान ड्रुपल स्थापना स्थिती पहा.'
 messages:
-    application: Application
-    system: 'System Info'
-    hash_salt: 'Hash salt'
-    console: 'Drupal Console'
-    database: 'Database connection'
-    driver: Driver
-    host: Host
-    port: Port
-    username: Username
-    password: Password
-    theme: Themes
-    connection: Connection
-    theme_default: 'Default theme'
-    theme_admin: 'Admin theme'
-    directory: Directories
-    directory_root: 'Site root directory'
-    directory_temporary: 'Site temporary directory'
-    directory_theme_default: 'Default theme directory'
-    directory_theme_admin: 'Admin theme directory'
-    current_version: 'Current Drupal version ("%s")'
-    not_installed: 'Drupal is not installed'
-    not_available: 'Not available'
+    application: अनुप्रयोग
+    system: 'सिस्टम माहिती.'
+    hash_salt: 'हॅश मीठ.'
+    console: 'ड्रुपल कन्सोल'
+    database: 'डेटाबेस कनेक्शन.'
+    driver: ड्रायवर
+    host: यजमान
+    port: बंदर
+    username: वापरकर्तानाव
+    password: संकेतशब्द
+    theme: थीम
+    connection: कनेक्शन
+    theme_default: 'डीफॉल्ट थीम.'
+    theme_admin: 'प्रशासन थीम.'
+    directory: निर्देशिका
+    directory_root: 'साइट रूट निर्देशिका.'
+    directory_temporary: 'साइट तात्पुरती निर्देशिका.'
+    directory_theme_default: 'डीफॉल्ट थीम निर्देशिका.'
+    directory_theme_admin: 'प्रशासकीय थीम निर्देशिका.'
+    current_version: 'वर्तमान ड्रुपल आवृत्ती ("%s")'
+    not_installed: 'ड्रुपल स्थापित नाही.'
+    not_available: 'उपलब्ध नाही.'
