@@ -1,5 +1,5 @@
 description: 'अनुप्रयोगासाठी उपलब्ध चाचणी आयटम्स.'
-help: 'कन्सोल आदेश अद्ययावत करा.'
+help: 'Console आदेश अद्ययावत करा.'
 arguments:
     test-class: 'चाचणी वर्ग.'
 options:

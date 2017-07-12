@@ -1,6 +1,6 @@
 description: 'प्लगिन नियम क्रिया उत्पन्न करा.'
 help: '<info>generate:plugin:rulesaction</info> आज्ञा आपल्याला नवीन प्लगिन नियम क्रिया उत्पन्न करण्यास मदत करते.'
-welcome: 'ड्रुपल प्लगइन नियम ऍक्शन जनरेटर मध्ये आपले स्वागत आहे.'
+welcome: 'Drupal प्लगइन नियम ऍक्शन जनरेटर मध्ये आपले स्वागत आहे.'
 options:
     module: common.options.module
     class: 'प्लगइन वर्ग नाव.'

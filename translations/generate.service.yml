@@ -1,6 +1,6 @@
 description: 'सेवा उत्पन्न करा'
 help: '<info>generate:service</info> कमांड आपल्याला एक नवीन सेवा उत्पन्न करण्यास मदत करते.'
-welcome: 'ड्रुपल सेवा जनरेटर मध्ये आपले स्वागत आहे.'
+welcome: 'Drupal सेवा जनरेटर मध्ये आपले स्वागत आहे.'
 options:
     module: common.options.module
     service-name: 'सेवेचे नाव'

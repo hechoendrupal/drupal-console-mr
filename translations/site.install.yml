@@ -22,7 +22,7 @@ messages:
     installing: 'ड्रपल 8 प्रतिष्ठापन प्रक्रिया सुरू'
     installed: 'आपले ड्रपल 8 प्रतिष्ठापन यशस्वीरित्या पूर्ण झाले.'
     using-current-database: '"%s" नावाने डेटाबेस "%s" व वापरकर्ता "%s" वापरून.'
-    already-installed: 'ड्रुपल आधीपासूनच स्थापित आहे, डेटाबेसचा वापर करून आपल्या डेटाबेस ड्रॉप करण्याचा प्रयत्न करा database:drop करा आणि नंतर साइट चालवा: site:install.'
+    already-installed: 'Drupal आधीपासूनच स्थापित आहे, डेटाबेसचा वापर करून आपल्या डेटाबेस ड्रॉप करण्याचा प्रयत्न करा database:drop करा आणि नंतर साइट चालवा: site:install.'
     sites-backup: 'sites.php फाईल तात्पुरत्या backup.sites.php करण्यात आली आहे ड्रपल स्थापना करताना.'
     sites-restore: 'sites.php चे बॅक अप sites.php वर पुनर्संचयित केले गेले आहे.'
     invalid-multisite: 'अवैध मल्टिसाईट, कृपया मल्टिसाईझ कमांड ड्रापल मल्टिसाइट वापरुन तयार करा drupal multisite:new %s "%s"'

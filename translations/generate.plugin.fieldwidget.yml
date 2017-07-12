@@ -1,6 +1,6 @@
 description: 'फिल्ड विजेट प्लगिन उत्पन्न करा.'
 help: '<info>generate:plugin:fieldwidget</info> आज्ञा आपल्याला नवीन फील्ड विजेट प्लगइन उत्पन्न करण्यास मदत करते.'
-welcome: 'ड्रुपल फील्ड विजेट प्लगइन जनरेटर आपले स्वागत आहे.'
+welcome: 'Drupal फील्ड विजेट प्लगइन जनरेटर आपले स्वागत आहे.'
 options:
     module: common.options.module
     class: 'प्लगइन वर्ग नाव.'

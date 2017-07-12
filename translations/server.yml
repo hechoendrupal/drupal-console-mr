@@ -14,5 +14,5 @@ examples:
         description: 'वेगळ्या पोर्ट नंबरचा वापर करण्यासाठी पत्ता वितर्क पास करणे.'
         execution: 'drupal server 127.0.0.1:8089'
     -
-        description: 'चालवा default address argument values, using --root option to define the ड्रुपल root'
+        description: 'चालवा default address argument values, using --root option to define the Drupal root'
         execution: 'drupal --root=/var/www/drupal8.dev server'

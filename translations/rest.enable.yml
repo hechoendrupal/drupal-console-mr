@@ -1,17 +1,17 @@
 description: 'अनुप्रयोगासाठी विश्रांती संसाधन सक्षम करा.'
 arguments:
-    resource-id: 'विशिष्ठ आयडी.'
+    resource-id: 'REST आयडी.'
     states: 'उर्वरीत संसाधनांसाठी सक्षम स्थितीे.'
     authorizations: 'विश्रांती संसाधनांसाठी सक्षम प्राधिकृतता प्रदाते.'
 questions:
-    resource-id: 'विशिष्ठ आयडी.'
+    resource-id: 'REST आयडी.'
 messages:
-    invalid-rest-id: 'विशिष्ठ आयडी "%s" अवैध आहे.'
+    invalid-rest-id: 'REST आयडी "%s" अवैध आहे.'
     formats: 'उपलब्ध क्रमवारी स्वरूप.'
     methods: 'उपलब्ध पद्धती.'
     authentication-providers: 'उपलब्ध प्रमाणीकरण प्रदानकर्ता.'
     selected-method: 'निवडलेला पद्धत.'
     selected-formats: 'निवडलेले स्वरूप.'
     selected-authentication-providers: 'निवडलेले प्रमाणीकरण प्रदाते.'
-    success: 'विशिष्ठ आयडी "%s" सक्षम.'
+    success: 'REST आयडी "%s" सक्षम.'
     selected-state: 'निवडलेले स्थिती.'

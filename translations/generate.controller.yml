@@ -1,6 +1,6 @@
 description: 'उत्पन्न करा आणि कंट्रोलर नोंदवा'
 help: '<info>generate:controller</info> हा आदेश आपल्याला एक नवीन कंट्रोलर उत्पन्न करण्यास मदत करतो.'
-welcome: 'ड्रुपल कंट्रोलर जनरेटर मध्ये आपले स्वागत आहे'
+welcome: 'Drupal कंट्रोलर जनरेटर मध्ये आपले स्वागत आहे'
 options:
     module: common.options.module
     class: 'कंट्रोलर वर्ग नाव'

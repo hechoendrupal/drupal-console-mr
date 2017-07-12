@@ -1,6 +1,6 @@
 description: 'फील्ड प्रकार प्लगिन उत्पन्न करा.'
 help: '<info>generate:plugin:fieldtype</info> कमांड आपल्याला नवीन फील्ड टाईप प्लगइन निर्माण करण्यास मदत करते.'
-welcome: 'ड्रुपल फील्ड प्रकार प्लगइन जनरेटर मध्ये आपले स्वागत आहे.'
+welcome: 'Drupal फील्ड प्रकार प्लगइन जनरेटर मध्ये आपले स्वागत आहे.'
 options:
     module: common.options.module
     class: 'प्लगइन वर्ग नाव.'

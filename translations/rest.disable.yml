@@ -1,10 +1,10 @@
-description: 'अर्ज विशिष्ठ संसाधन अक्षम.'
+description: 'अर्ज REST संसाधन अक्षम.'
 arguments:
-    resource-id: 'विशिष्ठ आयडी'
-    states: 'विशिष्ठ स्टेट्स अक्षम करण्यासाठी रेस्ट संसाधन.'
+    resource-id: 'REST आयडी'
+    states: 'REST स्टेट्स अक्षम करण्यासाठी रेस्ट संसाधन.'
 questions:
-    resource-id: 'विशिष्ठ आयडी'
+    resource-id: 'REST आयडी'
 messages:
-    invalid-rest-id: 'विशिष्ठ आयडी "%s" अवैध आहे.'
-    success: 'विशिष्ठ आयडी "%s" अक्षम केला.'
-    already-disabled: 'विशिष्ठ आयडी "%s" आधीपासूनच अक्षम आहे.'
+    invalid-rest-id: 'REST आयडी "%s" अवैध आहे.'
+    success: 'REST आयडी "%s" अक्षम केला.'
+    already-disabled: 'REST आयडी "%s" आधीपासूनच अक्षम आहे.'
