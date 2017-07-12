@@ -1,27 +1,27 @@
-description: 'नवीन ड्रपल प्रकल्प तयार क'
+description: 'नवीन Drupal प्रकल्प तयार क'
 arguments:
-    directory: 'ड्रपल डाउनलोड करताना निर्देशिका.'
-    version: 'डाउनलोड करण्यासाठी ड्रपल आवृत्ती.'
+    directory: 'Drupal डाउनलोड करताना निर्देशिका.'
+    version: 'डाउनलोड करण्यासाठी Drupal आवृत्ती.'
 options:
-    composer: 'रचनाकार सह ड्रपल स्थापित.'
+    composer: 'Composer सह Drupal स्थापित.'
     latest: 'स्वयंचलितपणे नवीनतम आवृत्ती निवडण्यासाठी हा पर्याय वापरा.'
     unstable: 'अस्थिर प्रकाशने डाउनलोड करण्यासाठी या पर्यायाचा वापर करा. वापरले नसल्यास, आपण केवळ स्थिर रिलीझ स्थापित करू शकता. नवीनतम किंवा आवृत्तीसह याचा वापर करू नका.'
 messages:
     select-release: 'कोर प्रकाशन निवडा.'
-    getting-releases: 'ड्रपल साठी प्रकाशन प्राप्त करणे.'
+    getting-releases: 'Drupal साठी प्रकाशन प्राप्त करणे.'
     downloading: '"%s" "%s" डाऊनलोड करत आहे.'
     extracting: 'Drupal "%s" साठी फायली काढत आहे.'
     no-releases: 'Drupal साठी कोणतेही प्रकाशन उपलब्ध नाहीत.'
     downloaded: 'Drupal "%s" निर्देशिका "%s" मध्ये डाऊनलोड केले आहे.'
     error-copying: 'निर्देशिका "%s" म्हणून पुनर्नामित करताना त्रुटी आली.'
-    composer: '"%s" वाजता रचनाकार वापरुन Drupal "%s" यशस्वीरित्या स्थापित झाले.'
-    executing: 'रचनाकार आदेश चालवित आहे:'
+    composer: '"%s" वाजता Composer वापरुन Drupal "%s" यशस्वीरित्या स्थापित झाले.'
+    executing: 'Composer आदेश चालवित आहे:'
     missing-directory: 'निर्देशिका वितर्क गहाळ आहे.'
     missing-version: 'आवृत्ती वितर्क गहाळ आहे.'
 questions:
     directory: 'Drupal डाउनलोड करताना निर्देशिका नाव प्रविष्ट करा.'
-    composer-release: 'कृपया, पॅकाजिस्ट Drupal रिलीझ निवडा.'
+    composer-release: 'कृपया, Packagist Drupal रिलीझ निवडा.'
     stable: 'आपण स्थिर रिलीझ वापरण्यास इच्छुक आहात?'
 tips:
     -
-        tip: 'परस्पररित्या रचनाकार चे आउटपुट किंवा «false» ते लपविण्यासाठी आपल्या config.yml फाइल मध्ये «shellexec_output» की एक «true» मूल्य पास करा.'
+        tip: 'परस्पररित्या Composer चे आउटपुट किंवा «false» ते लपविण्यासाठी आपल्या config.yml फाइल मध्ये «shellexec_output» की एक «true» मूल्य पास करा.'

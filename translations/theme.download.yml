@@ -3,7 +3,7 @@ arguments:
     version: 'थीम आवृत्ती i.e 1.x-dev'
     theme: 'थीम नाव.'
 options:
-    composer: 'रचनाकारसह थीम डाउनलोड व्यवस्थापित करण्यासाठी --composer पर्याय वापरा'
+    composer: 'Composer सह थीम डाउनलोड व्यवस्थापित करण्यासाठी --composer पर्याय वापरा'
     version: 'थीम आवृत्ती i.e 1.x-dev'
 messages:
     no-releases: '"%s" थीमसाठी कोणतेही प्रकाशन नाहीत.'
@@ -15,4 +15,4 @@ messages:
     error-creating-folder: '"%s" फोल्डर तयार करताना त्रुटी, कृपया आपली परवानगी तपासा.'
 tips:
     -
-        tip: 'परस्पररित्या रचनाकार चे आउटपुट किंवा «false» ते लपविण्यासाठी आपल्या config.yml फाइल मध्ये «shellexec_output» की एक «true» मूल्य पास करा.'
+        tip: 'परस्पररित्या Composer चे आउटपुट किंवा «false» ते लपविण्यासाठी आपल्या config.yml फाइल मध्ये «shellexec_output» की एक «true» मूल्य पास करा.'
