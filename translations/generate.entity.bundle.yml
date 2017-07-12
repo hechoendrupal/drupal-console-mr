@@ -1,4 +1,4 @@
-description: 'Generate a new content type (node / entity bundle)'
+description: 'नवीन सामग्री प्रकार व्युत्पन्न करा (नोड / एंटिटीचे बंडल)'
 help: 'Use: generate:contenttype <fancy> <Fancy> to create a new content type name with the machine name of fancy and the human-readable name of Fancy.'
 welcome: 'Welcome to the Drupal Content Type generator'
 options:
