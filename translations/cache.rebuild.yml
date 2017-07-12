@@ -1,6 +1,6 @@
 description: 'सर्व साईट caches स्वच्छ तसेच पुन्हानिर्मित.'
 options:
-    cache: 'फक्त  ठराविक cache साफ.'
+    cache: 'फक्त ठराविक cache साफ.'
 messages:
     welcome: 'cache:rebuild आदेशमध्ये आपला स्वागत.'
     rebuild: 'Rebuilding cache(s), एक क्षण कृपया प्रतीक्षा करा.'

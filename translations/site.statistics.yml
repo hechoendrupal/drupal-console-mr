@@ -1,16 +1,16 @@
-description: 'Show the current statistics of website.'
-help: 'Show the current statistics of website.'
+description: 'वेबसाइटच्या वर्तमान आकडेवारी दर्शवा.'
+help: 'वेबसाइटच्या वर्तमान आकडेवारी दर्शवा.'
 messages:
-    stat-name: Name
-    stat-quantity: Quantity
+    stat-name: नाव
+    stat-quantity: संख्या
     node-type: 'Node:"%s"'
-    comments: Comments
-    vocabulary: Vocabularies
-    taxonomy-terms: 'Taxonomy terms'
-    files: Files
-    users: Users
-    modules-enabled: 'Modules enabled'
-    modules-disabled: 'Modules disabled'
-    themes-enabled: 'Themes enabled'
-    themes-disabled: 'Themes disabled'
-    views: 'Views (Not system views)'
+    comments: टिप्पण्या
+    vocabulary: शब्दसंग्रह
+    taxonomy-terms: 'वर्गीकरण अटी'
+    files: फायली
+    users: वापरकर्ते
+    modules-enabled: 'मॉड्यूल सक्षम केले.'
+    modules-disabled: 'मॉड्यूल अक्षम केले.'
+    themes-enabled: 'थीम सक्षम.'
+    themes-disabled: 'थीम अक्षम केल्या.'
+    views: 'दृश्ये (सिस्टीम दृश्ये नाहीत).'

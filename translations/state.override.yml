@@ -1,12 +1,12 @@
-description: 'Override a State key.'
-help: 'Override a State key.'
+description: 'एखाद्या स्थिती की वर अधिशून्य करा.'
+help: 'एखाद्या स्थिती की वर अधिशून्य करा.'
 arguments:
-    key: 'The State key to override.'
-    value: 'The State value to set.'
+    key: 'अधिलिखित करण्यासाठी स्थिती की.'
+    value: 'सेट करण्यासाठी स्थिती मूल्य.'
 messages:
-    key: 'State key'
-    original: 'Original value'
-    override: 'Override value'
+    key: 'स्थिती की'
+    original: 'मूळ मूल्य.'
+    override: 'मूल्य अधिलिखित करा.'
 errors:
-    no-key: 'You must provide a State key to override.'
-    no-value: 'You must provide a State value to set.'
+    no-key: 'अधिलिखित करण्यासाठी आपल्याला स्थिती की प्रदान करणे आवश्यक आहे.'
+    no-value: 'आपण सेट करण्यासाठी एक स्थिती मूल्य प्रदान करणे आवश्यक आहे.'

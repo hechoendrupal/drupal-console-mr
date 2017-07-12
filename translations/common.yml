@@ -45,6 +45,6 @@ status:
     disabled: अक्षम
 messages:
     canceled: 'निर्मिती रद्द करण्यात आली.'
-    drupal-core: 'ड्रुपल कोर.'
-    move-phar: 'आपल्या सिस्टीमवर कुठेही कन्सोल वापरणे.'
+    drupal-core: 'Drupal कोर.'
+    move-phar: 'आपल्या सिस्टीमवर कुठेही Console वापरणे.'
     quick-start: 'डाउनलोड, स्थापित आणि Drupal 8 सेवा.'

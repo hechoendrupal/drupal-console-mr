@@ -1,8 +1,8 @@
-description: 'Process the selected queue.'
+description: 'निवडलेल्या रांगांवर प्रक्रिया करा.'
 arguments:
-    name: 'Queue name.'
+    name: 'रांग नाव.'
 messages:
-    success: 'Processed "%s": "%s"/"%s" items in "%s" seconds.'
-    failed: '"%s" failed: "%s".'
-    missing-name: 'Provide a valid queue name.'
-    invalid-name: 'Invalid queue name "%s" provided.'
+    success: 'प्रक्रिया केलेली "%s": "%s"/"%s" आयटम "%s" सेकंदांमध्ये.'
+    failed: '"%s" अयशस्वी: "%s".'
+    missing-name: 'एक वैध रांग नाव द्या.'
+    invalid-name: 'अवैध रांग नाव "%s" प्रदान केले.'

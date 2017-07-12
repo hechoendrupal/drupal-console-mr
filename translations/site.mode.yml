@@ -1,18 +1,18 @@
-description: 'Switch system performance configuration'
+description: 'सिस्टम कार्यक्षमता कॉन्फिगरेशन स्विच करा.'
 arguments:
-    environment: 'Environment name [dev, prod]'
+    environment: 'पर्यावरण नाव[dev, prod]'
 options:
-    local: 'Use this option for testing PROD config, but using settings.local.php for connect to your local environment'
+    local: 'PROD कॉन्फिगरची चाचणी घेण्यासाठी हा पर्याय वापरा, परंतु आपल्या स्थानिक पर्यावरणाशी जोडण्यासाठी settings.local.php वापरून.'
 messages:
-    configuration: 'Configuration name'
-    configuration-key: 'Configuration key'
-    original: 'Original Value'
-    updated: 'Override Value'
-    invalid-env: 'Invalid environment'
-    new-services-settings: 'New services settings'
-    service: Service
-    service-parameter: Parameter
-    service-value: Value
-    error-copying-file: 'Error copying file'
-    error-writing-file: 'Error copying file'
-    services-file-overwritten: 'Services files "%s" was overwritten'
+    configuration: 'कॉन्फिगरेशन नाव.'
+    configuration-key: 'कॉन्फिगरेशन की.'
+    original: 'मूळ मूल्य.'
+    updated: 'मूल्य अधिलिखित करा.'
+    invalid-env: 'अवैध वातावरण.'
+    new-services-settings: 'नवीन सेवा सेटिंग्ज.'
+    service: सेवा
+    service-parameter: पॅरामीटर
+    service-value: मूल्य
+    error-copying-file: 'फाइल कॉपी करताना त्रुटी.'
+    error-writing-file: 'फाइल कॉपी करताना त्रुटी'
+    services-file-overwritten: 'सेवा फायली "%s" वर खोडून लिहिण्यात आले'

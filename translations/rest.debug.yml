@@ -1,17 +1,17 @@
-description: 'Displays current rest resource for the application'
+description: 'अनुप्रयोगासाठी वर्तमान उर्वरित संसाधन प्रदर्शित करते.'
 arguments:
-    resource-id: 'Rest ID'
+    resource-id: 'विशिष्ठ आयडी.'
 options:
-    status: 'Rest resource status enabled | disabled'
+    status: 'उर्वरीत संसाधन स्थिती सक्षम|अक्षम केले.'
 messages:
-    id: 'Rest ID'
-    label: Label
-    canonical_url: 'Canonical URL'
-    status: Status
-    provider: Provider
-    enabled: Enabled
-    disabled: Disabled
-    rest-state: 'REST States'
-    supported-formats: 'Supported Formats'
-    supported_auth: 'Supported Authentication Providers'
-    not-found: 'Rest resource "%s" not found'
+    id: 'विशिष्ठ आयडी.'
+    label: लेबल
+    canonical_url: 'अधिकृत URL'
+    status: स्थिती
+    provider: प्रदाता
+    enabled: सक्षम
+    disabled: अक्षम
+    rest-state: 'REST स्टेट्स'
+    supported-formats: 'समर्थित स्वरुपे.'
+    supported_auth: 'समर्थित प्रमाणीकरण पुरवठादार.'
+    not-found: 'उर्वरीत संसाधन "%s" आढळला नाही.'

@@ -1,6 +1,6 @@
-description: 'Returns the relative path to the theme (or absolute path)'
+description: 'थीमवरील सापेक्ष पथ (किंवा निरपेक्ष पथ) मिळवते.'
 arguments:
-    module: 'The Theme name (machine name)'
+    module: 'थीम नाव (मशीनचे नाव)'
 options:
-    absolute: 'Return theme absolute path'
+    absolute: 'थीम नि:शुल्क पथ परत'
 messages: null
