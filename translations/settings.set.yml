@@ -1,9 +1,9 @@
 description: 'Drupal Console कॉन्फिग फाइलमध्ये विशिष्ट सेटिंग मूल्य बदला.'
 arguments:
     name: 'Drupal Console कॉन्फिग फाइलमध्ये मूल्य सेट करण्यासाठी YAML मध्ये नाव सेट करणे फॅंटन स्वरूप.'
-    value: 'मूल्य डायलअप Console कॉन्फिग फाइलमध्ये सेट करणे.'
+    value: 'मूल्य Drupal Console कॉन्फिग फाइलमध्ये सेट करणे.'
     setting-name: 'Drupal Console कॉन्फिग फाइलमध्ये मूल्य निश्चित करण्यासाठी yaml flatten format मध्ये नाव सेट करणे.'
-    setting-value: 'मूल्य डायलअप Console कॉन्फिग फाइलमध्ये सेट करणे.'
+    setting-value: 'मूल्य Drupal Console कॉन्फिग फाइलमध्ये सेट करणे.'
 messages:
     error-parsing: 'YAML फाइल "%s" च्या विश्लेषित करताना त्रुटी आली.'
     error-generating: 'कॉन्फिग फाइलमध्ये नवीन भाषा सेट करताना त्रुटी.'
