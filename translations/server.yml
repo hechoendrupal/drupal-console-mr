@@ -1,6 +1,6 @@
 description: 'PHP मध्ये अंगभूत वेब सर्व्हर चालविते.'
 arguments:
-    address: 'पत्ता: पोर्ट मूल्य.'
+    address: 'पत्ता:पोर्ट मूल्य.'
 messages:
     executing: '"%s" पासून php कार्यान्वित करणे.'
     listening: '"%s" वर ऐकत आहे.'
