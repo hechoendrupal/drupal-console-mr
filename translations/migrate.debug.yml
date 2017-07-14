@@ -4,5 +4,5 @@ arguments:
 messages:
     id: 'स्थलांतरण आयडी'
     description: वर्णन
-    no-migrations: "स्थानांतरणाची उपलब्ध नाही उपलब्ध आहे आदेश कार्यान्वित करण्यासाठी: migrate:setup:migrations"
+    no-migrations: 'स्थानांतरणाची उपलब्ध नाही उपलब्ध आहे आदेश कार्यान्वित करण्यासाठी: migrate:setup:migrations'
     tags: टॅग्ज

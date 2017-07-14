@@ -11,3 +11,7 @@ questions:
     class: 'प्लगिन प्रकार श्रेणी नाव प्रविष्ट करा.'
     machine-name: 'प्लगिन प्रकार मशीनचे नाव प्रविष्ट करा.'
     label: 'प्लगइन प्रकार लेबल प्रविष्ट करा.'
+examples:
+    -
+        description: 'Generate a plugin with annotation discovery specifying module name, class name, machine name and label'
+        execution: "drupal generate:plugin:type:annotation  \\\n  --module=\"modulename\"  \\\n  --class=\"ExamplePlugin\"  \\\n  --machine-name=\"example_plugin\"  \\\n  --label=\"Example plugin\"\n"

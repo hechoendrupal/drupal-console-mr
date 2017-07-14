@@ -5,3 +5,7 @@ messages:
     url: '"%s" साठी एक-वेळ लॉगिन:"%s"'
 errors:
     invalid-user: 'वापरकर्ता अस्तित्व लोड करू शकत नाही (वापरकर्ता ID: "%s").'
+examples:
+    -
+        description: 'Get one time login url for user id 1'
+        execution: "drupal user:login:url  1\n"

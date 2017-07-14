@@ -14,3 +14,7 @@ questions:
     label: 'आपल्या नवीन कॉन्फिगरेशन घटकाचे लेबल प्रविष्ट करा.'
     bundle-of: 'ज्या सामग्री संस्थेचे नाव आपण (कॉन्फिग) अस्तित्वासाठी बंडल म्हणून कार्य करू इच्छिता त्याचे नाव.'
     base-path: 'कॉन्फिग एंटिटी मार्गांसाठी बेस-पथ प्रविष्ट करा.'
+examples:
+    -
+        description: 'Generate config entity specifying the module, the entity class, the entity name, its path and label'
+        execution: "drupal generate:entity:config  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\""

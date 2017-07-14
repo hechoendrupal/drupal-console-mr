@@ -19,3 +19,7 @@ messages:
     theme-default-success: '"%s" थीम डीफॉल्ट थीम म्हणून यशस्वीरित्या स्थापित केली गेली आहे.'
     disabled-themes: 'केवळ विस्थापित थीम स्वयंपूर्णमध्ये सूचीबद्ध केल्या जातील.'
     invalid-theme-default: 'पर्याय डीफॉल्ट फक्त एका थीमसाठी वैध आहे.'
+examples:
+    -
+        description: 'Install theme specifying the name'
+        execution: "drupal theme:install  mytheme\n"

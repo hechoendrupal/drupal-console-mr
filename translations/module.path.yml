@@ -4,3 +4,7 @@ arguments:
 options:
     absolute: 'रिटर्न मॉड्यूल परिपूर्ण पथ'
 messages: null
+examples:
+    -
+        description: 'Get the relative path of the module specifying the module name'
+        execution: "drupal module:path  modulename\n"

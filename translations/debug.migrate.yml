@@ -6,3 +6,7 @@ messages:
     description: वर्णन
     no-migrations: 'येथे स्थलांतरण उपलब्ध नाहीत: कमांड कार्यान्वित करण्याचा प्रयत्न करा: स्थलांतर करा: migrate:setup:migrations'
     tags: टॅग्ज
+examples:
+    -
+        description: 'Displays current migration'
+        execution: "drupal debug:migrate\n"

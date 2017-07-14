@@ -18,3 +18,7 @@ messages:
     invalid-theme-default: 'पर्याय डीफॉल्ट फक्त एका थीमसाठी वैध आहे.'
     error-default-theme: 'थीम "%s" ही डीफॉल्ट थीम आहे आणि विस्थापित करणे शक्य नाही.'
     error-admin-theme: 'थीम "%s" ही प्रशासक थीम आहे आणि विस्थापित केली जाऊ शकत नाही.'
+examples:
+    -
+        description: 'Uninstall theme specifying the name'
+        execution: "drupal theme:uninstall  mytheme\n"

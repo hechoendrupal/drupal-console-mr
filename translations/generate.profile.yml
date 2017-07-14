@@ -19,3 +19,7 @@ warnings:
     module-unavailable: 'चेतावणी खाली नमूद केलेले मॉड्यूल तुमच्या स्थानिक पर्यावरणात "%s" मध्ये उपलब्ध नाही'
 errors:
     directory-exists: 'लक्ष्य संचिका "%s" रिक्त नाही.'
+examples:
+    -
+        description: 'Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies'
+        execution: "drupal generate:profile  \\\n  --profile=\"NewProfileName\"  \\\n  --machine-name=\"newprofilename\"  \\\n  --description=\"My Useful Profile\"  \\\n  --core=\"8.x\"  \\\n  --dependencies=\"modulename\"\n"

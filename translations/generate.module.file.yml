@@ -5,3 +5,7 @@ options:
     module: 'मॉड्यूल नाव.'
 questions:
     module: 'नवीन मॉड्यूल नाव प्रविष्ट करा.'
+examples:
+    -
+        description: 'Generate the .module file specifying the module name'
+        execution: "drupal generate:module:file  \\\n  --module=\"modulename\""

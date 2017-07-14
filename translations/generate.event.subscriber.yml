@@ -2,3 +2,7 @@ description: 'एक कार्यक्रम ग्राहक उत्प
 questions:
     class: 'वर्ग नाव.'
     callback-name: 'इव्हेंट हाताळण्यासाठी कॉलबॅक फंक्शन नाव.'
+examples:
+    -
+        description: 'Generate an event subscriber specifying the module name, its name, the class and the events to subscribe'
+        execution: "drupal generate:event:subscriber  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.default\"  \\\n  --class=\"DefaultSubscriber\"  \\\n  --events='kernel_request'\n"

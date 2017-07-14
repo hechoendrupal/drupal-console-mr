@@ -11,3 +11,7 @@ questions:
     class: 'प्लगिन प्रकार श्रेणी नाव प्रविष्ट करा.'
     plugin-name: 'प्लगिन प्रकार मशीनचे नाव प्रविष्ट करा.'
     plugin-file-name: 'प्लगिन फाइल नाव प्रविष्ट करा (उदा. MODULE.plugin.filename.yml)'
+examples:
+    -
+        description: 'Generate a plugin with Yaml discovery specifying module name, class name, plugin name and plugin file name'
+        execution: "drupal generate:plugin:type:yaml  \\\n  --module=\"modulename\"  \\\n  --class=\"ExamplePlugin\"  \\\n  --plugin-name=\"example_plugin\"  \\\n  --plugin-file-name=\"example.plugin\"\n"

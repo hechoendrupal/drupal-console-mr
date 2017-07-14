@@ -1,4 +1,4 @@
-\description: 'नवीन बहुउद्देशीय स्थापनेसाठी फायली सेट करते.'
+description: 'Sets up the files for a new multisite install.'
 help: '<info>multisite:new</info>आवश्यक उपनिर्देशिक व फाइल्स बनवून नवीन मल्टिसाईटच्या स्थापनेसाठी मदत करते, आणि वैकल्पिकरित्या विद्यमान "डीफॉल्ट" अधिष्ठापनाची प्रत बनवू शकते.'
 arguments:
     directory: '"sites" या निर्देशिकेचे नाव जे तयार करायला हवे.'
@@ -26,3 +26,7 @@ messages:
     copy-default: 'डीफॉल्ट इन्स्टॉलेशन "sites/%s" वर यशस्वीरित्या कॉपी केले गेले.'
     fresh-site: 'नवीन बहुउद्देशीय रचना sites/"%s" वर यशस्वीरित्या तयार केली गेली आणि ती स्थापनेसाठी तयार आहे.'
     copy-install: 'sites/"%s" डीफॉल्ट स्थापना यशस्वीपणे कॉपी केली.'
+examples:
+    -
+        description: 'Set up files for a multisite install specifying destination path and uri'
+        execution: "drupal multisite:new  vendor/newsite http://mysite.example.com\n"

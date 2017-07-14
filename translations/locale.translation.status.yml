@@ -14,5 +14,5 @@ messages:
     file-not-found: '"%s" वर फाइल आढळली नाही आणि "%s" वर नाही.'
     local-file-not-found: '"%s" वर फाइल आढळली नाही.'
     translation-not-determined: 'भाषांतर फाईल स्थान निर्धारित करणे शक्य नाही.'
-    translation-project-updated: अद्यतनित केले
+    translation-project-updated: 'अद्यतनित केले'
     translation-project-available: 'नवीन भाषांतर उपलब्ध'

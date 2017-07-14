@@ -14,3 +14,7 @@ questions:
     container-aware: 'चालविण्याकरीता जेव्हा डीवोल साइट स्थापनेची जाणीव आहे?.'
 messages:
     title-not-empty: 'शीर्षक रिक्त असू शकत नाही.'
+examples:
+    -
+        description: 'Generate a command specifying the extension name and type, its class and the name.'
+        execution: "drupal generate:command  \\\n  --extension=\"ExtensionName\"  \\\n  --extension-type=\"module\"  \\\n  --class=\"DefaultCommand\"  \\\n  --name=\"CommandName\""

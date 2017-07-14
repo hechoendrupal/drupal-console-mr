@@ -11,3 +11,10 @@ messages:
     no-role-found: 'भूमिका "%s" आढळली नाही!'
     add-success: 'वापरकर्तानाव %1$s भूमिका %2$s यशस्वीरित्या समाविष्ट करण्यात आला.'
     remove-success: 'वापरकर्तानाव %1$s भूमिका %2$s काढून टाकण्यात आली.'
+examples:
+    -
+        description: 'Add administrator role to the user admin specifying the username and the role'
+        execution: 'drupal user:role  add admin administrator'
+    -
+        description: 'Remove administrator role from the user admin specifying the username and the role'
+        execution: "drupal user:role  remove admin administrator\n"
