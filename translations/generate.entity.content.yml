@@ -1,4 +1,4 @@
-description: 'एक नवीन सामग्री संस्था उत्पन्न करा.'
+description: 'एक नवीन सामग्री एंटिटी उत्पन्न करा.'
 help: ''
 options:
     module: common.options.module
@@ -13,10 +13,10 @@ questions:
     entity-class: 'आपल्या नवीन सामग्री घटकाचे वर्ग प्रविष्ट करा.'
     entity-name: 'आपल्या नवीन सामग्री घटकाचे नाव प्रविष्ट करा.'
     label: 'आपल्या नवीन सामग्री घटकाचे लेबल प्रविष्ट करा.'
-    has-bundles: 'आपण (सामग्री) संस्था बंडल ठेवू इच्छिता.'
+    has-bundles: 'आपण (सामग्री) एंटिटी बंडल ठेवू इच्छिता.'
     base-path: 'सामग्री अस्तित्व मार्गांसाठी आधार-मार्ग प्रविष्ट करा.'
     is-translatable: 'आपली अस्तित्व भाषांतरयोग्य आहे.'
-    revisionable: 'आपली संस्था पुनरावृत्ती करण्यायोग्य आहे.'
+    revisionable: 'आपली एंटिटी पुनरावृत्ती करण्यायोग्य आहे.'
 examples:
     -
         description: 'Generate a content entity specifying the module, the entity class, the entity name, its path and label'

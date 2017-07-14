@@ -1,7 +1,7 @@
 description: 'दिलेल्या डेटाबेसमध्ये सर्व सारण्या ड्रॉप करा.'
 help: '<info>database:drop</info> कमांड आपण डेटाबेस सारणी ड्रॉप करण्यास मदत करतो.'
 arguments:
-    database: 'Settings.php पासून डेटाबेस की.'
+    database: 'settings.php पासून डेटाबेस की.'
 question:
     drop-tables: 'आपण "%s" डेटाबेसमधील सर्व सारण्या खरोखर काढून टाकायचे याची पुष्टी करा?'
 messages:

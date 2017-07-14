@@ -1,4 +1,4 @@
-description: 'एखादी विशिष्ट संस्था हटवा.'
+description: 'एखादी विशिष्ट एंटिटी हटवा.'
 help: '<info>entity:delete</info> कमांड आपल्याला घटक हटवण्यास मदत करते.'
 arguments:
     entity-definition-id: 'अस्तित्व परिभाषा आयडी.'
