@@ -5,6 +5,7 @@ questions:
     content-type: 'सामुग्री प्रकार निर्यात करणे.'
     optional-config: 'एक पर्यायी संरचना म्हणून मॉड्यूल मध्ये कॉन्तेंत ट्यीप निर्यात करा.'
 messages:
+    content-type-exported: 'Exporting content type'
     content_type_exported: 'सामुग्री प्रकार निर्यात होत आहे.'
 options:
     optional-config: 'एक पर्यायी YAML संरचना म्हणून मॉड्यूल मध्ये कॉन्तेंत ट्यीप  निर्यात करा.'

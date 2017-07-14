@@ -22,6 +22,3 @@ questions:
     directory: 'Drupal डाउनलोड करताना निर्देशिका नाव प्रविष्ट करा.'
     composer-release: 'कृपया, Packagist Drupal रिलीझ निवडा.'
     stable: 'आपण स्थिर रिलीझ वापरण्यास इच्छुक आहात?'
-tips:
-    -
-        tip: 'परस्पररित्या Composer चे आउटपुट किंवा «false» ते लपविण्यासाठी आपल्या config.yml फाइल मध्ये «shellexec_output» की एक «true» मूल्य पास करा.'

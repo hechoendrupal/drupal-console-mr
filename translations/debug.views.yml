@@ -7,7 +7,7 @@ messages:
     view-id: 'दृश्य आयडी'
     view-name: 'नाव पहा'
     description: वर्णन
-    tag: टॅग करा
+    tag: 'टॅग करा'
     status: स्थिती
     path: मार्ग
     not-found: '"%s" पहा आढळले नाही.'
@@ -16,3 +16,7 @@ messages:
     display-name: नाव
     display-description: वर्णन
     display-paths: पथ
+examples:
+    -
+        description: 'List of views on the site'
+        execution: "drupal debug:views\n"

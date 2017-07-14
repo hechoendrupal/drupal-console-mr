@@ -13,3 +13,7 @@ messages:
     success: 'खालील मॉड्यूल यशस्वीरित्या विस्थापित केले गेले: "%s"'
     missing: 'गहाळ मॉड्यूल्स "%s" शी मॉड्यूल "%s" स्थापित करण्यात अक्षम.'
     composer-success: 'खालील मॉड्यूल (कम्प्युटर्स) मधून काढले गेले: "%s"'
+examples:
+    -
+        description: 'Uninstall the module specifying the module name'
+        execution: "drupal module:uninstall  modulename\n"

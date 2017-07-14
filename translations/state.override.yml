@@ -10,3 +10,7 @@ messages:
 errors:
     no-key: 'अधिलिखित करण्यासाठी आपल्याला स्थिती की प्रदान करणे आवश्यक आहे.'
     no-value: 'आपण सेट करण्यासाठी एक स्थिती मूल्य प्रदान करणे आवश्यक आहे.'
+examples:
+    -
+        description: 'Override state value specifying the state name and the new value'
+        execution: "drupal state:override  comment.node_comment_statistics_scale \"!!float 1\"\n"

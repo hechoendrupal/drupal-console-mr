@@ -4,8 +4,8 @@ arguments:
     method: 'पद्धत नाव'
     arguments: 'CSV किंवा JSON स्वरूपातील वितर्कांचा अॅरे.'
 messages:
-    service_id: 'सर्विस क्रमांक'
-    class_name: 'क्लासचे नाव'
+    service-id: 'Service ID'
+    class-name: 'Class Name'
     service: सेवा
     class: वर्ग
     interface: इंटरफेस
@@ -15,5 +15,12 @@ messages:
     arguments: वितर्क
     method: पद्धत
     return: परत
+    service_id: 'सर्विस क्रमांक'
+    class_name: 'क्लासचे नाव'
 errors:
+    method-not-exists: 'This method doesn''t exists in this service.'
     method_not_exists: 'ही सेवा या सेवेमध्ये अस्तित्वात नाही.'
+examples:
+    -
+        description: 'Displays the views.views_data_helper services'
+        execution: "drupal debug:container views.views_data_helper\n"

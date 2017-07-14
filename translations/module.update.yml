@@ -12,3 +12,7 @@ messages:
     composer: '"%s" मॉड्युल Composer ने यशस्वीपणे व्यवस्थापित केले.'
     only-composer: 'हा आदेश फक्त निर्मात्याद्वारे अद्यतने अद्यतनित करतो. --composer पर्याय वापरा.'
     missing-module: 'अद्ययावत करण्यासाठी मॉड्यूल नाव (नावे) प्रविष्ट करा.'
+examples:
+    -
+        description: 'Update module specifying module name and composer parameter'
+        execution: "drupal module:update  modulename  \\\n  --composer\n"

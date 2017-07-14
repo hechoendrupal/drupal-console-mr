@@ -11,3 +11,7 @@ messages:
     module: विभाग
     update-n: 'सुधारणा N'
     post-update: 'पोस्ट अद्यतन कार्य'
+examples:
+    -
+        description: 'List of pending updates'
+        execution: "drupal debug:update\n"

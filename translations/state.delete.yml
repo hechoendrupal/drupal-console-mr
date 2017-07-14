@@ -5,3 +5,7 @@ messages:
     enter-name: 'स्थितीमध्ये एका मूल्य असणे आवश्यक आहे.'
     state-not-exists: 'स्थिती "%s" अस्तित्वात नाही'
     deleted: 'स्थिती "%s" यशस्वीरित्या हटविले.'
+examples:
+    -
+        description: 'Delete state specifying the state name'
+        execution: "drupal state:delete  comment.maintain_entity_statistics\n"

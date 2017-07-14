@@ -11,3 +11,7 @@ messages:
     success: '"%s" सेटिंग "%s" वर सेट केले होते.'
     missing-file: '"%s" संरचना फाइल गहाळ आहे, वापरुन पहा `drupal init`'
     missing-language: 'प्रदान केलेली भाषा:"%s", आढळली नाही.'
+examples:
+    -
+        description: 'Set application language setting value to "es"'
+        execution: 'drupal settings:set  application.language es'

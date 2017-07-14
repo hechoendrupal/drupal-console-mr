@@ -17,6 +17,7 @@ messages:
     error-creating-folder: '"%s" फोल्डर तयार करताना त्रुटी, कृपया आपली परवानगी तपासा.'
     no-composer-repo: 'कृपया, मध्ये Composer संरचीत करा ~/.console/config.yml'
     composer: '"%s" मॉड्युल Composer वापरून यशस्वीरित्या डाउनलोड झाले.'
-tips:
+examples:
     -
-        tip: 'परस्पररित्या Composer चे आउटपुट किंवा «खोटे» ते लपविण्यासाठी आपल्या config.yml फाइल मध्ये «shellexec_output» की एक «खरे» मूल्य पास करा.'
+        description: 'Download module specifying module name and its path'
+        execution: "drupal module:download  modulename  \\\n  --path=\"modules/contrib\"\n"

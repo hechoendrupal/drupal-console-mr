@@ -3,3 +3,7 @@ messages:
     queue: रांग
     items: आयटम
     class: वर्ग
+examples:
+    -
+        description: 'Displays the queues of the application'
+        execution: "drupal debug:queue\n"

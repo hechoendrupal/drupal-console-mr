@@ -2,7 +2,7 @@ description: 'वर्तमान Drupal स्थापना स्थित
 messages:
     application: अनुप्रयोग
     system: 'सिस्टम माहिती.'
-    hash_salt: 'हॅश मीठ.'
+    hash-salt: 'Hash salt'
     console: 'Drupal Console'
     database: 'डेटाबेस कनेक्शन.'
     driver: ड्रायवर
@@ -12,9 +12,18 @@ messages:
     password: संकेतशब्द
     theme: थीम
     connection: कनेक्शन
+    theme-default: 'Default theme'
+    theme-admin: 'Admin theme'
+    directory: निर्देशिका
+    directory-root: 'Site root directory'
+    directory-temporary: 'Site temporary directory'
+    directory-theme-default: 'Default theme directory'
+    directory-theme-admin: 'Admin theme directory'
+    current-version: 'Current Drupal ("%s")'
+    not-installed: 'Drupal is not installed'
+    hash_salt: 'हॅश मीठ.'
     theme_default: 'डीफॉल्ट थीम.'
     theme_admin: 'प्रशासन थीम.'
-    directory: निर्देशिका
     directory_root: 'साइट रूट निर्देशिका.'
     directory_temporary: 'साइट तात्पुरती निर्देशिका.'
     directory_theme_default: 'डीफॉल्ट थीम निर्देशिका.'
@@ -22,3 +31,7 @@ messages:
     current_version: 'वर्तमान Drupal आवृत्ती ("%s")'
     not_installed: 'Drupal स्थापित नाही.'
     not_available: 'उपलब्ध नाही.'
+examples:
+    -
+        description: 'Get drupal installation status specifying the output format as table'
+        execution: "drupal site:status  \\\n  --format=\"table\"\n"

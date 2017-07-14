@@ -9,7 +9,7 @@ messages:
     status: स्थिती
     origin: मूळ
     package: पॅकेज
-    installed: स्थापित केले
+    installed: 'स्थापित केले'
     uninstalled: विस्थापित
     version: आवृत्ती
     schema-version: 'स्कीमा आवृत्ती'
@@ -17,7 +17,7 @@ messages:
     total-monthly: 'मासिक स्थापना'
     total-daily: 'दैनिक स्थापना'
     no-results: 'विभाग "%s" रेपॉजिटरीमध्ये आढळला नाही'
-    enabled: सक्षम केले
+    enabled: 'सक्षम केले'
     disabled: अक्षम
 examples:
     -
