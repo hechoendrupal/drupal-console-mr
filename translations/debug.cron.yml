@@ -2,3 +2,7 @@ description: 'क्रॉन लागू करण्यासाठी मो
 messages:
     module-list: 'क्रॉन पद्धती लागू करण्यासाठी करणारे मोड्यूल.'
     module: मोड्यूल
+examples:
+    -
+        description: 'This will show a list with modules implementing the cron hook'
+        execution: "drupal debug:cron\n"

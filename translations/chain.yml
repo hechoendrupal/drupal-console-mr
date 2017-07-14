@@ -4,13 +4,16 @@ options:
 questions:
     chain-file: 'कार्यान्वित करण्यासाठी साखळी फाइल निवडा.'
 messages:
-    missing_file: 'आपण एक वैध फाइल पथ आणि नाव प्रदान करणे आवश्यक आहे.'
-    invalid_file: 'फाइल "%s" अस्तित्वात नाही.'
-    module_install: 'module:install आदेश साखळी रांग आता धावती नाही आहे आणि स्वतंत्रपणे चालविणे आवश्यक आहे.'
+    missing-file: 'You must provide a valid file path and name.'
+    invalid-file: 'The file "%s" does not exist.'
+    module-install: 'module:install command is not runnable inside a chain queue and must be run independently.'
     missing-environment-placeholders: 'पर्यावरणाचे प्लेसहोल्डर "%s" गहाळ झाले.'
     set-environment-placeholders: 'पर्यावरणाचे प्लेसहोल्डर असे सेट करा.'
     missing-inline-placeholders: 'इनलाइन प्लेसहोल्डर "%s" गहाळ झाले.'
     set-inline-placeholders: 'इनलाइन प्लेसहोल्डर असे पास करा.'
+    missing_file: 'आपण एक वैध फाइल पथ आणि नाव प्रदान करणे आवश्यक आहे.'
+    invalid_file: 'फाइल "%s" अस्तित्वात नाही.'
+    module_install: 'module:install आदेश साखळी रांग आता धावती नाही आहे आणि स्वतंत्रपणे चालविणे आवश्यक आहे.'
 examples:
     -
         description: 'पूर्ण पथ वापरून फाइल पर्याय प्रदान करणे.'

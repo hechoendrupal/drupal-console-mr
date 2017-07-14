@@ -18,3 +18,10 @@ messages:
     user: वापरकर्ता
     severity: तीव्रता
     invalid-severity: 'तीव्रता प्रकार अवैध आहे, फिल्टर दुर्लक्षित केले होते.'
+examples:
+    -
+        description: 'List all the entries on the log'
+        execution: 'drupal debug:database:log'
+    -
+        description: 'List specific log entry by Event ID'
+        execution: "drupal debug:database:log 21228\n"

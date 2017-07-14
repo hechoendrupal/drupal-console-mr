@@ -1,14 +1,5 @@
 description: 'सर्व वापरकर्ता परवानग्या प्रदर्शित करते.'
-help: |
-  सर्व वापरकर्ता परवानग्या प्रदर्शित करा आणि विशिष्ट वापरकर्ता भूमिकापासून सर्व वापरकर्ता परवानग्या देखील सूचीबद्ध करा.
-
-  सर्व वापरकर्ता परवानग्या सूचीबद्ध करा:
-  <info>drupal permission:debug</info>
-
-
-  वापरकर्ता भूमिका पासून सर्व वापरकर्ता परवानग्या सूचीबद्ध करा
-  <info>drupal permission:debug authenticated</info>
-
+help: "सर्व वापरकर्ता परवानग्या प्रदर्शित करा आणि विशिष्ट वापरकर्ता भूमिकापासून सर्व वापरकर्ता परवानग्या देखील सूचीबद्ध करा.\n\nसर्व वापरकर्ता परवानग्या सूचीबद्ध करा:\n<info>drupal permission:debug</info>\n\n\nवापरकर्ता भूमिका पासून सर्व वापरकर्ता परवानग्या सूचीबद्ध करा\n<info>drupal permission:debug authenticated</info>\n"
 arguments:
     role: 'वापरकर्ता भूमिका'
 messages:
@@ -16,4 +7,8 @@ messages:
 table-headers:
     permission-name: 'परवानगी नाव'
     permission-label: 'परवानगी लेबल'
-    permission-role: 'भूमिका'
+    permission-role: भूमिका
+examples:
+    -
+        description: 'Displays all the permissions availables on the site'
+        execution: "drupal debug:permission\n"

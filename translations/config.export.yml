@@ -14,6 +14,3 @@ examples:
     -
         description: 'जर निर्यात संकुचित फाइलमध्ये असेल आणि / किंवा जर uuid आणि कॉन्फिग हॅश काढून टाकले जातील.'
         execution: "drupal config:export  \\\n  --directory=\"path/to/export\" \\\n  --tar \\\n  --remove-uuid \\\n  --remove-config-hash\n"
-arguments:
-    directory: 'कॉन्फिगरेशन आऊटपुट जतन करण्यासाठी निर्यात डिरेक्ट्रीची व्याख्या करा.'
-    tar: 'सेट केल्यास, कॉन्फिगरेशनला संग्रहण फाईलवर निर्यात केले जाईल.'

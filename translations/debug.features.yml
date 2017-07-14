@@ -1,10 +1,11 @@
 description: 'नोंदणीकृत वैशिष्ट्ये सूचीबद्ध करा.'
 help: ''
 arguments:
-  bundle: 'बंडल नाव'
+    bundle: 'बंडल नाव'
 messages:
-  bundle: 'बंडल'
-  name: 'नाव'
-  machine_name: 'मशीन नाव'
-  status: 'स्थिती'
-  state: 'अवस्था'
+    bundle: बंडल
+    name: नाव
+    machine-name: 'Machine Name'
+    status: स्थिती
+    state: अवस्था
+    machine_name: 'मशीन नाव'

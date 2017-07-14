@@ -26,3 +26,7 @@ messages:
     sites-backup: 'sites.php फाईल तात्पुरत्या backup.sites.php करण्यात आली आहे Drupal स्थापना करताना.'
     sites-restore: 'sites.php चे बॅक अप sites.php वर पुनर्संचयित केले गेले आहे.'
     invalid-multisite: 'अवैध मल्टिसाईट, कृपया मल्टिसाईझ कमांड ड्रापल मल्टिसाइट वापरुन तयार करा drupal multisite:new %s "%s"'
+examples:
+    -
+        description: 'Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings'
+        execution: "drupal site:install  standard  \\\n  --langcode=\"en\"  \\\n  --db-type=\"mysql\"  \\\n  --db-host=\"127.0.0.1\"  \\\n  --db-name=\"drupal8\"  \\\n  --db-user=\"u53rn4m3\"  \\\n  --db-pass=\"dbp455\"  \\\n  --db-port=\"3306\"  \\\n  --site-name=\"Drupal 8\"  \\\n  --site-mail=\"admin@example.com\"  \\\n  --account-name=\"admin\"  \\\n  --account-mail=\"admin@example.com\"  \\\n  --account-pass=\"p455w0rd\"\n"

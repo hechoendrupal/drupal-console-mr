@@ -1,14 +1,12 @@
 description: 'मॉड्युल प्रतिष्ठापित होण्याआधी स्कीमा अंमलबजावणी प्रमाणित करा.'
 help: 'मॉड्यूल इंस्टॉल करण्यापूर्वी स्कीमा लागू करण्याकरीता हेल्पर फंक्शन. कॉन्फिग आणि स्कीमा फाइल पथांना आर्ग्युमेंट म्हणून निर्दिष्ट करा आणि वैधता त्यांच्या विरूद्ध चालवली जाईल, जेणेकरून वेळेचा वापर न करता डीबग करणे सोपे होईल.'
-options: {}
-arguments: {}
+options: {  }
+arguments: {  }
 messages:
     noConfFile: 'निर्दिष्ट पथवर कॉन्फिग फाईल अस्तित्वात नाही.'
     noConfSchema: 'निर्दिष्ट पथवरील कॉन्फिग स्कीमा अस्तित्वात नाही.'
     noSchemaName: 'स्कीमा फाइलमध्ये स्कीमा व्याख्या आढळली नाही परिभाषा नावाचा वापर:'
 examples:
-    - description: ''
-      execution: |
-        drupal debug:config:validate \
-          /path/to/file \
-          /path/to/schema-filepath
+    -
+        description: ''
+        execution: "drupal debug:config:validate \\\n  /path/to/file \\\n  /path/to/schema-filepath\n"

@@ -17,7 +17,3 @@ examples:
     -
         description: 'फाइल आणि निर्देशिका पर्याय प्रदान.'
         execution: "drupal config:import:single  \\\n  --file=\"block.block.default_block.yml\" \\\n  --directory=\"/path/to/directory\"\n"
-arguments:
-    name: 'कॉन्फिगरेशन नाव.'
-    file: 'आयात फायलीवरील मार्ग.'
-    input-file: 'आयात फायलींसाठी मार्ग.'

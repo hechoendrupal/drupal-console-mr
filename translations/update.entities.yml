@@ -3,3 +3,7 @@ messages:
     start: 'अस्तित्व अद्यतने प्रारंभ करत आहे.'
     end: 'अस्तित्व अद्यतने पूर्ण'
     error: 'अस्तित्व सुधारणा करताना त्रुटी.'
+examples:
+    -
+        description: 'Update entities'
+        execution: "drupal update:entities\n"

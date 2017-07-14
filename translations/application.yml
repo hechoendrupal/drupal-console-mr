@@ -39,6 +39,7 @@ messages:
             extra: 'आपण कार्यान्वित करणे आवश्यक आहे: त्याऐवजी "%s"'
 errors:
     invalid-command: 'आदेश "%s" परिभाषित केलेले नाही.'
+    renamed-command: 'Command "%s" was renamed, use "%s" instead.'
 site:
     messages:
         path: 'साईट मार्ग.'
@@ -61,12 +62,17 @@ remote:
         private-invalid: 'खाजगी फाइल अवैध आहे.'
         invalid-root: 'अवैध मूळ निर्देशिका.'
         console-not-found: 'या साइटवर Drupal Console आढळली नाही.'
-console:
-    arguments:
-        env: 'पर्यावरणांचे नाव.'
-        no-debug: 'डिबग मोड ला बंद करा.'
-        learning: 'पाल्हाळीक कोड़ची निर्मिती करा.'
-        generate-chain: 'साखळी आदेशामध्ये yaml आऊटपुट वापरले जाते जे आदेश पर्याय आणी वितर्क आहे.'
-        generate-inline: 'आदेश पर्याय आणी वितर्क यांस इनलाइन आदेश असे दाखवा.'
-        generate-doc: 'आदेश पर्याय आणी वितर्क यांस मार्क्डोव्न असे दाखवा.'
-        root: 'आदेश चालविण्या करीता Drupal रूट परिभाषित करा.'
+gitbook:
+    messages:
+        title: 'Available Drupal Console Commands'
+        note: Note
+        note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
+        command: 'Drupal Console Command'
+        command_description: 'The **"%s"** command "%s"'
+        usage: Usage
+        options: 'Available options'
+        option: Option
+        details: Details
+        arguments: 'Available arguments'
+        argument: Argument
+        examples: Examples

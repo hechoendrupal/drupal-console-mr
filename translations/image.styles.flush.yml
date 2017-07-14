@@ -6,3 +6,10 @@ options:
     image-style: 'प्रतिमा शैलीचे नाव.'
 questions:
     image-style: 'फ्लश करण्यासाठी प्रतिमा शैली निवडा.'
+examples:
+    -
+        description: 'Flush large image style'
+        execution: 'drupal image:styles:flush  large'
+    -
+        description: 'Flush thumbnail image style'
+        execution: "drupal image:styles:flush  thumbnail\n"

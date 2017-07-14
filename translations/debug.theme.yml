@@ -6,10 +6,17 @@ messages:
     theme-name: नाव
     status: स्थिती
     version: आवृत्ती
-    installed: स्थापित केले
+    installed: 'स्थापित केले'
     uninstalled: विस्थापित
     default-theme: 'डीफॉल्ट थीम'
     properties: गुणधर्म
     regions: विभाग
     invalid-theme: 'थीम "%s" अवैध आहे'
     theme-properties: गुणधर्म
+examples:
+    -
+        description: 'List of themes on the site'
+        execution: 'drupal debug:theme'
+    -
+        description: 'Bartik theme information'
+        execution: 'drupal debug:theme bartik'

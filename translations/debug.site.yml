@@ -12,3 +12,7 @@ messages:
 options:
     target: लक्ष्य
     property: मालमत्ता
+examples:
+    -
+        description: ''
+        execution: "drupal debug:site\n"

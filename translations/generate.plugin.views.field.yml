@@ -9,3 +9,7 @@ questions:
     title: 'प्लगिन फील्ड शीर्षक अवलोकने.'
     description: 'प्लगिन फील्ड वर्णन पाहते.'
     description_default: 'माझे छान सानुकूल फील्ड प्लगइन पहा.'
+examples:
+    -
+        description: 'Generate a custom view field plugin specifying the module name, the class, a title and its description'
+        execution: "drupal generate:plugin:views:field  \\\n  --module=\"modulename\"  \\\n  --class=\"CustomViewsField\"  \\\n  --title=\"Custom views field\"  \\\n  --description=\"My awesome custom views field plugin.\"\n"

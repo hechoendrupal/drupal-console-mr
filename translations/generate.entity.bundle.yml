@@ -11,3 +11,7 @@ questions:
     bundle-title: 'आपल्या नवीन सामग्री प्रकारचे मानवी-वाचनीय नाव प्रविष्ट करा.'
 message:
     error-state1: प्लेसहोल्डर
+examples:
+    -
+        description: 'Generate bundle entity specifying the module, the bundle name and its title'
+        execution: "drupal generate:entity:bundle  \\\n  --module=\"modulename\"  \\\n  --bundle-name=\"default\"  \\\n  --bundle-title=\"default\""

@@ -4,7 +4,7 @@ options:
     module: common.options.module
     entity-class: 'सामग्री अस्तित्व श्रेणी.'
     entity-name: 'सामग्री अस्तित्व नाव.'
-    label: 'लेबल'
+    label: लेबल
     has-bundles: 'अस्तित्वचे समूह आहे.'
     base-path: 'सामग्री अस्तित्व मार्गांसाठीचा बेथ-पथ.'
     is-translatable: 'सामग्री अस्तित्व भाषांतरयोग्य.'
@@ -17,3 +17,10 @@ questions:
     base-path: 'सामग्री अस्तित्व मार्गांसाठी आधार-मार्ग प्रविष्ट करा.'
     is-translatable: 'आपली अस्तित्व भाषांतरयोग्य आहे.'
     revisionable: 'आपली संस्था पुनरावृत्ती करण्यायोग्य आहे.'
+examples:
+    -
+        description: 'Generate a content entity specifying the module, the entity class, the entity name, its path and label'
+        execution: "drupal generate:entity:content  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\""
+    -
+        description: 'Generate a translatable and revisionable content entity specifying the module, the entity class, the entity name, its path and label'
+        execution: "drupal generate:entity:content  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\"  \\\n  --is-translatable  \\\n  --revisionable"

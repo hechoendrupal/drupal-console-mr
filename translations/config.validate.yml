@@ -1,9 +1,10 @@
 description: 'त्याच्या स्कीमा विरूद्ध drupal कॉन्फिगरेशन प्रमाणित करा.'
-options: {}
-arguments: {}
+options: {  }
+arguments: {  }
 messages:
     success: 'कॉन्फिग यशस्वीरित्या प्रमाणित झाले आहे.'
     no-conf: 'या नावासह कॉन्फिगरेशन अस्तित्वात नाही.'
 examples:
-    - description: 'संरचना नाव द्या.'
-      execution: 'drupal config:validate configuration.name'
+    -
+        description: 'संरचना नाव द्या.'
+        execution: 'drupal config:validate configuration.name'

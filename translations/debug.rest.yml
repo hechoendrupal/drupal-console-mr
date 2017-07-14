@@ -6,12 +6,18 @@ options:
 messages:
     id: 'रेस्ट आयडी'
     label: लेबल
-    canonical_url: 'अधिकृत URL'
+    canonical-url: 'Canonical URL'
     status: स्थिती
     provider: पुरवठाकर्ता
     enabled: सक्षम
     disabled: अक्षम
     rest-state: 'रेस्ट स्टेट्स'
     supported-formats: 'समर्थित स्वरुपे'
-    supported_auth: 'समर्थित प्रमाणीकरण प्रदाते'
+    supported-auth: 'Supported Authentication Providers'
     not-found: 'रेस्ट संसाधन "%s" आढळले नाही'
+    canonical_url: 'अधिकृत URL'
+    supported_auth: 'समर्थित प्रमाणीकरण प्रदाते'
+examples:
+    -
+        description: 'Displays rest hooks'
+        execution: "drupal debug:rest\n"

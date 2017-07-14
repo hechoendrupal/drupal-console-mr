@@ -15,10 +15,17 @@ questions:
     status: 'वापरकर्ता स्थिती (वगळण्यासाठी रिक्त)'
 messages:
     user-id: 'वापरकर्ता आयडी'
-    username: 'वापरकर्तानाव'
-    password: 'संकेतशब्द'
-    email: 'ई-मेल'
-    roles: 'भूमिका'
+    username: वापरकर्तानाव
+    password: संकेतशब्द
+    email: ई-मेल
+    roles: भूमिका
     created: 'तयार केले'
-    status: 'स्थिती'
+    status: स्थिती
     user-created: 'वापरकर्ता "%s" यशस्वीपणे तयार करण्यात आला.'
+examples:
+    -
+        description: 'Create user specifying username, password, role, email and status'
+        execution: "drupal user:create  john p455w0rd  \\\n  --roles='authenticated'  \\\n  --email=\"john@anexusit.com\"  \\\n  --status=\"1\""
+    -
+        description: 'Create admin user specifying username, password, role, email and status'
+        execution: "drupal user:create  doe p455w0rd  \\\n  --roles='administrator'  \\\n  --email=\"doe@anexusit.com\"  \\\n  --status=\"1\"\n"

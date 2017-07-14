@@ -17,3 +17,10 @@ questions:
     description: 'प्लगइन वर्णन प्रविष्ट करा.'
     default-widget: 'या प्लगइनचे डीफॉल्ट फिल्ड विजेट प्रविष्ट करा.'
     default-formatter: 'या प्लगइनचे डीफॉल्ट फील्ड फॉर्मेटर प्रविष्ट करा.'
+examples:
+    -
+        description: 'Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description'
+        execution: "drupal generate:plugin:fieldtype  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldType\"  \\\n  --label=\"Example field type\"  \\\n  --plugin-id=\"example_field_type\"  \\\n  --description=\"My Field Type\""
+    -
+        description: 'Generate a field type plugin with a default widget and formatter specifying the module name, the class, its label, the plugin id and a description'
+        execution: "drupal generate:plugin:fieldtype  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldType\"  \\\n  --label=\"Example field type\"  \\\n  --plugin-id=\"example_field_type\"  \\\n  --description=\"My Field Type\"  \\\n  --default-widget=\"DefaultWidget\"  \\\n  --default-formatter=\"DefaultFormatter\"\n"

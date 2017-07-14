@@ -1,25 +1,22 @@
 description: 'Settings.php वर एक डेटाबेस जोडा.'
 options:
-  database: 'डेटाबेसचे नाव.'
-  username: 'डेटाबेस वापरकर्तानाव.'
-  password: 'डेटाबेस संकेतशब्द.'
-  prefix: 'डेटाबेस उपसर्ग.'
-  host: 'डेटाबेस होस्ट पत्ता.'
-  port: 'डेटाबेस होस्ट पोर्ट.'
-  driver: 'डेटाबेस ड्राइव्हर.'
+    database: 'डेटाबेसचे नाव.'
+    username: 'डेटाबेस वापरकर्तानाव.'
+    password: 'डेटाबेस संकेतशब्द.'
+    prefix: 'डेटाबेस उपसर्ग.'
+    host: 'डेटाबेस होस्ट पत्ता.'
+    port: 'डेटाबेस होस्ट पोर्ट.'
+    driver: 'डेटाबेस ड्राइव्हर.'
 questions:
-  database: 'डेटाबेस नाव प्रविष्ट करा.'
-  username: 'डेटाबेस प्रवेश करण्यासाठी वापरकर्तानाव प्रविष्ट करा.'
-  password: 'डेटाबेस वापरकर्त्यासाठी संकेतशब्द प्रविष्ट करा.'
-  prefix: 'डेटाबेस उपसर्ग प्रविष्ट करा.'
-  host: 'डेटाबेस होस्ट पत्ता प्रविष्ट करा.'
-  port: 'डेटाबेस होस्ट पोर्ट प्रविष्ट करा.'
-  driver: 'डेटाबेस ड्रायव्हर प्रविष्ट करा.'
+    database: 'डेटाबेस नाव प्रविष्ट करा.'
+    username: 'डेटाबेस प्रवेश करण्यासाठी वापरकर्तानाव प्रविष्ट करा.'
+    password: 'डेटाबेस वापरकर्त्यासाठी संकेतशब्द प्रविष्ट करा.'
+    prefix: 'डेटाबेस उपसर्ग प्रविष्ट करा.'
+    host: 'डेटाबेस होस्ट पत्ता प्रविष्ट करा.'
+    port: 'डेटाबेस होस्ट पोर्ट प्रविष्ट करा.'
+    driver: 'डेटाबेस ड्रायव्हर प्रविष्ट करा.'
 error: 'साइट सेटिंग्ज फाईल लिहू शकत नाही. हे एकतर sudo म्हणून चालवा किंवा settings.php वर लिहिण्यायोग्य प्रवेश परवानगीसाठी तात्पुरते बदल करा.'
 examples:
-    - description: 'Settings.php एक डेटाबेस जोडा.'
-      execution: |
-        drupal database:add \
-          --database=DATABASE \
-          --username=USERNAME \
-          --password=PASSWORD
+    -
+        description: 'Settings.php एक डेटाबेस जोडा.'
+        execution: "drupal database:add \\\n  --database=DATABASE \\\n  --username=USERNAME \\\n  --password=PASSWORD\n"
