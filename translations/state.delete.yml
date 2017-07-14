@@ -1,7 +1,7 @@
-description: 'Delete State'
+description: 'स्थिती हटवा.'
 arguments:
-    name: 'State name.'
+    name: 'स्थिती नाव.'
 messages:
-    enter-name: 'State name must contain a value.'
-    state-not-exists: 'The state "%s" does not exists.'
-    deleted: 'State "%s" sucessfully deleted.'
+    enter-name: 'स्थितीमध्ये एका मूल्य असणे आवश्यक आहे.'
+    state-not-exists: 'स्थिती "%s" अस्तित्वात नाही'
+    deleted: 'स्थिती "%s" यशस्वीरित्या हटविले.'

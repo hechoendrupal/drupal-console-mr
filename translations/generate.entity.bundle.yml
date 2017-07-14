@@ -1,13 +1,13 @@
 description: 'नवीन सामग्री प्रकार व्युत्पन्न करा (नोड / एंटिटीचे बंडल)'
-help: 'Use: generate:contenttype <fancy> <Fancy> to create a new content type name with the machine name of fancy and the human-readable name of Fancy.'
-welcome: 'Welcome to the Drupal Content Type generator'
+help: 'use: generate:contenttype <fancy> <Fancy> फॅन्सीचे मशीन नाव आणि फॅन्सीचे मानवी-वाचनीय नाव असलेली नवीन सामग्री प्रकार नाव तयार करण्यासाठी तयार करा.'
+welcome: 'Drupal सामग्री प्रकार जनरेटर मध्ये आपले स्वागत आहे.'
 options:
     module: common.options.module
-    bundle-name: 'The content type''s machine name'
-    bundle-title: 'The content type''s human-readable name'
+    bundle-name: 'सामग्रीचे प्रकारचे मशीन नाव.'
+    bundle-title: 'सामग्री प्रकारचे मानवी-वाचनीय नाव.'
 questions:
     module: common.questions.module
-    bundle-name: 'Enter the machine name of your new content type'
-    bundle-title: 'Enter the human-readable name of your new content type'
+    bundle-name: 'आपल्या नवीन सामग्री प्रकारचे मशीन नाव प्रविष्ट करा.'
+    bundle-title: 'आपल्या नवीन सामग्री प्रकारचे मानवी-वाचनीय नाव प्रविष्ट करा.'
 message:
-    error-state1: placeholder
+    error-state1: प्लेसहोल्डर

@@ -1,22 +1,22 @@
-description: 'Run Test unit from tests available for application'
+description: 'ऍप्लिकेशनसाठी उपलब्ध असलेल्या चाचण्यांमधून टेस्ट युनिट चालवा.'
 arguments:
-    test-class: 'Test Class'
-    test-methods: 'Test method(s) to be run'
+    test-class: 'चाचणी वर्ग.'
+    test-methods: 'धावण्याची कसोटी पद्धत.'
 messages:
-    missing-dependency: 'Test can''t be executed due a missing dependency'
-    phpunit-pending: 'Logic to execute PHPUnit test is not implemented yet.'
-    starting-test: 'Starting test'
-    test-duration: 'Test duration'
-    test-pass: 'Test passes'
-    test-fail: 'Test fails'
-    test-exception: 'Test exceptions'
-    test-debug: 'Test debugs'
-    url-required: 'URL option is required to run test'
-    test-summary: 'Test Summary'
-    group: Group
-    status: Status
-    file: File
-    method: Method
-    line: Line
-    message: Message
-    invalid-class: 'Testing class "%s" doesn''t exists'
+    missing-dependency: 'गहाळ निर्वाह झाल्यामुळे चाचणीची अंमलबजावणी होऊ शकत नाही.'
+    phpunit-pending: 'PHPUnit चाचणी अंमलात आणण्यासाठी लॉजिक अद्याप लागू नाही.'
+    starting-test: 'चाचणी प्रारंभ करत आहे.'
+    test-duration: 'चाचणी कालावधी.'
+    test-pass: 'चाचणी पास'
+    test-fail: 'चाचणी अयशस्वी झाली.'
+    test-exception: 'चाचणी अपवाद.'
+    test-debug: 'डीबग चाचणी करा.'
+    url-required: 'चाचणी चालविण्यासाठी URL पर्यायाची आवश्यकता आहे.'
+    test-summary: 'चाचणी सारांश'
+    group: गट
+    status: स्थिती
+    file: फाईल
+    method: पद्धत
+    line: रांग
+    message: संदेश
+    invalid-class: 'चाचणी वर्ग "%s" अस्तित्वात नाही.'

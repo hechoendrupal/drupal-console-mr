@@ -1,2 +1,2 @@
-description: 'Delete taxonomy terms from a vocabulary'
-help: 'This command takes the VID as argument or all which will delete every term from every vocabulary'
+description: 'एक शब्दसंग्रह पासून वर्गीकरणातील अटी हटवा.'
+help: 'हा आदेश VID ला तर्क म्हणून घेतो किंवा सर्व जे प्रत्येक शब्दसंग्रहातून प्रत्येक शब्दास हटवेल.'

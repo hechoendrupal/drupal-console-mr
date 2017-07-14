@@ -1,18 +1,18 @@
-description: 'List available translation updates'
+description: 'उपलब्ध अनुवाद अद्यतने सूची.'
 arguments:
-    language: 'Language for instance es or Spanish'
+    language: 'उदाहरणार्थ ईएस किंवा स्पॅनिश साठी भाषा.'
 messages:
-    no-languages: 'No translatable languages available. Add a language first.'
-    up-to-date: 'All translations up to date.'
-    no-translations: 'No translation status available. Check manually'
-    project: Project
-    version: Version
-    local-age: 'Local age'
-    remote-age: 'Remote age'
-    info: Information
-    no-translation-files: 'No translation files are provided for development releases.'
-    file-not-found: 'File not found at "%s" nor at "%s"'
-    local-file-not-found: 'File not found at "%s"'
-    translation-not-determined: 'Translation file location could not be determined.'
-    translation-project-updated: Updated
-    translation-project-available: 'New translation available'
+    no-languages: 'भाषांतरक्षम भाषा उपलब्ध नाहीत प्रथम एक भाषा जोडा.'
+    up-to-date: 'सर्व अनुवाद अद्ययावत.'
+    no-translations: 'भाषांतर स्थिती उपलब्ध नाही स्वतः तपासा.'
+    project: प्रकल्प
+    version: आवृत्ती
+    local-age: 'स्थानिक वय'
+    remote-age: 'दूरस्थ वय'
+    info: माहिती
+    no-translation-files: 'विकास रीलिझसाठी कोणतीही अनुवाद फायली उपलब्ध नाहीत.'
+    file-not-found: '"%s" वर फाइल आढळली नाही आणि "%s" वर नाही.'
+    local-file-not-found: '"%s" वर फाइल आढळली नाही.'
+    translation-not-determined: 'भाषांतर फाईल स्थान निर्धारित करणे शक्य नाही.'
+    translation-project-updated: अद्यतनित केले
+    translation-project-available: 'नवीन भाषांतर उपलब्ध'

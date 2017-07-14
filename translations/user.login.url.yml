@@ -1,7 +1,7 @@
-description: 'Returns a one-time user login url.'
+description: 'एक-प्रयोगकर्ता लॉगिन url मिळवते.'
 options:
-    user-id: 'User ID.'
+    user-id: 'वापरकर्ता आयडी.'
 messages:
-    url: 'One-time login for "%s": "%s"'
+    url: '"%s" साठी एक-वेळ लॉगिन:"%s"'
 errors:
-    invalid-user: 'Cannot load user entity (User ID: "%s").'
+    invalid-user: 'वापरकर्ता अस्तित्व लोड करू शकत नाही (वापरकर्ता ID: "%s").'

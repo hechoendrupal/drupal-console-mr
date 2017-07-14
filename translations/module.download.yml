@@ -1,22 +1,22 @@
-description: 'Download module or modules in application'
+description: 'अर्ज मॉड्यूल किंवा मॉड्यूल डाउनलोड करा.'
 arguments:
-    module: 'Module or modules to be enabled should be separated by a space'
+    module: 'सक्षम केलेल्या मोड्यूल किंवा मॉड्यूल्सना स्पेसद्वारे विभक्त व्हायला हवे.'
 options:
-    latest: 'Default to download most recent version'
-    path: 'The path of the contrib project'
-    composer: 'Option to point out that the module will be downloaded, managed & installed by Composer'
+    latest: 'सर्वात अलीकडील आवृत्ती डाउनलोड करण्यासाठी डीफॉल्ट.'
+    path: 'Contrib प्रकल्प मार्ग.'
+    composer: 'मॉड्यूल डाउनलोड, व्यवस्थापकीय आणि Composer द्वारे स्थापित केले जाईल हे दाखवण्यासाठी पर्याय.'
 questions:
-    path: 'Enter the contrib project Path'
+    path: 'Contrib प्रोजेक्ट पाथ प्रविष्ट करा.'
 messages:
-    no-releases: 'There aren''t any releases for module "%s"'
-    getting-releases: 'Getting releases for module "%s"'
-    downloading: 'Downloading module "%s" release "%s"'
-    downloaded: 'Module "%s" version "%s" was downloaded successfully at "%s"'
-    select-release: 'Please select your favorite release'
-    outside-drupal: 'Drupal root can''t be determined. Use --root to set the destination, current folder will be used instead of.'
-    error-creating-folder: 'Error creating folder "%s", please check your permissions'
-    no-composer-repo: 'Please, configure Composer in ~/.console/config.yml'
-    composer: 'Module "%s" was downloaded successfully using Composer'
+    no-releases: '"%s" मोड्यूलसाठी कोणतेही प्रकाशन नाहीत.'
+    getting-releases: '"%s" मॉड्यूल करीता प्रकाशन प्राप्त करत आहे.'
+    downloading: 'मॉड्यूल "%s" प्रकाशन "%s" डाऊनलोड करत आहे.'
+    downloaded: 'मॉड्यूल "%s" आवृत्ती "%s" यशस्वीपणे "%s" वर डाउनलोड करण्यात आले.'
+    select-release: 'कृपया आपले आवडते प्रकाशन निवडा.'
+    outside-drupal: 'Drupal रूट निश्चित केले जाऊ शकत नाही. गंतव्य सेट करण्यासाठी --root चा वापर करा, त्याऐवजी वर्तमान फोल्डरचा वापर केला जाईल.'
+    error-creating-folder: '"%s" फोल्डर तयार करताना त्रुटी, कृपया आपली परवानगी तपासा.'
+    no-composer-repo: 'कृपया, मध्ये Composer संरचीत करा ~/.console/config.yml'
+    composer: '"%s" मॉड्युल Composer वापरून यशस्वीरित्या डाउनलोड झाले.'
 tips:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        tip: 'परस्पररित्या Composer चे आउटपुट किंवा «खोटे» ते लपविण्यासाठी आपल्या config.yml फाइल मध्ये «shellexec_output» की एक «खरे» मूल्य पास करा.'

@@ -1,8 +1,8 @@
-description: 'Switch site into maintenance mode'
+description: 'साइटला देखभाल मोडमध्ये स्विच करा.'
 arguments:
-    mode: 'Site maintenance mode'
+    mode: 'साइट देखभाल मोड.'
 messages:
-    maintenance-on: 'Operating in maintenance mode on'
-    maintenance-off: 'Operating in maintenance mode off'
+    maintenance-on: 'देखभाल मोडमध्ये चालू आहे.'
+    maintenance-off: 'देखभाल मोडमध्ये बंद.'
 errors:
-    invalid-mode: 'Invalid maintenance mode'
+    invalid-mode: 'अवैध देखभाल मोड.'

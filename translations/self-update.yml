@@ -1,15 +1,15 @@
-description: 'Update project to the latest version.'
-help: 'Update project to the latest version.'
+description: 'प्रोजेक्टला नवीनतम आवृत्तीवर अद्यतनित करा.'
+help: 'प्रोजेक्टला नवीनतम आवृत्तीवर अद्यतनित करा.'
 options:
-    major: 'Update to a new major version, if available.'
-    manifest: 'Override the manifest file path.'
-    current-version: 'Override the version to update from.'
+    major: 'उपलब्ध असल्यास, नवीन प्रमुख आवृत्तीवर अद्यतनित करा.'
+    manifest: 'मॅनिफेस्ट फाईल पथ ओव्हरराइड करा.'
+    current-version: 'येथून अद्यतनित करण्यासाठी आवृत्ती अधिलिखित करा.'
 questions:
-    update: 'Update from version "%s" to version "%s".'
+    update: 'आवृत्ती "%s" पासून आवृत्ती "%s" पर्यंत अद्ययावत करा.'
 messages:
-    not-phar: 'This instance of the CLI was not installed as a Phar archive.'
-    update: 'Updating to version "%s".'
-    success: 'Updated from version "%s" to version "%s".'
-    check: 'Checking for updates from version: "%s"'
-    current-version: 'The latest version "%s", was already installed on your system.'
-    instructions: "Update using: composer global update\nOr you can switch to a Phar install recommended\ncomposer global remove drupal/console\ncurl https://drupalconsole.com/installer -L -o drupal.phar\n"
+    not-phar: 'CLI ची ही प्रसंग फारसी संग्रहण म्हणून स्थापित केलेली नाही.'
+    update: 'आवृत्ती "%s" वर अद्यतनित करीत आहे.'
+    success: 'आवृत्ती "%s" पासून आवृत्ती "%s" वर अद्यतनित केली.'
+    check: 'आवृत्तीवरील अद्यतनांसाठी तपासत आहे: "%s"'
+    current-version: 'आपल्या सिस्टमवर नवीनतम आवृत्ती "%s" आधीच स्थापित करण्यात आली होती.'
+    instructions: "वापरुन अद्यतनित करा: composer global update \n किंवा आपण शिफारस केलेल्या फायर इन्स्टॉपवर स्विच करू शकता \n install recommended\ncomposer global remove drupal/console\ncurl https://drupalconsole.com/installer -L -o drupal.phar\n"

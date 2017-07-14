@@ -1,5 +1,5 @@
 description: 'सर्व प्लगिन प्रकार, एका विशिष्ट प्रकारच्या प्लगिनची उदाहरणे, किंवा विशिष्ट प्लगइनसाठी परिभाषित करा.'
-help: "सर्व प्लगिन प्रकारांची यादी करा: \ n <info> ड्रupल प्लगइन: डीबग करा </info> \ n \ n प्रतिमा प्रभाव प्लगइनच्या प्रकाराची सर्व घटनांची यादी करा: \ n <info> drupal plugin: debug image.effect </info> \ n \ N इमेज कन्व्हर्ट प्लगइनची परिभाषा दर्शवा: \ n <info> ड्रupल प्लगइन: डीबग प्रतिमा. प्रभावी प्रतिमा_कन्वयन </info> \ n \ n <info> सुचना: केवळ सेवांमधून उघडलेली प्लग-इन प्रकार समर्थित आहेत. </info> एक सानुकूल प्लगिन प्रकार, त्यास modulename.services.yml या नावाने जोडून ती सेवा म्हणून उघडकीस आणते \"plugin.manager.PLUGIN_TYPE\".\n"
+help: "सर्व प्लगिन प्रकारांची यादी करा: \n <info>drupal plugin:debug</info> \n \n प्रतिमा प्रभाव प्लगइनच्या प्रकाराची सर्व घटनांची यादी करा: \n <info>drupal plugin:debug image.effect</info> \n \n इमेज कन्व्हर्ट प्लगइनची परिभाषा दर्शवा: \n <info>drupal plugin:debug image.effect image_convert</info> \n \n <info> सुचना: केवळ सेवांमधून उघडलेली प्लग-इन प्रकार समर्थित आहेत. </info> एक सानुकूल प्लगिन प्रकार, त्यास modulename.services.yml या नावाने जोडून ती सेवा म्हणून उघडकीस आणते \"plugin.manager.PLUGIN_TYPE\".\n"
 arguments:
     type: 'प्लगिन प्रकार'
     id: 'प्लगिन आयडी'
