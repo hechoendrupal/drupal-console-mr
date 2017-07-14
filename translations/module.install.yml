@@ -26,6 +26,9 @@ messages:
     installing: 'मॉड्युल स्थापित करत आहे "%s"'
     composer: 'मॉड्युल Composer ने यशस्वीरित्या व्यवस्थापित केले होते.'
     error-creating-folder: '"%s" फोल्डर तयार करताना त्रुटी, कृपया आपली परवानगी तपासा.'
+    download-with-composer: 'Module %s was downloaded with Composer.'
+    not-installed-with-composer: 'Module %s seems not to be installed with Composer. Halting.'
+    invalid-name: 'Invalid module name: %s'
 examples:
     -
         description: 'Install module specifying the module name'
