@@ -1,11 +1,11 @@
 description: 'थीमवरील सापेक्ष पथ (किंवा निरपेक्ष पथ) मिळवते.'
 arguments:
-    theme: 'Theme name'
+    theme: 'थीम नाव'
     module: 'थीम नाव (मशीनचे नाव)'
 options:
     absolute: 'थीम नि:शुल्क पथ परत'
 messages: null
 examples:
     -
-        description: 'Get the path of mytheme'
+        description: 'माझ्या थीमचा मार्ग मिळवा.'
         execution: "drupal theme:path  mytheme\n"

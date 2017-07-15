@@ -21,5 +21,5 @@ errors:
     directory-exists: 'लक्ष्य संचिका "%s" रिक्त नाही.'
 examples:
     -
-        description: 'Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies'
+        description: 'प्रोफाइल नाव, मशीन नाव, वर्णन, कोर आणि त्याची मॉड्यूल अवलंबन निर्देशीत करतेवेळी प्रोफाइल उत्पन्न करा.'
         execution: "drupal generate:profile  \\\n  --profile=\"NewProfileName\"  \\\n  --machine-name=\"newprofilename\"  \\\n  --description=\"My Useful Profile\"  \\\n  --core=\"8.x\"  \\\n  --dependencies=\"modulename\"\n"

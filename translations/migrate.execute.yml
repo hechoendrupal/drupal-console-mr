@@ -11,8 +11,7 @@ options:
     db-prefix: 'डेटाबेस उपसर्ग.'
     db-port: 'डेटाबेस हस्तांतरण.'
     exclude: 'वगळण्यासाठी स्थलांतरण आयडी.'
-    source-base-path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
-    source-base_path: 'आपल्या स्रोत साइटसह असलेली स्थानिक फाइल निर्देशिका (उदा./var/www/docroot), किंवा आपल्या साइटचा पत्ता (उदाहरणार्थ http://example.com)'
+    source-base-path: 'आपल्या स्रोत साइटसह असलेली स्थानिक फाइल निर्देशिका (उदा./var/www/docroot), किंवा आपल्या साइटचा पत्ता (उदाहरणार्थ http://example.com)'
 questions:
     id: 'स्थलांतरण आयडी'
     exclude-id: 'वगळण्यासाठी मायग्रेशन आयडी (वगळण्यासाठी migrations जोडून थांबविण्यासाठी <return> दाबा).'
@@ -26,8 +25,7 @@ questions:
     db-prefix: 'डेटाबेस उपसर्ग.'
     db-port: 'डेटाबेस हस्तांतरण.'
     invalid-migration-id: 'स्थलांतरण आयडी "%s" अवैध आहे.'
-    source-base-path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
-    source-base_path: 'आपल्या स्रोत साइटसह असलेली स्थानिक फाइल निर्देशिका (उदा./var/www/docroot), किंवा आपल्या साइटचा पत्ता (उदाहरणार्थ http://example.com)'
+    source-base-path: 'आपल्या स्रोत साइटसह असलेली स्थानिक फाइल निर्देशिका (उदा./var/www/docroot), किंवा आपल्या साइटचा पत्ता (उदाहरणार्थ http://example.com)'
 messages:
     processing: 'प्रक्रियन स्थानांतरन "%s"'
     imported: 'स्थलांतर "%s" योग्यरित्या आयात केले होते.'

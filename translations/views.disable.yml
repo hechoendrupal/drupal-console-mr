@@ -3,8 +3,8 @@ messages:
     disabled-successfully: '"%s" पहा यशस्वीरित्या अक्षम केले आहे.'
 examples:
     -
-        description: 'Disable content view'
+        description: 'सामग्री दृश्य अक्षम करा.'
         execution: "drupal views:disable  content\n"
     -
-        description: 'Disable frontpage view'
+        description: 'FrontPage View अक्षम करा.'
         execution: "drupal views:disable  frontpage\n"

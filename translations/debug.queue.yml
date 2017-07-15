@@ -5,5 +5,5 @@ messages:
     class: वर्ग
 examples:
     -
-        description: 'Displays the queues of the application'
+        description: 'अनुप्रयोगाच्या रांग दर्शवितो.'
         execution: "drupal debug:queue\n"

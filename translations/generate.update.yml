@@ -8,5 +8,5 @@ messages:
     wrong-update-n: 'अद्यतन क्रमांक "%s" अवैध आहे.'
 examples:
     -
-        description: 'Generate an update N hook implementation specifying the module name and the N value'
+        description: 'मॉड्यूल नाव आणि N मूल्य निर्दिष्ट करणारा अद्यतन हुक कार्यान्वयन उत्पन्न करा.'
         execution: "drupal generate:update  \\\n  --module=\"modulename\"  \\\n  --update-n=\"8001\"\n"

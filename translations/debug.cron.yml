@@ -4,5 +4,5 @@ messages:
     module: मोड्यूल
 examples:
     -
-        description: 'This will show a list with modules implementing the cron hook'
+        description: 'हे क्रोन हुक अंमलबजावणी करणार्या विभागांसह एक सूची दर्शवेल.'
         execution: "drupal debug:cron\n"

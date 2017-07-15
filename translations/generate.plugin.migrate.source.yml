@@ -21,8 +21,8 @@ questions:
         description: 'फील्ड वर्णन प्रविष्ट करा.'
 examples:
     -
-        description: 'Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias'
+        description: 'मॉड्यूलचे नाव, वर्ग, त्याचे प्लगिन आयडी, टेबल आणि तिचे उपनाव दर्शविणारे स्थानांतरण स्रोत प्लगइन उत्पन्न करा.'
         execution: "drupal generate:plugin:migrate:source  \\\n  --module=\"modulename\"  \\\n  --class=\"PluginClassName\"  \\\n  --plugin-id=\"plugin_class_name\"  \\\n  --table=\"DefaultTableName\"  \\\n  --alias=\"D\""
     -
-        description: 'Generate a migration source plugin for specific fields of the users table specifying the module name, the class, its plugin id, the table, its alias and the fields'
+        description: 'मॉड्यूलचे नाव, वर्ग, त्याचे प्लगिन आयडी, टेबल, तिचे उपनाव आणि क्षेत्र निर्दिष्ट करणारे विशिष्ट वापरकर्त्यांसाठी मायग्रेशन स्त्रोत प्लगइन उत्पन्न करा.'
         execution: "drupal generate:plugin:migrate:source  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultPluginClass\"  \\\n  --plugin-id=\"default_plugin_class\"  \\\n  --table=\"users\"  \\\n  --alias=\"u\"  \\\n  --fields='\"id\":\"id\", \"description\":\"the user id\"'  \\\n  --fields='\"id\":\"username\", \"description\":\"the username\"'  \\\n  --fields='\"id\":\"password\", \"description\":\"the user password\"'  \\\n  --fields='\"id\":\"email\", \"description\":\"the user email\"'\n"

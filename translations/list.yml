@@ -8,7 +8,7 @@ options:
     format: 'आउटपुट स्वरूप (txt, xml, json, किंवा md)'
 messages:
     usage: "<comment>वापर:</comment>\n"
-    usage-details: "  command [options] [arguments]\n\n"
+    usage-details: "आदेश [options] [arguments]\n\n"
     arguments: '<comment>वितर्क:</comment>'
     options: '<comment>पर्याय:</comment>'
     help: '<comment>मदत:</comment>'

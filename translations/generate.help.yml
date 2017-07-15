@@ -6,5 +6,5 @@ messages:
     help-already-implemented: 'मॉड्यूल "%s" मध्ये हुक मदत आधीच लागू केली गेली आहे.'
 examples:
     -
-        description: 'Generate a hook help specifying the module name and the description'
+        description: 'मॉड्यूलचे नाव आणि वर्णन दर्शविण्यास हुक मदत उत्पन्न करा.'
         execution: "drupal generate:help  \\\n  --module=\"modulename\"  \\\n  --description=\"My Awesome Module\""

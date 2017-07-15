@@ -35,5 +35,5 @@ errors:
     directory-exists: 'लक्ष्य संचिका "%s" रिक्त नाही.'
 examples:
     -
-        description: 'Generate a module specifying the module name, machine name, the path, its description, drupal core and the package name. In this example the composer file, the unit test and twig template are generated too'
+        description: 'मॉड्यूल नाव, मशीनचे नाव, पथ, त्याचे वर्णन, ड्रापल कोर आणि संकुल नाव निर्देशीत केलेले मॉड्यूल उत्पन्न करा. या उदाहरणात संगीतकार फाइल, युनिट टेस्ट आणि टिम टेम्प्लेट सुद्धा उत्पन्न केले जातात.'
         execution: "drupal generate:module  \\\n  --module=\"modulename\"  \\\n  --machine-name=\"modulename\"  \\\n  --module-path=\"/modules/custom\"  \\\n  --description=\"My Awesome Module\"  \\\n  --core=\"8.x\"  \\\n  --package=\"Custom\"  \\\n  --module-file  \\\n  --composer  \\\n  --test  \\\n  --twigtemplate"

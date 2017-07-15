@@ -11,5 +11,5 @@ messages:
     deleted: 'आयडी "%s" सह अस्तित्व "%s" यशस्वीरित्या हटविला गेला.'
 examples:
     -
-        description: 'Delete entity type content using node id'
+        description: 'नोड आयडी वापरून घटकाची सामग्री काढून टाका.'
         execution: 'drupal entity:delete node 1'

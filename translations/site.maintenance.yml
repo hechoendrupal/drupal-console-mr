@@ -8,8 +8,8 @@ errors:
     invalid-mode: 'अवैध देखभाल मोड.'
 examples:
     -
-        description: 'Switch on maintenance'
+        description: 'देखरेखीवर स्विच करा.'
         execution: 'drupal site:maintenance  on'
     -
-        description: 'Switch off maintenance'
+        description: 'देखभाल बंद करा.'
         execution: "drupal site:maintenance  off\n"

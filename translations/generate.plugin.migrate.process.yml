@@ -9,5 +9,5 @@ questions:
     plugin-id: 'माइग्रेशन प्रोसेस प्लगिन आयडी प्रविष्ट करा.'
 examples:
     -
-        description: 'Generate a migration plugin process specifying the module name, the class and its id'
+        description: 'मॉड्यूलचे नाव, वर्ग आणि त्याचेआयडीनिर्दिष्ट करणारे स्थलांतरण प्लगइन उत्पन्न करा.'
         execution: "drupal generate:plugin:migrate:process  \\\n  --module=\"modulename\"  \\\n  --class=\"MigrationProcess\"  \\\n  --plugin-id=\"migrationprocess\"\n"

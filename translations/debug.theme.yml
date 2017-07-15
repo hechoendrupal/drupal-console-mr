@@ -1,6 +1,6 @@
 description: 'अनुप्रयोगासाठी वर्तमान थीम प्रदर्शित करते.'
 arguments:
-    theme: 'Specific theme to debug.'
+    theme: 'डीबग करण्यासाठी विशिष्ट थीम.'
 messages:
     theme-id: आयडी
     theme-name: नाव
@@ -15,8 +15,8 @@ messages:
     theme-properties: गुणधर्म
 examples:
     -
-        description: 'List of themes on the site'
+        description: 'साइटवरील थीमची सूची.'
         execution: 'drupal debug:theme'
     -
-        description: 'Bartik theme information'
+        description: 'बार्टिक थीमची माहिती.'
         execution: 'drupal debug:theme bartik'

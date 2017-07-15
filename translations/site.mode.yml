@@ -18,8 +18,8 @@ messages:
     services-file-overwritten: 'सेवा फायली "%s" वर खोडून लिहिण्यात आले'
 examples:
     -
-        description: 'Switch system to prod'
+        description: 'prod करण्यास प्रणाली स्विच करा.'
         execution: 'drupal site:mode  prod'
     -
-        description: 'Switch system to dev'
+        description: 'dev करण्यास प्रणाली स्विच करा.'
         execution: "drupal site:mode  dev\n"

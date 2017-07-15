@@ -15,5 +15,5 @@ questions:
     field-type: 'फील्ड प्रकार प्रविष्ट करा प्लगइन सह वापरले जाऊ शकते.'
 examples:
     -
-        description: 'Generate a a text field formatter plugin specifying the module name, the class, the label its plugin id and the field type'
+        description: 'मॉड्यूल नाव, वर्ग, लेबलचे प्लगिनआयडीआणि फील्ड प्रकार निर्दिष्ट करणारा एक मजकूर फील्ड फॉर्मेटर प्लगिन उत्पन्न करा.'
         execution: "drupal generate:plugin:fieldformatter  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldFormatter\"  \\\n  --label=\"Example field formatter\"  \\\n  --plugin-id=\"example_field_formatter\"  \\\n  --field-type=\"text\"\n"

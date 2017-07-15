@@ -19,5 +19,5 @@ messages:
     composer: '"%s" मॉड्युल Composer वापरून यशस्वीरित्या डाउनलोड झाले.'
 examples:
     -
-        description: 'Download module specifying module name and its path'
+        description: 'डाऊनलोड मॉड्युल मॉड्यूलचे नाव आणि त्याचे पथ.'
         execution: "drupal module:download  modulename  \\\n  --path=\"modules/contrib\"\n"

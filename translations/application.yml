@@ -39,7 +39,7 @@ messages:
             extra: 'आपण कार्यान्वित करणे आवश्यक आहे: त्याऐवजी "%s"'
 errors:
     invalid-command: 'आदेश "%s" परिभाषित केलेले नाही.'
-    renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    renamed-command: '"%s" आदेश बदलले, त्याऐवजी "%s" वापरा.'
 site:
     messages:
         path: 'साईट मार्ग.'
@@ -64,15 +64,15 @@ remote:
         console-not-found: 'या साइटवर Drupal Console आढळली नाही.'
 gitbook:
     messages:
-        title: 'Available Drupal Console Commands'
-        note: Note
-        note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
-        command: 'Drupal Console Command'
-        command_description: 'The **"%s"** command "%s"'
-        usage: Usage
-        options: 'Available options'
-        option: Option
-        details: Details
-        arguments: 'Available arguments'
-        argument: Argument
-        examples: Examples
+        title: 'उपलब्ध Drupal Console आदेश.'
+        note: टीप
+        note-description: 'Drupal 8 प्रतिष्ठापन रूट पासून Drupal Console आदेश चालविणे आवश्यक आहे.'
+        command: 'Drupal Console आदेश'
+        command_description: '**"%s"** आदेश "%s"'
+        usage: वापर
+        options: 'उपलब्ध पर्याय'
+        option: पर्याय
+        details: तपशील
+        arguments: 'उपलब्ध वितर्क'
+        argument: वितर्क
+        examples: उदाहरणे

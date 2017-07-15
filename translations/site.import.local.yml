@@ -16,5 +16,5 @@ questions:
     environment: 'साइट पर्यावरण नाव प्रविष्ट करा.'
 examples:
     -
-        description: 'Import local drupal project specifying the site name and the path'
+        description: 'साइट नाव आणि पथ निर्दिष्ट स्थानिक ड्रायव्हल प्रकल्प आयात करा.'
         execution: 'drupal site:import:local  SiteName /private/var/www/vhost/anexusit/drupal8.dev/web'

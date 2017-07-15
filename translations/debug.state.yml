@@ -6,8 +6,8 @@ messages:
     key: 'अवस्था की'
 examples:
     -
-        description: 'List of the states on the site'
+        description: 'साइटवरील अवस्थांची यादी.'
         execution: "drupal debug:state\n"
     -
-        description: 'Displays a detail of the state install_task tok from the list of states'
+        description: 'अवस्थांच्या यादीतून install_task अवस्था तपशील दाखवतो.'
         execution: "drupal debug:state install_task\n"

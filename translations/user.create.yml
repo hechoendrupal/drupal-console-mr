@@ -24,8 +24,8 @@ messages:
     user-created: 'वापरकर्ता "%s" यशस्वीपणे तयार करण्यात आला.'
 examples:
     -
-        description: 'Create user specifying username, password, role, email and status'
+        description: 'वापरकर्तानाव, संकेतशब्द, भूमिका, ईमेल आणि स्थिती निर्दिष्ट करणारे वापरकर्ता तयार करा.'
         execution: "drupal user:create  john p455w0rd  \\\n  --roles='authenticated'  \\\n  --email=\"john@anexusit.com\"  \\\n  --status=\"1\""
     -
-        description: 'Create admin user specifying username, password, role, email and status'
+        description: 'वापरकर्तानाव, संकेतशब्द, भूमिका, ईमेल आणि स्थिती निर्दिष्ट करणारा प्रशासक वापरकर्ता तयार करा.'
         execution: "drupal user:create  doe p455w0rd  \\\n  --roles='administrator'  \\\n  --email=\"doe@anexusit.com\"  \\\n  --status=\"1\"\n"

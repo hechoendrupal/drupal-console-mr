@@ -8,5 +8,5 @@ messages:
     tags: टॅग्ज
 examples:
     -
-        description: 'Displays current migration'
+        description: 'वर्तमान स्थलांतर दर्शवितो.'
         execution: "drupal debug:migrate\n"

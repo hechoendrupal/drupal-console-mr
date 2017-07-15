@@ -25,7 +25,7 @@ questions:
     inputs:
         confirm: 'आपण एक फॉर्म रचना निर्माण करू इच्छित आहे का ?'
         label: 'इनपुट लेबल.'
-        machine-name: 'Input machine name'
+        machine-name: 'इनपुट मशीन नाव.'
         permission: 'आपण परवानगी निर्माण करू इच्छित आहे का ?'
         type: प्रकार
         invalid: 'फिल्ड प्रकार "%s" अवैध आहे.'
@@ -34,7 +34,6 @@ questions:
         weight: 'इनपुट आयटमचे वजन.'
         title: शीर्षक
         fieldset: फिल्डसेट
-        machine_name: 'इनपुट मशीन नाव.'
 errors:
     module-dependency: 'गहाळ घटक अवलंबन "%s" स्थापित केले नाही. module:install स्थापित करून पहा.'
     class-name-empty: 'वर्ग नाव रिकामे असू शकत नाही.'

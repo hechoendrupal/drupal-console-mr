@@ -14,11 +14,11 @@ table-headers:
     definition-value: मूल्य
 examples:
     -
-        description: 'Displays a list with all the plugins on the current site'
+        description: 'वर्तमान साइटवरील सर्व प्लगइनसह एक सूची प्रदर्शित करते.'
         execution: 'drupal debug:plugin'
     -
-        description: 'Displays block plugin information'
+        description: 'ब्लॉक प्लगइन माहिती प्रदर्शित करते.'
         execution: 'drupal debug:plugin block'
     -
-        description: 'Displays block broken information'
+        description: 'तुटलेली माहिती ब्लॉक करते.'
         execution: "drupal debug:plugin block broken\n"

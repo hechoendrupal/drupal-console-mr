@@ -1,11 +1,11 @@
-description: 'Install dependencies module in the application'
+description: 'अनुप्रयोगामध्ये अवलंबन मॉड्यूल स्थापित करा.'
 arguments:
-    module: 'Module or modules to be enabled should be separated by a space'
+    module: 'सक्षम केलेल्या मोड्यूल किंवा मॉड्यूल्सना स्पेसद्वारे विभक्त व्हायला हवे.'
 messages:
-    no-depencies: 'Nothing to do. This modules has not dependencies to install'
-    installing: 'Installing module(s) "%s"'
-    success: 'The following module(s) were installed successfully: "%s"'
+    no-depencies: 'काही करायला नाही. या मोड्यूल्समध्ये स्थापित करण्यासाठी अवलंबनांमध्ये नाहीत.'
+    installing: 'मॉड्युल स्थापित करत आहे "%s"'
+    success: 'खालील मॉड्यूल यशस्वीरित्या स्थापित झाले: "%s"'
 examples:
     -
-        description: 'Install the dependencies of the specfied module'
+        description: 'निर्दिष्ट केलेल्या मॉड्यूलचे अवलंबन स्थापित करा.'
         execution: "drupal module:dependency:install  modulename\n"

@@ -15,5 +15,5 @@ questions:
     description: 'प्लगइन वर्णन प्रविष्ट करा.'
 examples:
     -
-        description: 'Generate a image effect plugin specifying the module name, the class, its label, the plugin id and a description'
+        description: 'मॉड्यूलचे नाव, वर्ग, त्याचे लेबल, प्लगिन आयडी आणि एक वर्णन निर्दिष्ट करणारी प्रतिमा प्रभाव प्लगइन उत्पन्न करा.'
         execution: "drupal generate:plugin:imageeffect  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultImageEffect\"  \\\n  --label=\"Default image effect\"  \\\n  --plugin-id=\"default_image_effect\"  \\\n  --description=\"My Image Effect\"\n"

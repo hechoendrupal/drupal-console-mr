@@ -9,8 +9,8 @@ messages:
     help-already-implemented: 'हुक फॉर्म बदल मॉड्यूल "%s" मध्ये आधीच लागू केले आहे.'
 examples:
     -
-        description: 'Generate a hook form alter for an empty form specifying the module name'
+        description: 'मॉड्यूलचे नाव निर्दिष्ट केलेल्या रिकाम्या फॉर्मसाठी हुक फॉर्म बदलवा.'
         execution: "drupal generate:form:alter  \\\n  --module=\"modulename\""
     -
-        description: 'Generate a hook form alter with 2 fields specifying the module name and the inputs'
+        description: 'मॉड्यूलचे नाव आणि आदान हे निर्दिष्ट केलेल्या 2 फील्डसह एक हुक फॉर्म बदलवा.'
         execution: "drupal generate:form:alter  \\\n  --module=\"modulename\"  \\\n  --inputs='\"name\":\"inputtext\", \"type\":\"text_format\", \"label\":\"InputText\", \"options\":\"\", \"description\":\"Just an input text\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'  \\\n  --inputs='\"name\":\"email\", \"type\":\"email\", \"label\":\"Email\", \"options\":\"\", \"description\":\"Just an email input\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'"

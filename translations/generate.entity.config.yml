@@ -16,5 +16,5 @@ questions:
     base-path: 'कॉन्फिग एंटिटी मार्गांसाठी बेस-पथ प्रविष्ट करा.'
 examples:
     -
-        description: 'Generate config entity specifying the module, the entity class, the entity name, its path and label'
+        description: 'मॉड्यूल, अस्तित्व श्रेणी, अस्तित्व नाव, त्याचे पथ आणि लेबल निर्दिष्ट करणारी संरचना संस्था उत्पन्न करा.'
         execution: "drupal generate:entity:config  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\""

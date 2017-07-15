@@ -7,5 +7,5 @@ errors:
     invalid-user: 'वापरकर्ता अस्तित्व लोड करू शकत नाही (वापरकर्ता ID: "%s").'
 examples:
     -
-        description: 'Get one time login url for user id 1'
+        description: 'यूजर आयडी 1 ला एकदा लॉगिन यूआरएल मिळवा.'
         execution: "drupal user:login:url  1\n"

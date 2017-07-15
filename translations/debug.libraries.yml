@@ -6,8 +6,8 @@ messages:
     info: 'पुस्तकालय माहिती'
 examples:
     -
-        description: 'List all available libraries'
+        description: 'सर्व उपलब्ध ग्रंथालयांची यादी करा.'
         execution: "drupal debug:libraries\n"
     -
-        description: 'List block library information'
+        description: 'सूची लायब्ररी माहिती यादी.'
         execution: "drupal debug:libraries block\n"

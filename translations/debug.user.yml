@@ -17,5 +17,5 @@ messages:
     status: स्थिती
 examples:
     -
-        description: 'Users list on the site'
+        description: 'साइटवर वापरकर्ते सूची.'
         execution: "drupal debug:user\n"

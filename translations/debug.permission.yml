@@ -10,5 +10,5 @@ table-headers:
     permission-role: भूमिका
 examples:
     -
-        description: 'Displays all the permissions availables on the site'
+        description: 'साइटवर सर्व परवानग्या उपलब्ध आहेत.'
         execution: "drupal debug:permission\n"
