@@ -7,5 +7,5 @@ questions:
     twig-extension: 'Twig विस्तार नाव प्रविष्ट करा.'
 examples:
     -
-        description: 'Generate a twig extension specifying the module name, the extension name and its class'
+        description: 'मॉड्युलचे नाव, विस्तार नाव आणि त्याचे वर्ग हे निर्दिष्ट करणारा एक डुलक विस्तारीत उत्पन्न करा.'
         execution: "drupal generate:twig:extension  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.twig.extension\"  \\\n  --class=\"DefaultTwigExtension\"\n"

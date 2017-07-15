@@ -8,5 +8,5 @@ messages:
     executing-required-previous-updates: 'मागील आवश्यक सुधारणाची अंमलबजावणी चालू.'
 examples:
     -
-        description: 'Update all entities'
+        description: 'अस्तित्व अद्यतनित करा.'
         execution: "drupal update:execute\n"

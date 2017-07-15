@@ -13,5 +13,5 @@ messages:
     plugin-generator-implemented: 'प्लगइन "%s" कडे आधीच प्रगत कमांड जनरेटर आहे, कृपया "%s" वापरा'
 examples:
     -
-        description: 'Generate a plugin skeleton specifying module name, the plugin id and the class'
+        description: 'मॉड्यूल नाव, प्लगिन आयडी आणि क्लास निर्दिष्ट करणारा एक प्लगइन स्केलेमेंट उत्पन्न करा.'
         execution: "drupal generate:plugin:skeleton  \\\n  --module=\"modulename\"  \\\n  --plugin-id=\"link_relation_type\"  \\\n  --class=\"DefaultLinkRelationType\"\n"

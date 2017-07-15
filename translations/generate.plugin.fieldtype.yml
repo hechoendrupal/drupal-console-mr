@@ -19,8 +19,8 @@ questions:
     default-formatter: 'या प्लगइनचे डीफॉल्ट फील्ड फॉर्मेटर प्रविष्ट करा.'
 examples:
     -
-        description: 'Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description'
+        description: 'मॉड्यूल नाव, वर्ग, त्याचे लेबल, प्लगिन आयडी आणि वर्णन निर्दिष्ट करणारा एक फील्ड प्रकारचा प्लगिन उत्पन्न करा.'
         execution: "drupal generate:plugin:fieldtype  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldType\"  \\\n  --label=\"Example field type\"  \\\n  --plugin-id=\"example_field_type\"  \\\n  --description=\"My Field Type\""
     -
-        description: 'Generate a field type plugin with a default widget and formatter specifying the module name, the class, its label, the plugin id and a description'
+        description: 'डीफॉल्ट विजेटसह फिल्ड प्रकार प्लगइन उत्पन्न करा आणि फॉर्मेटर मॉड्यूलचे नाव, वर्ग, त्याचे लेबल, प्लगिन आयडी आणि वर्णन निर्दिष्ट करा.'
         execution: "drupal generate:plugin:fieldtype  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldType\"  \\\n  --label=\"Example field type\"  \\\n  --plugin-id=\"example_field_type\"  \\\n  --description=\"My Field Type\"  \\\n  --default-widget=\"DefaultWidget\"  \\\n  --default-formatter=\"DefaultFormatter\"\n"

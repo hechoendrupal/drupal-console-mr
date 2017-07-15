@@ -8,5 +8,5 @@ messages:
     views: दृश्ये
 examples:
     -
-        description: 'List of views plugins'
+        description: 'दृश्यांची प्लगइनची सूची.'
         execution: "drupal debug:views:plugins\n"

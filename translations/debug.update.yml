@@ -13,5 +13,5 @@ messages:
     post-update: 'पोस्ट अद्यतन कार्य'
 examples:
     -
-        description: 'List of pending updates'
+        description: 'प्रलंबित अद्यतनांची सूची.'
         execution: "drupal debug:update\n"

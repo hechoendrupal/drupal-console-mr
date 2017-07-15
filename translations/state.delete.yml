@@ -7,5 +7,5 @@ messages:
     deleted: 'स्थिती "%s" यशस्वीरित्या हटविले.'
 examples:
     -
-        description: 'Delete state specifying the state name'
+        description: 'स्थिती नाव निर्दिष्ट करणारे हटवा'
         execution: "drupal state:delete  comment.maintain_entity_statistics\n"

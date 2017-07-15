@@ -22,8 +22,8 @@ questions:
     context: 'प्लगइन संदर्भ प्रविष्ट करा.'
 examples:
     -
-        description: 'Generate a user rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context'
+        description: 'मॉड्यूल नाव, वर्ग, त्याचे लेबल, प्लगिन id, प्रकार, श्रेणी आणि त्याचे संदर्भ निर्दिष्ट करणारा वापरकर्ता नियम कृती प्लगिन उत्पन्न करा.'
         execution: "drupal generate:plugin:rulesaction  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultAction\"  \\\n  --label=\"Default action\"  \\\n  --plugin-id=\"default_action\"  \\\n  --type=\"user\"  \\\n  --category=\"default_action\"  \\\n  --context=\"default_action\""
     -
-        description: 'Generate a node rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context'
+        description: 'मॉड्यूल नाव, वर्ग, त्याचे लेबल, प्लगिन आयडी, प्रकार, श्रेणी आणि त्याचे संदर्भ निर्दिष्ट करणारे नोड नियत कार्य प्लगइन उत्पन्न करा.'
         execution: "drupal generate:plugin:rulesaction  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultAction\"  \\\n  --label=\"Default action\"  \\\n  --plugin-id=\"default_action\"  \\\n  --type=\"node\"  \\\n  --category=\"default_action\" \\\n  --context=\"default_action\"\n"

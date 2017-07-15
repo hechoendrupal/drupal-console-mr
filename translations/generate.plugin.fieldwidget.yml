@@ -15,5 +15,5 @@ questions:
     field-type: 'फील्ड प्रकार प्रविष्ट करा प्लगइन सह वापरले जाऊ शकते.'
 examples:
     -
-        description: 'Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type'
+        description: 'मॉड्यूलचे नाव, वर्ग, त्याचे लेबल, प्लगिन आयडी आणि फिल्ड प्रकार निर्दिष्ट करणारा मजकूर प्रकार फील्ड विजेट प्लगिन उत्पन्न करा.'
         execution: "drupal generate:plugin:fieldwidget  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldWidget\"  \\\n  --label=\"Example field widget\"  \\\n  --plugin-id=\"example_field_widget\"  \\\n  --field-type=\"text\"\n"

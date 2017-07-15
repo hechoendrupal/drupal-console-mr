@@ -11,5 +11,5 @@ questions:
     class: 'श्रेणी नाव प्रविष्ट करा.'
 examples:
     -
-        description: 'Generate a route subscriber specifying the module name, the route name and its class'
+        description: 'मॉड्यूल नाव, मार्ग नाव आणि त्याचे वर्ग निर्दिष्ट करणारा मार्ग ग्राहक उत्पन्न करा.'
         execution: "drupal generate:routesubscriber  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.route_subscriber\"  \\\n  --class=\"RouteSubscriber\"\n"

@@ -5,7 +5,6 @@ arguments:
 messages:
     bundle: बंडल
     name: नाव
-    machine-name: 'Machine Name'
+    machine-name: 'मशीन नाव'
     status: स्थिती
     state: अवस्था
-    machine_name: 'मशीन नाव'

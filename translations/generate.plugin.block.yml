@@ -22,5 +22,5 @@ messages:
     invalid-theme-region: 'प्रदेश "%s" अवैध आहे'
 examples:
     -
-        description: 'Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input'
+        description: 'मॉड्यूल नाव, वर्ग, लेबल, आयडी, क्षेत्र आणि इनपुट निर्दिष्ट करणारा इनपुट फील्डसह हेडर क्षेत्रामध्ये एक प्लगइन ब्लॉक उत्पन्न करा.'
         execution: "drupal generate:plugin:block  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultBlock\"  \\\n  --label=\"Default block\"  \\\n  --plugin-id=\"default_block\"  \\\n  --theme-region=\"header\"  \\\n  --inputs='\"name\":\"inputtext\", \"type\":\"text_format\", \"label\":\"InputText\", \"options\":\"\", \"description\":\"Just an input text\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'"

@@ -3,8 +3,8 @@ messages:
     enabled-successfully: '"%s" पहा यशस्वीरित्या सक्षम झाले.'
 examples:
     -
-        description: 'Enable content view'
+        description: 'सामग्री दृश्य सक्षम करा.'
         execution: "drupal views:enable  content\n"
     -
-        description: 'Enable frontpage view'
+        description: 'FrontPage view सक्षम करा'
         execution: "drupal views:enable  frontpage\n"

@@ -15,5 +15,5 @@ messages:
     error-creating-folder: '"%s" फोल्डर तयार करताना त्रुटी, कृपया आपली परवानगी तपासा.'
 examples:
     -
-        description: 'Download theme specifying name and version'
+        description: 'नाव आणि आवृत्ती निर्दिष्ट करणारा थीम डाउनलोड करा.'
         execution: "drupal theme:download  Alina 7.x-1.2\n"

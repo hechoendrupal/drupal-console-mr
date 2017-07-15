@@ -20,8 +20,8 @@ messages:
     service-already-taken: 'मॉड्यूल "%s" मध्ये सेवा नाव आधीच घेतले गेले आहे'
 examples:
     -
-        description: 'Generate a services without interface specifying the module name, the service name, the class and its path'
+        description: 'मॉड्यूल नाव, सेवा नाव, वर्ग आणि त्याचे पथ निर्देशीत इंटरफेसशिवाय सेवा उत्पन्न करा.'
         execution: "drupal generate:service  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.default\"  \\\n  --class=\"DefaultService\"  \\\n  --path-service=\"/modules/custom/modulename/src/\""
     -
-        description: 'Generate a services with interface specifying the module name, the service name, the class, the interface name and its path'
+        description: 'मॉड्युलचे नाव, सेवा नाव, वर्ग, इंटरफेस नाव आणि त्याचे पथ निर्दिष्ट करणार्या इंटरफेससह सेवा उत्पन्न करा.'
         execution: "drupal generate:service  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.default\"  \\\n  --class=\"DefaultService\"  \\\n  --interface  \\\n  --interface-name=\"InterfaceName\"  \\\n  --path-service=\"/modules/custom/modulename/src/\"\n"

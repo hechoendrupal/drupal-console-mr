@@ -5,5 +5,5 @@ messages:
     error: 'अस्तित्व सुधारणा करताना त्रुटी.'
 examples:
     -
-        description: 'Update entities'
+        description: 'अस्तित्व अद्यतनित करा.'
         execution: "drupal update:entities\n"

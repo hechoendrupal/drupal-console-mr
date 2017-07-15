@@ -17,5 +17,5 @@ questions:
     services: common.questions.services
 examples:
     -
-        description: 'Generate an email plugin specifying the module name, the class, its label and the plugin id'
+        description: 'मॉड्यूल नाव, वर्ग, त्याचे लेबल आणि प्लगिनआयडीनिर्दिष्ट करणारा ईमेल प्लगइन उत्पन्न करा.'
         execution: "drupal generate:plugin:mail  \\\n  --module=\"modulename\"  \\\n  --class=\"HtmlFormatterMail\"  \\\n  --label=\"Html formatter mail\"  \\\n  --plugin-id=\"html_formatter_mail\"\n"

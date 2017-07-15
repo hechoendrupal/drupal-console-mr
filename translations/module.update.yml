@@ -14,5 +14,5 @@ messages:
     missing-module: 'अद्ययावत करण्यासाठी मॉड्यूल नाव (नावे) प्रविष्ट करा.'
 examples:
     -
-        description: 'Update module specifying module name and composer parameter'
+        description: 'मॉड्यूल नाव आणि composer पॅरामीटर निर्दिष्ट मॉड्यूल अद्यतनित करा.'
         execution: "drupal module:update  modulename  \\\n  --composer\n"

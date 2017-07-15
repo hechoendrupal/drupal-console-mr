@@ -33,5 +33,5 @@ questions:
     default-formatter: 'फील्ड प्रकार प्लगइनचे डिफॉल्ट फिल्ड फॉर्मेटर प्रविष्ट करा.'
 examples:
     -
-        description: 'Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)'
+        description: 'मॉड्यूल नाव, प्रकार (वर्ग, लेबल, प्लगिन आयडी आणि वर्णन), फॉर्मेटर (वर्ग, लेबल, प्लगइन आयडी) आणि विजेट (वर्ग, लेबल आणि प्लगइन आयडी) निर्दिष्ट करणारा फील्ड प्रकार, विजेट आणि फॉर्मेटर प्लगइन उत्पन्न करा.'
         execution: "drupal generate:plugin:field  \\\n  --module=\"modulename\"  \\\n  --type-class=\"ExampleFieldType\"  \\\n  --type-label=\"Example field type\"  \\\n  --type-plugin-id=\"example_field_type\"  \\\n  --type-description=\"My Field Type\"  \\\n  --formatter-class=\"ExampleFormatterType\"  \\\n  --formatter-label=\"Example formatter type\"  \\\n  --formatter-plugin-id=\"example_formatter_type\"  \\\n  --widget-class=\"ExampleWidgetType\"  \\\n  --widget-label=\"Example widget type\"  \\\n  --widget-plugin-id=\"example_widget_type\"  \\\n  --field-type=\"example_field_type\"  \\\n  --default-widget=\"example_widget_type\"  \\\n  --default-formatter=\"example_formatter_type\"\n"

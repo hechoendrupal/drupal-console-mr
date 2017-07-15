@@ -17,5 +17,5 @@ questions:
     button-icon-path: 'बटण चिन्ह पथ प्रविष्ट करा.'
 examples:
     -
-        description: 'Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path'
+        description: 'मॉड्यूलचे नाव, वर्ग, लेबल, आयडी, बटनचे नाव व चिन्ह मार्ग निर्देशीत करून CKEditor बटण उत्पन्न करा.'
         execution: "drupal generate:plugin:ckeditorbutton  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultCKEditorButton\"  \\\n  --label=\"Default ckeditor button\"  \\\n  --plugin-id=\"default ckeditor button\"  \\\n  --button-name=\"Default ckeditor button\"  \\\n  --button-icon-path=\"modules/custom/modulename/js/plugins/default ckeditor button/images/icon.png\""

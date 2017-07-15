@@ -8,5 +8,5 @@ table-headers:
     entity-type: 'अस्तित्व प्रकार'
 examples:
     -
-        description: 'Displays the available entities'
+        description: 'उपलब्ध एन्टिटीज प्रदर्शित करते.'
         execution: "drupal debug:entity\n"

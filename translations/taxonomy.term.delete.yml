@@ -1,11 +1,11 @@
 description: 'एक शब्दसंग्रह पासून वर्गीकरणातील अटी हटवा.'
-vid: 'Enter vocabulary id'
+vid: 'शब्दसंग्रह आयडी प्रविष्ट करा.'
 help: 'हा आदेश VID ला तर्क म्हणून घेतो किंवा सर्व जे प्रत्येक शब्दसंग्रहातून प्रत्येक शब्दास हटवेल.'
 messages:
-    nothing: 'All taxonomy terms from "%s" vocabulary already deleted.'
-    processing: 'Deleting "%s" taxonomy term.'
-    invalid-vocabulary: 'Invalid "%s" vocabulary.'
+    nothing: '"%s" शब्दकोशातून सर्व वर्गीकरणातील अटी आधीपासून हटविल्या.'
+    processing: '"%s" वर्गीकरण शब्द हटविणे.'
+    invalid-vocabulary: 'अवैध "%s" शब्दसंग्रह.'
 examples:
     -
-        description: 'Delete all terms of the "tags" vocabulary'
+        description: '"टॅग" शब्दसंग्रह सर्व अटी हटवा.'
         execution: "drupal taxonomy:term:delete  tags\n"

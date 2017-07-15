@@ -19,8 +19,8 @@ questions:
     revisionable: 'आपली एंटिटी पुनरावृत्ती करण्यायोग्य आहे.'
 examples:
     -
-        description: 'Generate a content entity specifying the module, the entity class, the entity name, its path and label'
+        description: 'मॉड्यूल, घटक वर्ग, अस्तित्व नाव, त्याचे पथ आणि लेबल निर्दिष्ट करणारी एक सामग्री अस्तित्व उत्पन्न करा.'
         execution: "drupal generate:entity:content  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\""
     -
-        description: 'Generate a translatable and revisionable content entity specifying the module, the entity class, the entity name, its path and label'
+        description: 'मॉड्यूल, एंटिटी क्लास, एंटिटीचे नाव, त्याचे पथ आणि लेबल निर्दिष्ट करणारे भाषांतरयोग्य आणि पुनरावर्तनीय सामग्री अस्तित्व उत्पन्न करा.'
         execution: "drupal generate:entity:content  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\"  \\\n  --is-translatable  \\\n  --revisionable"

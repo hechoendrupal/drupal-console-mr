@@ -20,5 +20,5 @@ messages:
     error-admin-theme: 'थीम "%s" ही प्रशासक थीम आहे आणि विस्थापित केली जाऊ शकत नाही.'
 examples:
     -
-        description: 'Uninstall theme specifying the name'
+        description: 'विस्थापित थीम नाव निर्दिष्ट.'
         execution: "drupal theme:uninstall  mytheme\n"

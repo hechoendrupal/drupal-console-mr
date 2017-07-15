@@ -6,5 +6,5 @@ messages:
     completed: 'पुनर्बांधणी मार्ग पूर्ण झाले.'
 examples:
     -
-        description: 'Rebuild routes'
+        description: 'मार्ग पुन्हा तयार करा.'
         execution: 'drupal router:rebuild'

@@ -15,5 +15,5 @@ messages:
     composer-success: 'खालील मॉड्यूल (कम्प्युटर्स) मधून काढले गेले: "%s"'
 examples:
     -
-        description: 'Uninstall the module specifying the module name'
+        description: 'मॉड्यूलचे नाव दर्शविणारा विस्थापित करा.'
         execution: "drupal module:uninstall  modulename\n"

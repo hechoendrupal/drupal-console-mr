@@ -26,10 +26,10 @@ messages:
     installing: 'मॉड्युल स्थापित करत आहे "%s"'
     composer: 'मॉड्युल Composer ने यशस्वीरित्या व्यवस्थापित केले होते.'
     error-creating-folder: '"%s" फोल्डर तयार करताना त्रुटी, कृपया आपली परवानगी तपासा.'
-    download-with-composer: 'Module %s was downloaded with Composer.'
-    not-installed-with-composer: 'Module %s seems not to be installed with Composer. Halting.'
-    invalid-name: 'Invalid module name: %s'
+    download-with-composer: 'मॉड्यूल %s हे Composer सह डाउनलोड केले होते.'
+    not-installed-with-composer: 'मॉड्युल %s Composer सह स्थापित होत नाही असे दिसते. थांबणे.'
+    invalid-name: 'अवैध मॉड्यूल नाव: %s'
 examples:
     -
-        description: 'Install module specifying the module name'
+        description: 'मॉड्युलचे नाव निर्दिष्ट करणारी मॉड्यूल प्रतिष्ठापित करा.'
         execution: "drupal module:install  modulename\n"

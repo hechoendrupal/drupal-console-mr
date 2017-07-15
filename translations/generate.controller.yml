@@ -22,5 +22,5 @@ messages:
     path-already-added: 'पथ आधीपासून जोडलेला होता'
 examples:
     -
-        description: 'Generate controller specifying the module name, the class name and its routes'
+        description: 'मॉड्युल नाव, वर्ग नाव व त्याचे रूट निर्दिष्ट करणारा कंट्रोलर उत्पन्न करा.'
         execution: "drupal generate:controller  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultController\"  \\\n  --routes='\"title\":\"ControllerMethod\", \"name\":\"modulename.default_controller_hello\", \"method\":\"hello\", \"path\":\"/modulename/hello/{name}\"'  \\\n  --test"

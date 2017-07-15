@@ -9,5 +9,5 @@ messages:
     post-update-name-already-implemented: 'पोस्ट अद्यतन नाव "%s" आधीच लागू केले आहे.'
 examples:
     -
-        description: 'Generate an implementation of post update hook specifying the module name and the post update name'
+        description: 'मॉड्यूलचे नाव आणि पोस्ट अपडेट नाव दर्शविणारी पोस्ट अपडेट हुक अंमलबजावणी उत्पन्न करा.'
         execution: "drupal generate:post:update  \\\n  --module=\"modulename\"  \\\n  --post-update-name=\"PostUpdateName\"\n"

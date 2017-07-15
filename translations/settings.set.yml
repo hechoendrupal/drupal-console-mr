@@ -13,5 +13,5 @@ messages:
     missing-language: 'प्रदान केलेली भाषा:"%s", आढळली नाही.'
 examples:
     -
-        description: 'Set application language setting value to "es"'
+        description: 'अनुप्रयोग भाषा सेटिंग मूल्य "%s" वर सेट करा.'
         execution: 'drupal settings:set  application.language es'

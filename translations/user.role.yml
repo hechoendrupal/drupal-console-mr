@@ -13,8 +13,8 @@ messages:
     remove-success: 'वापरकर्तानाव %1$s भूमिका %2$s काढून टाकण्यात आली.'
 examples:
     -
-        description: 'Add administrator role to the user admin specifying the username and the role'
+        description: 'वापरकर्ता प्रशासनामध्ये वापरकर्ता प्रशासकीय व्यवस्थापक नाव आणि भूमिका निर्दिष्ट करा.'
         execution: 'drupal user:role  add admin administrator'
     -
-        description: 'Remove administrator role from the user admin specifying the username and the role'
+        description: 'वापरकर्ता प्रशासनाकडून वापरकर्तानाव आणि भूमिका निर्दिष्ट करणारा प्रशासक भूमिका काढून टाका.'
         execution: "drupal user:role  remove admin administrator\n"

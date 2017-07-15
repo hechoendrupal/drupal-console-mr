@@ -12,8 +12,8 @@ messages:
     type: प्रकार
 examples:
     -
-        description: 'Show all tables on a database'
+        description: 'डेटाबेसवर सर्व टेबल्स दर्शवा.'
         execution: 'drupal debug:database:table'
     -
-        description: 'Show fields on the node table or another specified on the argument'
+        description: 'वितर्क वर निर्दिष्ट केलेल्या नोड सारणीवर फील्ड दर्शवा किंवा दुसरे.'
         execution: "drupal debug:database:table node\n"

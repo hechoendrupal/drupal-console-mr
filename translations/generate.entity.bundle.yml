@@ -1,4 +1,4 @@
-description: 'नवीन सामग्री प्रकार व्युत्पन्न करा (नोड / एंटिटीचे बंडल)'
+description: 'नवीन सामग्री प्रकार उत्पन्न करा (नोड / एंटिटीचे बंडल)'
 help: 'use: generate:contenttype <fancy> <Fancy> फॅन्सीचे मशीन नाव आणि फॅन्सीचे मानवी-वाचनीय नाव असलेली नवीन सामग्री प्रकार नाव तयार करण्यासाठी तयार करा.'
 welcome: 'Drupal सामग्री प्रकार जनरेटर मध्ये आपले स्वागत आहे.'
 options:
@@ -13,5 +13,5 @@ message:
     error-state1: प्लेसहोल्डर
 examples:
     -
-        description: 'Generate bundle entity specifying the module, the bundle name and its title'
+        description: 'मॉड्यूल, बंडल नाव आणि त्याचे शीर्षक निर्दिष्ट बंडल अस्तित्व उत्पन्न करा.'
         execution: "drupal generate:entity:bundle  \\\n  --module=\"modulename\"  \\\n  --bundle-name=\"default\"  \\\n  --bundle-title=\"default\""

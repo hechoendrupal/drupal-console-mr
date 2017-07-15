@@ -6,5 +6,5 @@ options:
 messages: null
 examples:
     -
-        description: 'Get the relative path of the module specifying the module name'
+        description: 'मॉड्यूलचे नाव दर्शविणारा मॉड्यूलचा सापेक्ष पथ मिळवा.'
         execution: "drupal module:path  modulename\n"
