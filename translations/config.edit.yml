@@ -6,7 +6,7 @@ questions:
     config-name: 'संरचना माप निवडा.'
 messages:
     no-directory: 'आपल्या डिरेक्ट्री निर्माण करताना त्रुटी आली.'
-    choose-configuration: 'Choose a configuration'
+    choose-configuration: 'एक संरचना निवडा.'
 examples:
     -
         description: '"Vim" (डीफॉल्ट संपादक) सह सिस्टम क्रोन कॉन्फिगरेशन संपादित करा.'
