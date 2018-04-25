@@ -28,6 +28,8 @@ questions:
     dependencies: 'आपण मॉड्यूल अवलंबन जोडू इच्छिता?'
     test: 'आपण एक एकक चाचणी वर्ग उत्पन्न करू इच्छिता?'
     twigtemplate: 'आपण एक themeable टेम्पलेट निर्माण करू इच्छिता?'
+suggestions:
+    my-awesome-module: 'माझे अप्रतिम मॉड्यूल'
 warnings:
     module-unavailable: 'चेतावणी खाली नमूद केलेले मॉड्यूल तुमच्या स्थानिक पर्यावरणात "%s" मध्ये उपलब्ध नाही.'
 errors:

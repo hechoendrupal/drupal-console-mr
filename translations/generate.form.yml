@@ -23,10 +23,16 @@ questions:
     inputs: common.questions.inputs
     routing: 'या फॉर्मसाठी आपण एक मार्ग नोंदणी करु इच्छिता?'
     path: 'पथ मार्ग प्रविष्ट करा.'
+    max-amount-characters: 'वर्णांची कमाल संख्या'
+    textfield-width-in-chars: 'मजकूरफील्डची रूंदी (वर्णांमध्ये)'
+    multiselect-size-in-lines: 'बहुस्तरीय पेटीचा आकार (ओळींमध्ये)'
+    input-options: 'कॉमा द्वारे विभक्त केलेले इनपुट पर्याय'
     menu_link_gen: 'मेनू लिंक उत्पन्न करा.'
     menu_link_title: 'मेन्यू लिंकसाठी एक शीर्षक.'
     menu_parent: 'मेनू पालक.'
     menu_link_desc: 'मेन्यू लिंकसाठी वर्णन.'
+suggestions:
+    description-for-menu: 'मेनू प्रविष्टासाठी एक वर्णन'
 examples:
     -
         description: 'मॉड्युल नाव, वर्ग, एक फॉर्म आयडी आणि पथ निर्देशीत केलेली संरचना फाइलसह रिक्त फॉर्म बनवा.'
