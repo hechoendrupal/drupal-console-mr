@@ -37,6 +37,9 @@ questions:
     breakpoint-weight: 'ब्रेकपॉईंट वजन प्रविष्ट करा.'
     breakpoint-multipliers: 'ब्रेकपॉइंट गुणक प्रविष्ट करा.'
     breakpoint-add: 'आपण आणखी ब्रेकपॉईंट जोडू इच्छिता.'
+suggestions:
+    my-awesome-theme: 'माझ्या अप्रतिम थीम'
+    other: इतर
 warnings:
     module-unavailable: 'चेतावणी खाली नमूद केलेले मॉड्यूल तुमच्या स्थानिक पर्यावरणात "%s" मध्ये उपलब्ध नाही'
 errors:

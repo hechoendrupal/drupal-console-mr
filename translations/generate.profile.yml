@@ -15,6 +15,9 @@ questions:
     core: 'Drupal कोर आवृत्ती प्रविष्ट करा.'
     dependencies: 'आपण मॉड्यूल अवलंबन जोडू इच्छिता?'
     distribution: 'हे एक वितरण असल्याचे अभिप्राय प्रोफाइल आहे का?'
+suggestions:
+    my-useful-profile: 'माझे उपयुक्त प्रोफाइल'
+    my-kick-ass-distribution: 'माझे किक-एश वितरण'
 warnings:
     module-unavailable: 'चेतावणी खाली नमूद केलेले मॉड्यूल तुमच्या स्थानिक पर्यावरणात "%s" मध्ये उपलब्ध नाही'
 errors:

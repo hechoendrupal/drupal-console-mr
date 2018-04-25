@@ -18,6 +18,8 @@ questions:
     account-name: 'आपले Drupal प्रशासक खाते नाव प्रदान करा.'
     account-mail: 'आपले Drupal प्रशासक खाते मेल प्रदान करा.'
     account-pass: 'आपले Drupal प्रशासक खाते संकेतशब्द प्रदान करा.'
+suggestions:
+    site-name: 'माझी छान साइट.'
 messages:
     installing: 'Drupal 8 प्रतिष्ठापन प्रक्रिया सुरू'
     installed: 'आपले Drupal 8 प्रतिष्ठापन यशस्वीरित्या पूर्ण झाले.'

@@ -4,7 +4,7 @@ options:
     module: common.options.module
     entity-class: 'कॉन्फिग एंटिटी वर्ग.'
     entity-name: 'संरचना अस्तित्व नाव.'
-    label: 'लेबल'
+    label: लेबल
     bundle-of: 'सामग्री एंटिटीसाठी बंडल म्हणून कार्य.'
     base-path: 'संरचना अस्तित्व मार्ग साठी बेस-पथ.'
 questions:

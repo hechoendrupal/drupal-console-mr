@@ -9,3 +9,6 @@ questions:
     description: 'परवानगीसाठी वर्णन प्रविष्ट करा.'
     restrict-access: 'प्रवेश प्रतिबंधित करा.'
     add: 'आपण दुसरी परवानगी जोडू इच्छिता.'
+suggestions:
+    access-content: 'सामग्रीमध्ये प्रवेश करा'
+    allow-access-content: 'माझी सामग्री प्रवेश करण्यास अनुमती द्या'
