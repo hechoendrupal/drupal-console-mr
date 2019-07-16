@@ -25,6 +25,7 @@ messages:
     username: वापरकर्तानाव
     created: 'तयार वेळ'
     created-users: '"%s" वापरकर्ते यशस्वीरित्या तयार केले'
+    error: 'Error creating users: "%s"'
 examples:
     -
         description: 'वापरकर्ता भूमिका प्रदान करा.'

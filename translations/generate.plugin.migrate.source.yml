@@ -16,6 +16,8 @@ questions:
     table: 'सारणीचे नाव प्रविष्ट करा.'
     alias: 'सारणीसाठी उपनाव प्रविष्ट करा.'
     group-by: 'इच्छित असल्यास गटबद्ध फिल्डमध्ये प्रवेश करा.'
+    id: 'Enter the field id or press <info>enter</enter> if done'
+    description: 'Enter the field description'
     fields:
         id: 'फील्ड आयडी प्रविष्ट करा किंवा <info>enter</info> केले असल्यास'
         description: 'फील्ड वर्णन प्रविष्ट करा.'

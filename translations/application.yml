@@ -1,6 +1,6 @@
 options:
     env: 'पर्यावरणांचे नाव.'
-    no-debug: 'डिबग मोड बंद करा.'
+    debug: 'Switches on debug mode'
     learning: 'पाल्हाळीक कोड़ची निर्मिती कर.'
     generate-chain: 'साखळी आदेशामध्ये yaml आऊटपुट वापरले जाते जे आदेश पर्याय आणी वितर्क आहे.'
     generate-inline: 'आदेश पर्याय आणी वितर्क यांस इनलाइन आदेश असे दाखवा.'
@@ -17,6 +17,7 @@ options:
     no-ansi: 'अक्षम ANSI आउटपुट.'
     no-interaction: 'कोणत्याही परस्पर प्रश्न विचारू नका.'
     check-fix: 'कोणत्याही गहाळ कॉन्फिगरेशनचे निराकरण करण्याचा प्रयत्न करा.'
+    no-debug: 'डिबग मोड बंद करा.'
 arguments:
     command: 'चालविण्याजोगी आदेश.'
 messages:
@@ -29,6 +30,8 @@ messages:
     files:
         generated: 'उत्पन्न किंवा अद्यतनित केलेल्या फायली.'
         copied: 'नक्कल फायली.'
+    lines-code: 'Generated lines: %s'
+    path: 'Generation path'
     learning:
         route: "पृष्ठे तयार करण्यासाठी त्यांना मार्ग व्याख्यीत करणे आवश्यक आहे.\nA URL पथला एक कंट्रोलर नकाशे मार्ग करण्यासाठी. कोणते कार्य अथवा पद्धत बोलावली जावी जेव्हा URL द्वारे प्रवेश प्राप्त होते हे व्याख्यीत केले आहे.\nउपयोक्ता जर हे http://drupal8.dev/{{ route.path }}  प्रवेश केला तर,\nराउटिंग प्रणाली त्या पाथसाठी एक मार्ग दाखवेल.\nअसे असल्यास तो सामना सापडेल, आणि _controller कॉलबॅक कार्यान्वित करेल. या प्रकरणात कॉलबॅक मध्ये\nएका क्लास्स्नामे चा रुपात परिभाषित आहे\n(\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\nआणि एक पद्धत (\"{{ route.method }}\")."
     autocomplete: "Bash or Zsh: ही ओळ आपल्या shell configuration फाईल मध्ये जोडावी:\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: एक सिंबॉलिक लिंक बनवा\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
@@ -40,6 +43,9 @@ messages:
 errors:
     invalid-command: 'आदेश "%s" परिभाषित केलेले नाही.'
     renamed-command: '"%s" आदेश बदलले, त्याऐवजी "%s" वापरा.'
+    drush-command: 'Command "%s" is a Drush command (deprecated). Drupal Console equivalent "%s" was executed instead.'
+    statistics-failed: "The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.\nIf you want to enable it again, use the following command:\n\n<info>drupal settings:set statistics.enabled true</info>\n"
+    statistics-url-failed: "The Drupal console failed to send statistics.\nYou must configure it in the global config.yml, use the following command and choose your preference:\n\n<info>drupal init</info>"
 site:
     messages:
         path: 'साईट मार्ग.'

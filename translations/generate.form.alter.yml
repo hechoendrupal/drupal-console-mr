@@ -1,7 +1,18 @@
 description: 'Hook_form_alter() किंवा hook_form_FORM_ID_alter चा अंमलबजावणी उत्पन्न करा.'
 help: '<info>"%s"</info> आज्ञा आपल्याला नवीन "%s" उत्पन्न करण्यास मदत करते.'
+welcome: 'Welcome to the Drupal Form Alter generator'
 options:
+    module: 'The Module name.'
     form-id: 'बदलण्यासाठी फॉर्म आयडी.'
+    inputs: 'Create inputs in a form.'
+questions:
+    module: 'Enter the module name'
+    form-id: 'Enter the Form ID to alter'
+    type: 'Enter New field type'
+    label: 'Input label'
+    description: Description
+    default-value: 'Default value'
+    weight: 'Weight for input item'
 messages:
     inputs: "फॉर्म सुधारण्यासाठी आपण फॉर्म फील्ड जोडू शकता. \n हे वैकल्पिक आहे, <info>enter</info> ला <info>continue</info>"
     loading-forms: 'वेबप्रॉफेलर मॉड्यूलवरून फॉर्म व्याख्या लोड करीत आहे.'

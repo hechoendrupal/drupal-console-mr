@@ -1,6 +1,7 @@
 description: 'संरचना आणि डेटाबेसची सामग्री पुनर्संचयित करा.'
 arguments:
     database: 'Settings.php पासून डेटाबेस की.'
+    target: 'Database target from settings.php'
 options:
     file: 'आपल्या डेटाबेस बॅकअप फाइलसाठी फाइलनाव.'
 messages:

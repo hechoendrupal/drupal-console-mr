@@ -10,7 +10,9 @@ options:
     package: 'थीम पॅकेज'
     composer: 'एक composer.json फाईल जोडा.'
     base-theme: 'मूलभूत थीम (उदा. सुंदर, स्थिर)'
+    base-theme-regions: 'Add the default regions of the chosen base theme'
     global-library: 'जागतिक शैली लायब्ररी नाव.'
+    libraries: Libraries
     regions: विभाग
     breakpoints: ब्रेकपॉइंट
 questions:

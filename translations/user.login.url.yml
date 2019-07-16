@@ -1,11 +1,17 @@
 description: 'एक-प्रयोगकर्ता लॉगिन url मिळवते.'
 options:
+    user: 'User name/id.'
     user-id: 'वापरकर्ता आयडी.'
 messages:
     url: '"%s" साठी एक-वेळ लॉगिन:"%s"'
+questions:
+    user: 'Enter User name/id'
 errors:
     invalid-user: 'वापरकर्ता अस्तित्व लोड करू शकत नाही (वापरकर्ता ID: "%s").'
 examples:
     -
         description: 'यूजर आयडी 1 ला एकदा लॉगिन यूआरएल मिळवा.'
         execution: "drupal user:login:url  1\n"
+    -
+        description: 'Get one time login url for username jmolivas'
+        execution: 'drupal user:login:url jmolivas'

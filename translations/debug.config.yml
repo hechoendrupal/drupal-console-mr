@@ -1,6 +1,8 @@
 description: 'चालू संरचना दाखवा.'
 arguments:
     name: 'संरचने नाव.'
+options:
+    show-overridden: 'Show overridden configurations.'
 errors:
     not-exists: 'संरचना "%s" अस्तित्वात नाही.'
 examples:
@@ -13,3 +15,6 @@ examples:
     -
         description: 'सर्व सिस्टम कॉन्फिगरेशन नावांची यादी करा.'
         execution: 'drupal config:debug | grep system'
+    -
+        description: 'List all configuration including overridden values.'
+        execution: 'drupal debug:config --show-overridden'

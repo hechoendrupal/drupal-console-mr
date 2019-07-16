@@ -1,11 +1,14 @@
 description: 'एक नवीन सामग्री एंटिटी उत्पन्न करा.'
 help: ''
+welcome: 'Welcome to the Drupal Content Entity generator'
 options:
     module: common.options.module
     entity-class: 'सामग्री अस्तित्व श्रेणी.'
     entity-name: 'सामग्री अस्तित्व नाव.'
     label: लेबल
     has-bundles: 'अस्तित्वचे समूह आहे.'
+    has-forms: 'Entity has forms'
+    has-owner: 'Entity has owner'
     base-path: 'सामग्री अस्तित्व मार्गांसाठीचा बेथ-पथ.'
     is-translatable: 'सामग्री अस्तित्व भाषांतरयोग्य.'
 questions:
@@ -14,6 +17,8 @@ questions:
     entity-name: 'आपल्या नवीन सामग्री घटकाचे नाव प्रविष्ट करा.'
     label: 'आपल्या नवीन सामग्री घटकाचे लेबल प्रविष्ट करा.'
     has-bundles: 'आपण (सामग्री) एंटिटी बंडल ठेवू इच्छिता.'
+    has-forms: 'Do you want this (content) entity to have forms?'
+    has-owner: 'Do you want this (content) entity to have an owner?'
     base-path: 'सामग्री अस्तित्व मार्गांसाठी आधार-मार्ग प्रविष्ट करा.'
     is-translatable: 'आपली अस्तित्व भाषांतरयोग्य आहे.'
     revisionable: 'आपली एंटिटी पुनरावृत्ती करण्यायोग्य आहे.'

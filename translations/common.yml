@@ -22,6 +22,9 @@ questions:
         confirm: 'आपण कंटेनर मधून सेवा लोड करू इच्छित आहे का ?'
         message: "\nसेवेचे नाव टाइप करा किंवा keyup किंवा keydown वापर.\nहे ऐच्छिक आहे, दाबा <info>enter</info> to <info>continue</info>\n"
         name: 'आपल्या सेवा प्रविष्ट करा.'
+    roles:
+        message: "\nType the role name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
+        name: 'Enter your role'
     inputs:
         confirm: 'आपण एक फॉर्म रचना निर्माण करू इच्छित आहे का ?'
         label: 'इनपुट लेबल.'
@@ -34,6 +37,7 @@ questions:
         weight: 'इनपुट आयटमचे वजन.'
         title: शीर्षक
         fieldset: फिल्डसेट
+        new-field: 'Enter a new field properties'
 errors:
     module-dependency: 'गहाळ घटक अवलंबन "%s" स्थापित केले नाही. module:install स्थापित करून पहा.'
     class-name-empty: 'वर्ग नाव रिकामे असू शकत नाही.'
@@ -48,3 +52,4 @@ messages:
     drupal-core: 'Drupal कोर.'
     move-phar: 'आपल्या सिस्टीमवर कुठेही Console वापरणे.'
     quick-start: 'डाउनलोड, स्थापित आणि Drupal 8 सेवा.'
+    available-field-types: 'Available types: <comment>%s</comment>'

@@ -1,8 +1,6 @@
 description: 'Yml फाइल म्हणून एकच कॉन्फिगरेशन निर्यात करा.'
-arguments:
-    name: 'कॉन्फिगरेशन नाव.'
-    config-name: 'कॉन्फिगरेशन नाव.'
 options:
+    name: 'Configuration name.'
     include-dependencies: 'तसेच कॉन्फिगरेशनची अवलंबन निर्यात करा.'
     simple-configuration: 'सोपे कॉन्फिगरेशन.'
     optional: 'आपल्या मॉड्यूलमध्ये वैकल्पिक YAML कॉन्फिगरेशन म्हणून निर्यात एक्सपोर्ट करा.'

@@ -20,13 +20,22 @@ questions:
     form-id: 'फॉर्म आयडी प्रविष्ट करा.'
     services: common.questions.services
     config-file: 'आपण कॉन्फिग फाइल उत्पन्न करू इच्छिता?'
-    inputs: common.questions.inputs
     routing: 'या फॉर्मसाठी आपण एक मार्ग नोंदणी करु इच्छिता?'
     path: 'पथ मार्ग प्रविष्ट करा.'
     max-amount-characters: 'वर्णांची कमाल संख्या'
     textfield-width-in-chars: 'मजकूरफील्डची रूंदी (वर्णांमध्ये)'
     multiselect-size-in-lines: 'बहुस्तरीय पेटीचा आकार (ओळींमध्ये)'
     input-options: 'कॉमा द्वारे विभक्त केलेले इनपुट पर्याय'
+    menu-link-gen: 'Generate a menu link'
+    menu-link-title: 'Enter a title for the menu link'
+    menu-parent: 'Enter Menu parent'
+    menu-link-desc: 'Enter a description for the menu link'
+    type: 'Enter New field type'
+    label: 'Input label'
+    description: Description
+    default-value: 'Default value'
+    weight: 'Weight for input item'
+    inputs: common.questions.inputs
     menu_link_gen: 'मेनू लिंक उत्पन्न करा.'
     menu_link_title: 'मेन्यू लिंकसाठी एक शीर्षक.'
     menu_parent: 'मेनू पालक.'

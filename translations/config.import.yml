@@ -3,6 +3,9 @@ options:
     file: 'आयात करण्यासाठी कॉन्फिगरेशनच्या संग्रहण फाईलचा मार्ग.'
     directory: 'आयात करण्यासाठी कॉन्फिगरेशनच्या निर्देशिकेत मार्ग.'
     remove-files: 'सिंक्रोनाइझेशननंतर फायली काढा.'
+    skip-uuid: 'Skip uuid from files'
+questions:
+    directory: 'Enter the directory name to import the configuration files.'
 messages:
     config_files_imported: 'कॉन्फिग फाइल्सची यादी.'
     imported: 'कॉन्फिगरेशन यशस्वीरित्या आयात केले.'

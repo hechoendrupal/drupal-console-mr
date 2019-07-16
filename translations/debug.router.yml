@@ -1,6 +1,8 @@
 description: 'अनुप्रयोग चालू मार्ग दाखवतो'
 arguments:
     route-name: 'मार्ग नावे'
+options:
+    pattern: 'Route pattern'
 messages:
     name: 'मार्ग नावे'
     class: 'क्लास मार्ग'
@@ -16,3 +18,12 @@ examples:
     -
         description: 'मार्ग user.page (/ वापरकर्ता) साठी तपशील प्रदर्शित करते.'
         execution: 'drupal rod user.page'
+    -
+        description: 'Shows the routes list on the site'
+        execution: 'drupal debug:router'
+    -
+        description: 'Display information on the user.login'
+        execution: 'drupal debug:router user.login'
+    -
+        description: 'Display information for the routes by pattern (/user/login)'
+        execution: 'drupal debug:router --pattern=/user/login'

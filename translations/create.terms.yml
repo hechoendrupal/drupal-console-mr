@@ -16,6 +16,7 @@ messages:
     name: नाव
     invalid-vocabularies: 'शब्दसंग्रह (यजमान) "%s" अवैध आहेत.'
     created-terms: '"%s" अटी यशस्वीरित्या तयार केल्या.'
+    error: 'Error creating terms: "%s"'
 examples:
     -
         description: 'शब्दसंग्रह संज्ञा नाव प्रदान करा.'

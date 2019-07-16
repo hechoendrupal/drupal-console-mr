@@ -5,6 +5,8 @@ arguments:
     id: 'प्लगिन आयडी'
 errors:
     plugin-type-not-found: 'प्लगइन प्रकार "%s" आढळला नाही. त्या प्रकारासाठी कुठलीही सेवा उपलब्ध नाही.'
+messages:
+    plugin-info: 'Plugin additional information'
 table-headers:
     plugin-type-name: 'प्लगिन प्रकार'
     plugin-type-class: 'प्लगइन व्यवस्थापक वर्ग'
@@ -12,6 +14,7 @@ table-headers:
     plugin-class: 'प्लगइन वर्ग'
     definition-key: की
     definition-value: मूल्य
+    setting: Setting
 examples:
     -
         description: 'वर्तमान साइटवरील सर्व प्लगइनसह एक सूची प्रदर्शित करते.'

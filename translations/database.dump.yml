@@ -1,9 +1,11 @@
 description: 'डंप संरचना आणि डेटाबेसची सामग्री.'
 arguments:
     database: 'Settings.php पासून डेटाबेस की.'
+    target: 'Database target from settings.php'
 options:
     file: 'आपल्या डेटाबेस बॅकअपसाठी फाइलनाव.'
     gz: 'जर तुम्हाला हवे असेल तर एससीएल रिझल्ट फाइल gzipped'
+    exclude-cache: 'Pass this option if you want to exclude cache tables.'
 messages:
     success: 'डेटाबेस निर्यात केला:'
 examples:

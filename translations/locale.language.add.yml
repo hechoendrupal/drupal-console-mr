@@ -1,4 +1,8 @@
 description: 'आपल्या साइटद्वारे समर्थित करण्यासाठी एक भाषा जोडा.'
 messages:
     invalid-language: 'भाषा "%s" ही एक अवैध भाषा आहे.'
+    invalid-languages: 'Languages "%s" are invalid'
     language-add-successfully: 'भाषा "%s" यशस्वीरित्या जोडण्यात आली.'
+    languages-add-successfully: 'Languages "%s" were added successfully.'
+    language-installed: 'Language "%s" is already installed.'
+    languages-installed: 'Languages "%s" are already installed.'

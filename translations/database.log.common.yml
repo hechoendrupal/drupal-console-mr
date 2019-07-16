@@ -10,3 +10,4 @@ messages:
     user: वापरकर्ता
     severity: तीव्रता
     invalid-severity: 'गंभीरता प्रकार अवैध आहे, फिल्टर दुर्लक्षित करण्यात आले.'
+    user-deleted: 'User has been deleted'
