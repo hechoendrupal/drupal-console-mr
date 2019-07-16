@@ -7,6 +7,7 @@ options:
     limit: 'नोडमध्ये वापरण्याजोगी सामग्री प्रकार(य्स) आपण तयार केलेल्या किती नोडस् तयार करणे.'
     title-words: 'नोड शीर्षकेतील शब्दांची कमाल संख्या.'
     time-range: 'नोडचे किती काळचे काळ असावे?'
+    revision: 'Create revisions'
 questions:
     content-type: 'नोड निर्मितीवर वापरण्यासाठी सामग्री प्रकार निवडा.'
     limit: 'आपण किती नोडस् निर्माण करू इच्छिता ते प्रविष्ट करा.'
@@ -19,6 +20,7 @@ questions:
         - '1 आठवड्या आधी'
         - '1 महिन्यापूर्वी'
         - '1 वर्षापूर्वी'
+    revision: 'Do you want to add revisions?'
 messages:
     node-id: 'नोड आयडी.'
     content-type: 'सामग्री प्रकार.'
@@ -26,6 +28,7 @@ messages:
     created: 'तयार वेळ.'
     invalid-content-types: 'सामग्री प्रकार "%s" अवैध आहेत.'
     created-nodes: '"%s" नोड यशस्वीरित्या तयार केले.'
+    error: 'Error creating nodes: "%s"'
 examples:
     -
         description: 'सामग्री प्रकार नाव प्रदान करा.'

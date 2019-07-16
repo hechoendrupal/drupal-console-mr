@@ -1,12 +1,24 @@
 description: 'विभागाची एक विशिष्ट सुधारणा N कार्य चालवा, किंवा सर्व कार्ये चालवा.'
-options:
-    update-n: 'विशिष्ट सुधारणा कार्याची अंमलबजावणी करण्यासाठी'
+questions:
+    update: 'Do you want to run the specified pending updates?'
+    post-update: 'Do you want to run the specified pending post updates?'
+arguments:
+    module: 'Module name'
+    update-n: 'Specific Update N function to be executed'
 messages:
     no-module-updates: 'विभागासाठी सुधारणा उपलब्ध नाहीत "%s"'
     executing-update: 'विभाग "%s" सुधारणा कार्य  "%s" चालू आहे.'
+    executing-post-update: 'Executing post update function "%s" of module "%s"'
     module-update-function-not-found: '"%s" विभागात "%s" सुधारणेला कार्य नाही.'
     executing-required-previous-updates: 'मागील आवश्यक सुधारणाची अंमलबजावणी चालू.'
+    no-pending-updates: 'There aren''t updates available'
+    no-pending-post-updates: 'There aren''t post updates available'
+    pending-post-updates: 'There are the following post updates available:'
+    pending-updates: 'There are the following updates available:'
 examples:
     -
         description: 'अस्तित्व अद्यतनित करा.'
         execution: "drupal update:execute\n"
+    -
+        description: 'Execute updates for system module'
+        execution: "drupal update:execute system\n"

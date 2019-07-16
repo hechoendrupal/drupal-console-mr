@@ -1,5 +1,6 @@
 description: 'नवीन कॉन्फिग एंटिटी उत्पन्न करा.'
 help: ''
+welcome: 'Welcome to the Drupal Config Entity generator'
 options:
     module: common.options.module
     entity-class: 'कॉन्फिग एंटिटी वर्ग.'

@@ -1,5 +1,7 @@
 description: 'डीबी कनेक्शन दर्शविते.'
 arguments:
+    key: 'Database key from settings.php'
+    target: 'Database target from settings.php'
     database: 'Settings.php पासून डेटाबेस की.'
 messages:
     database-not-found: 'डेटाबेस "%s" कनेक्शन माहिती सापडली नाही.'

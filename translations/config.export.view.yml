@@ -1,16 +1,22 @@
 description: 'अन्य वेबसाइटवर पुनर्वापरासाठी प्रदान केलेल्या मॉड्यूलमध्ये YAML स्वरूपात एक दृश्य निर्यात करा.'
 messages:
-    view_exported: 'दृश्य निर्यात करत आहे.'
+    view-exported: 'View exported sucessfully'
     depencies-included: 'खालील मॉड्यूल अवलंबन "%s" वर समाविष्ट केले गेले.'
+    wrong-view: 'The view "%s" does not exist'
+    view_exported: 'दृश्य निर्यात करत आहे.'
 questions:
     view: 'निर्यात करण्यासाठी पहा.'
     optional-config: 'वैकल्पिक कॉन्फिगरेशनच्या रूपात मॉड्यूलमध्ये दृश्य निर्यात करा.'
     include-module-dependencies: 'मॉड्यूल माहिती YAML फाइलमध्ये दृश्य मॉड्यूल अवलंबन समाविष्ट करा.'
+    remove-uuid: 'The view to be exported without uuid key.'
+    remove-config-hash: 'The view to be exported without the default site hash key.'
 arguments:
     view-id: 'दृश्य आयडी'
 options:
     optional-config: 'आपल्या मॉड्यूलमध्ये एक वैकल्पिक YAML कॉन्फिगरेशन म्हणून दृश्य निर्यात करा.'
     include-module-dependencies: 'मॉड्यूल माहिती YAML फाइलमध्ये मॉड्यूल अवलंबन समाविष्ट करा.'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
 examples:
     -
         description: 'दृश्य आयडी द्या.'
@@ -18,3 +24,6 @@ examples:
     -
         description: 'आपण परस्परसंवादी मूल्ये जसे पॅरामीटर प्रदान करू शकता.'
         execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies\n"
+    -
+        description: 'Export as config for the provided module, updating the module''s info.yml with any module dependencies from the view.'
+        execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies"

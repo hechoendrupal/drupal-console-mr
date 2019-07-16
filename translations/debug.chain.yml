@@ -2,3 +2,5 @@ description: 'उपलब्ध असलेल्या साखळी फा
 messages:
     directory: निर्देशिका
     file: 'साखळी फाइल्सची नावे.'
+    command: 'Command name.'
+    no-files: 'No chain files found.'

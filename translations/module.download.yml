@@ -5,6 +5,7 @@ options:
     latest: 'सर्वात अलीकडील आवृत्ती डाउनलोड करण्यासाठी डीफॉल्ट.'
     path: 'Contrib प्रकल्प मार्ग.'
     composer: 'मॉड्यूल डाउनलोड, व्यवस्थापकीय आणि Composer द्वारे स्थापित केले जाईल हे दाखवण्यासाठी पर्याय.'
+    unstable: 'Module unstable'
 questions:
     path: 'Contrib प्रोजेक्ट पाथ प्रविष्ट करा.'
 messages:

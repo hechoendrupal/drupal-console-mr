@@ -3,6 +3,7 @@ options:
     destination: 'फायली कॉपी करण्यासाठी गंतव्य निर्देशिका.'
     override: 'कॉन्फिगरेशन फायली अधिलिखित करा.'
     autocomplete: 'स्वयंपूर्ण साधन फायली ध्वज.'
+    site: 'Use local site as destination.'
 questions:
     destination: 'कॉन्फिगरेशन कॉपी करण्यासाठी गंतव्य निवडा.'
     autocomplete: 'स्वयंपूर्ण फायली उत्पन्न करा.'
@@ -13,3 +14,7 @@ questions:
     learning: 'शिकण्याच्या हेतूसाठी माहिती दर्शविते?'
     generate-inline: 'अंमलात आलेले आदेश दाखवायचे दाखवायचे?'
     generate-chain: 'अंमलात दिलेल्या आदेशाचे श्रृंखला प्रतिनिधित्व करायचे?'
+    statistics: 'Allow to collect and send this information to drupalConsole server?'
+messages:
+    statistics: "Help us improve the Drupal Console project, providing information about how you use the application.\nThe colleted information at \"%s\", would be:\n\n- Used language\n- Executed command\n- Generated lines of code\n\nYou could read about our privacy policy at http://drupalconsole.com/privacy.\n"
+    statistics-disable: "You can stop sending information using the following command:\n\ndrupal settings:set statistics.enabled false\n"

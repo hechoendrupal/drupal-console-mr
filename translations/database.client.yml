@@ -1,6 +1,7 @@
 description: 'DB पक्षकार उपलब्ध असेल तर सुर्वाथ करा'
 arguments:
     database: 'settings.php मधून डेटाबेसची की'
+    target: 'Database target from settings.php'
 messages:
     connection: 'संधान: "%s"'
 examples:

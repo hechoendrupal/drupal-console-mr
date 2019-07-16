@@ -1,8 +1,9 @@
 description: 'एखाद्या खात्यासाठी अयशस्वी लॉगिन प्रयत्न साफ ​​करा.'
 help: '<info>user:login:clear:attempts</info> कमांड एका खात्यासाठी अयशस्वी लॉगिन प्रयत्न पुन्हा सेट करते.'
-options:
-    user-id: 'वापरकर्ता आयडी.'
+arguments:
+    user: 'User name/id.'
 questions:
+    user: 'Enter User name/id'
     uid: 'वापरकर्ता आयडी प्रविष्ट करा.'
     numeric-uid: 'वापरकर्ता आयडी पूर्णांक असणे आवश्यक आहे.'
     invalid-uid: 'वापरकर्ता आयडी शून्यापेक्षा वरचा असावा.'

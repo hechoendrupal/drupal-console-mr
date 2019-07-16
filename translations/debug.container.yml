@@ -3,6 +3,8 @@ arguments:
     service: 'सेवेचे नाव.'
     method: 'पद्धत नाव'
     arguments: 'CSV किंवा JSON स्वरूपातील वितर्कांचा अॅरे.'
+options:
+    tag: 'Service tag '
 messages:
     service-id: 'सर्विस क्रमांक'
     class-name: 'क्लासचे नाव'

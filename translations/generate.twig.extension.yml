@@ -2,8 +2,15 @@ description: 'एक ट्विंग विस्तार उत्पन्
 help: '<info>generate:twig:extension</info> कमांड आपल्याला ट्ववीग विस्तार उत्पन्न करण्यास मदत करते.'
 welcome: 'Drupal Twig विस्तार जनरेटर आपले स्वागत आहे.'
 options:
+    module: 'The Module name.'
     name: 'विस्तारीत विस्तार नाव.'
+    class: 'Class name'
+    services: 'Load services from the container.'
 questions:
+    module: 'Enter the module name'
+    name: 'Enter the twig Extension name'
+    class: 'Class name'
+    services: 'Enter your service'
     twig-extension: 'Twig विस्तार नाव प्रविष्ट करा.'
 examples:
     -

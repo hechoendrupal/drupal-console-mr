@@ -4,6 +4,8 @@ options:
     tar: 'सेट केल्यास, कॉन्फिगरेशनला संग्रहण फाईलवर निर्यात केले जाईल.'
     remove-uuid: 'सेट केल्यास, uuid कीशिवाय कॉन्फिगरेशन निर्यात केले जाईल.'
     remove-config-hash: 'सेट केल्यास, डीफॉल्ट साइट हॅश कीशिवाय कॉन्फिगरेशन निर्यात केले जाईल.'
+questions:
+    directory: 'Enter the directory name to save the configuration files.'
 messages:
     directory: 'येथे कॉन्फिगरेशन निर्यात केले गेले:'
     error: '"%S" वर आपली निर्देशिका तयार करताना त्रुटी आली'

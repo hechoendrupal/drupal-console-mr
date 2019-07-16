@@ -1,6 +1,19 @@
 description: 'एक कार्यक्रम ग्राहक उत्पन्न करा.'
+help: 'The <info>generate:event:subscriber</info> command helps you generate a new event subscriber.'
+welcome: 'Welcome to the Drupal Event Subscriber generator'
+options:
+    module: 'The Module name.'
+    name: 'Service name'
+    class: 'Class name'
+    services: 'Load services from the container.'
+    event-name: 'Enter event name'
+    callback-name: 'Callback function name to handle event'
 questions:
+    module: 'Enter the module name'
+    name: 'Enter the service name'
     class: 'वर्ग नाव.'
+    services: 'Enter your service'
+    event-name: 'Enter event name'
     callback-name: 'इव्हेंट हाताळण्यासाठी कॉलबॅक फंक्शन नाव.'
 examples:
     -

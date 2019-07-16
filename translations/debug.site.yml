@@ -4,10 +4,12 @@ messages:
     site: साइट
     host: यजमान
     root: मूळ
-    not-sites: 'कोणत्याही साइट परिभाषित नाहीत.'
+    invalid-sites: 'No sites defined.'
+    invalid-sites-using: "Using a site alias requires local configuration, more info at:\n   https://docs.drupalconsole.com/en/alias/using-site-alias.html\n"
     invalid-site: 'अवैध साइट नाव.'
     private-key: 'खाजगी की सह त्रुटी.'
     connect-error: 'दूरस्थ मशीनशी कनेक्ट करताना त्रुटी.'
+    not-sites: 'कोणत्याही साइट परिभाषित नाहीत.'
     directory-not-found: 'साइट स्थानिक निर्देशिका आढळली नाही.'
 options:
     target: लक्ष्य

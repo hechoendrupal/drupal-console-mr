@@ -1,8 +1,11 @@
 description: 'hook_update_N() चा अंमलबजावणी उत्पन्न करा.'
 help: '<info>"%s"</info> आज्ञा आपल्याला hook update N "%s" उत्पन्न करण्यास मदत करते'
+welcome: 'Welcome to the Drupal Update generator'
 options:
+    module: 'The Module name.'
     update-n: 'नंबर अद्यतनित करा.'
 questions:
+    module: 'Enter the module name'
     update-n: 'कार्यान्वित करण्यासाठी कृपया अद्यतन N प्रदान करा.'
 messages:
     wrong-update-n: 'अद्यतन क्रमांक "%s" अवैध आहे.'

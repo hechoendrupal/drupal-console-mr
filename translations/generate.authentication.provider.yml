@@ -1,9 +1,14 @@
 description: 'एक प्रमाणीकरण प्रदाता उत्पन्न करा.'
 help: '<info>generate:authentication:provider</info> कमांड आपल्याला एक नवीन प्रमाणीकरण प्रदाता निर्माण करण्यास मदत करते.'
+welcome: 'Welcome to the Drupal Authentication Provider generator'
 options:
+    module: 'The Module name.'
     class: 'प्रमाणीकरण प्रदाता वर्ग.'
     provider-id: 'प्रदाता आयडी.'
-module: common.options.module
+questions:
+    module: 'Enter the module name'
+    class: 'Enter the Authentication Provider class'
+    provider-id: 'Enter the Provider ID'
 examples:
     -
         description: 'मॉड्यूल, वर्ग आणि प्रदाता आयडी निर्दिष्ट करणारा प्रमाणीकरण प्रदाता उत्पन्न करा.'

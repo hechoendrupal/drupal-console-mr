@@ -8,12 +8,16 @@ arguments:
     key: की
     value: मूल्य
     config-name: 'कॉन्फिगरेशन नाव.'
+options:
+    key: Key
+    value: Value
 messages:
     configuration: 'कॉन्फिगरेशन नाव.'
     configuration-key: 'कॉन्फिगरेशन की.'
     original: 'मूळ मूल्य.'
     updated: 'मूल्य अधिलिखित करा.'
     invalid-name: 'कॉन्फिग ऑब्जेक्ट "%s",अस्तित्वात नाही'
+    invalid-config-file: 'Config file does not exist.'
 examples:
     -
         description: 'संपर्क मंडळाची पूर मर्यादा 10 वर सेट करा.'

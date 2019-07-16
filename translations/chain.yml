@@ -13,6 +13,9 @@ messages:
     set-inline-placeholders: 'इनलाइन प्लेसहोल्डर असे पास करा.'
     select-value-for-placeholder: '%s प्लेसहोल्डरसाठी मूल्य निवडा.'
     enter-value-for-placeholder: '%s प्लेसहोल्डरसाठी मूल्य प्रविष्ट करा.'
+    legacy-inline: 'Update inline legacy placeholders from %{{name}} to {{name}}.'
+    legacy-environment: 'Update environment legacy placeholders from ${{(NAME}} or %env(NAME)% to {{env("NAME")}}.'
+    metadata-registration: "You should register your chain file as command by providing metadata, more info at:\n   https://docs.drupalconsole.com/en/chains/registering.html"
 examples:
     -
         description: 'पूर्ण पथ वापरून फाइल पर्याय प्रदान करणे.'

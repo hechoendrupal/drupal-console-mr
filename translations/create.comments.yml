@@ -28,6 +28,7 @@ messages:
     created: 'तयार वेळ.'
     invalid-content-types: 'सामग्री प्रकार "%s" अवैध आहेत.'
     created-comments: '"%s" टिप्पण्या यशस्वीरित्या तयार केल्या.'
+    error: 'Error creating comments: "%s"'
 examples:
     -
         description: 'नोड आयडी द्या जेथे टिप्पण्या निर्माण होतील.'

@@ -1,5 +1,6 @@
 description: 'hook_help() चे लागूकरण उत्पन्न करा.'
 help: '<info>"%s"</info> कमांड हुक मदत "%s" निर्माण करण्यास मदत करते.'
+welcome: 'Welcome to the Drupal Help generator'
 options: null
 questions: null
 messages:

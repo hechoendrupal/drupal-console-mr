@@ -2,8 +2,10 @@ description: 'अनुप्रयोगात उपलब्ध असले�
 options:
     name: 'लायब्ररीचे नाव प्रविष्ट करा.'
 messages:
-    name: 'लायब्ररीसह विस्तार'
+    extension: Extension
+    library: Library
     info: 'पुस्तकालय माहिती'
+    name: 'लायब्ररीसह विस्तार'
 examples:
     -
         description: 'सर्व उपलब्ध ग्रंथालयांची यादी करा.'
@@ -11,3 +13,6 @@ examples:
     -
         description: 'सूची लायब्ररी माहिती यादी.'
         execution: "drupal debug:libraries block\n"
+    -
+        description: 'List block/drupal.block library'
+        execution: "drupal debug:libraries block/drupal.block\n"

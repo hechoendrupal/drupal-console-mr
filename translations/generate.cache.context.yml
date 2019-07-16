@@ -1,5 +1,12 @@
 description: 'कॅशे संदर्भ उत्पन्न करा.'
+help: 'The <info>generate:cache:context</info> command helps you generates a new cache context'
+welcome: 'Welcome to the Drupal Cache Context generator'
+options:
+    module: 'The Module name.'
+    name: 'The cache context name'
+    class: 'Cache context class name'
 questions:
+    module: 'Enter the module name'
     name: 'कॅशे संदर्भ नाव प्रविष्ट करा.'
     class: 'कॅशे संदर्भ क्लास नाव.'
 examples:
